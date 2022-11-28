@@ -478,10 +478,10 @@
   width: 170px;
   padding: 6px 20px;
 
-  -webkit-transition: all 0.5s ease;
+  /* -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  transition: all 0.5s ease; */
   text-align: center;
   text-transform: uppercase;
   position: relative;
@@ -547,10 +547,10 @@
 .btn-slide .text {
   font-style: inherit;
 
-  -webkit-transition: all 0.5s ease;
+  /* -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  transition: all 0.5s ease; */
 }
 
 .btn-slide .icons {
@@ -561,10 +561,10 @@
 
   padding: 9px;
 
-  -webkit-transition: all 0.5s ease;
+  /* -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  transition: all 0.5s ease; */
   text-align: center;
 
   border-radius: 50%;
@@ -579,10 +579,10 @@
   padding-right: 15px;
 
   content: attr(data-hover);
-  -webkit-transition: all 0.5s ease;
+  /* -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  transition: all 0.5s ease; */
   text-align: center;
 
   opacity: 0;
@@ -615,7 +615,7 @@
   width: 40px;
   height: 40px;
 
-  -webkit-transition: all 0.5s ease;
+  /* -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -623,7 +623,7 @@
   -moz-transform: translateY(-40px);
   -ms-transform: translateY(-40px);
   -o-transform: translateY(-40px);
-  transform: translateY(-40px);
+  transform: translateY(-40px); */
   text-align: center;
 
   opacity: 0;
@@ -666,10 +666,10 @@
 
   padding: 0 10px 0 25px;
 
-  -webkit-transition: all 0.3s ease;
+  /* -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  transition: all 0.3s ease; */
   text-transform: capitalize;
 
   color: #989898;
@@ -880,10 +880,10 @@
   margin-left: -10px;
 
   content: "";
-  -webkit-transition: all 0.5s ease;
+  /* -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  transition: all 0.5s ease; */
 
   background-color: #434a54;
 }
@@ -1039,10 +1039,10 @@
 /*----------  1.3. Main layout  ----------*/
 
 .tours-layout {
-  -webkit-transition: all 0.5s ease;
+  /* -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  transition: all 0.5s ease; */
   height: 100%;
   display: flex;
   flex-flow: column;
@@ -1059,10 +1059,10 @@
 
   width: 100%;
 
-  -webkit-transition: all 0.5s ease;
+  /* -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  transition: all 0.5s ease; */
 
   padding-top: 61.185577%;
   background-size: cover;
@@ -1073,10 +1073,10 @@
 .tours-layout .image-wrapper .link img {
   width: 100%;
 
-  -webkit-transition: all 0.8s ease;
+  /* -webkit-transition: all 0.8s ease;
   -moz-transition: all 0.8s ease;
   -o-transition: all 0.8s ease;
-  transition: all 0.8s ease;
+  transition: all 0.8s ease; */
 }
 .tours-layout .image-wrapper .link:before {
   position: absolute;
@@ -1088,10 +1088,10 @@
   height: 120%;
 
   content: "";
-  -webkit-transition: all 0.5s ease;
+  /* -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  transition: all 0.5s ease; */
   background: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0) 0,
@@ -1135,10 +1135,10 @@
   height: 1px;
 
   content: "";
-  -webkit-transition: all 0.5s ease;
+  /* -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  transition: all 0.5s ease; */
 }
 .group-tour .title-wrapper .title:before {
   position: absolute;
@@ -1149,10 +1149,10 @@
   height: 1px;
 
   content: "";
-  -webkit-transition: all 0.5s ease;
+  /* -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  transition: all 0.5s ease; */
 }
 .tours-layout .image-wrapper .title-wrapper .title:hover:before {
   width: 100%;
@@ -1200,10 +1200,10 @@
 
   padding: 12px 0;
 
-  -webkit-transition: all 0.3s ease;
+  /* -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  transition: all 0.3s ease; */
 }
 
 .tours-layout .content-wrapper .list-info li .link:hover {
@@ -1219,10 +1219,10 @@
 .tours-layout .content-wrapper .list-info li .link > .icons {
   display: inline-block;
 
-  -webkit-transition: all 0.3s ease;
+  /* -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  transition: all 0.3s ease; */
 
   color: #d0d0d0;
 }
@@ -1233,10 +1233,10 @@
   margin-bottom: 0;
   margin-left: 10px;
 
-  -webkit-transition: all 0.3s ease;
+  /* -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  transition: all 0.3s ease; */
 
   color: #959595;
 }
@@ -1314,10 +1314,10 @@
 
   padding: 4px 10px;
 
-  -webkit-transition: all 0.5s ease;
+  /* -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  transition: all 0.5s ease; */
 
   color: #ffffff;
   background-color: #4d4d4d;
@@ -1370,10 +1370,10 @@
 .hotels-layout {
   display: table;
   box-shadow: 0 5px 20px 0 rgb(0 0 0 / 10%);
-  -webkit-transition: all 0.5s ease;
+  /* -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  transition: all 0.5s ease; */
 }
 
 .hotels-layout .image-wrapper {
@@ -1396,10 +1396,10 @@
   background-size: cover;
   background-position: center;
 
-  -webkit-transition: all 0.5s ease;
+  /* -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  transition: all 0.5s ease; */
 }
 
 .hotels-layout .image-wrapper .link img {
@@ -1410,10 +1410,10 @@
   width: auto;
   max-width: 410px;
 
-  -webkit-transition: all 0.8s ease;
+  /* -webkit-transition: all 0.8s ease;
   -moz-transition: all 0.8s ease;
   -o-transition: all 0.8s ease;
-  transition: all 0.8s ease;
+  transition: all 0.8s ease; */
 }
 
 .hotels-layout .image-wrapper .link:before {
@@ -1426,10 +1426,10 @@
   height: 120%;
 
   content: "";
-  -webkit-transition: all 0.5s ease;
+  /* -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  transition: all 0.5s ease; */
 
   background: linear-gradient(
     to bottom,
@@ -1482,10 +1482,10 @@
   height: 1px;
 
   content: "";
-  -webkit-transition: all 0.5s ease;
+  /* -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  transition: all 0.5s ease; */
 }
 
 .hotels-layout .image-wrapper .title-wrapper .title:hover:before {
@@ -1545,7 +1545,7 @@
   width: 54px;
   height: 100%;
 
-  transition: all 0.5s ease;
+  /* transition: all 0.5s ease; */
   vertical-align: middle;
 }
 
@@ -1555,7 +1555,7 @@
   width: 14px;
   height: 14px;
 
-  transition: all 0.3s ease;
+  /* transition: all 0.3s ease; */
   text-align: center;
 
   color: #d0d0d0;
@@ -1564,10 +1564,10 @@
 .hotels-layout .content-wrapper .list-info .link .number {
   display: none;
 
-  -webkit-transition: all 0.5s ease;
+  /* -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  transition: all 0.5s ease; */
 
   opacity: 0;
   color: #ffffff;
@@ -1606,10 +1606,10 @@
   margin-bottom: 0;
   padding: 0 0 0 5px;
 
-  -webkit-transition: all 0.5s ease;
+  /* -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  transition: all 0.5s ease; */
 
   opacity: 0;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
@@ -1623,10 +1623,10 @@
   width: 40px;
   height: 40px;
 
-  -webkit-transition: all 0.5s ease;
+  /* -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  transition: all 0.5s ease; */
   text-align: center;
 
   color: #d0d0d0;
@@ -1711,10 +1711,10 @@
 
   padding: 0 15px;
 
-  -webkit-transition: all 0.5s ease;
+  /* -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  transition: all 0.5s ease; */
   text-align: center;
   text-transform: capitalize;
 
@@ -1799,10 +1799,10 @@
   width: 100%;
   height: 100%;
 
-  -webkit-transition: all 0.5s ease;
+  /* -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  transition: all 0.5s ease; */
 }
 
 .new-layout .image-wrapper .link img {
@@ -1819,10 +1819,10 @@
   height: 120%;
 
   content: "";
-  -webkit-transition: all 0.5s ease;
+  /* -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  transition: all 0.5s ease; */
 
   background: linear-gradient(
     to bottom,
@@ -1964,10 +1964,10 @@
 }
 
 .cruises-layout {
-  -webkit-transition: all 0.5s ease;
+  /* -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  transition: all 0.5s ease; */
 }
 
 .cruises-layout .image-wrapper {
@@ -1981,19 +1981,19 @@
 
   width: 100%;
 
-  -webkit-transition: all 0.5s ease;
+  /* -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  transition: all 0.5s ease; */
 }
 
 .cruises-layout .image-wrapper .link img {
   width: 100%;
 
-  -webkit-transition: all 0.8s ease;
+  /* -webkit-transition: all 0.8s ease;
   -moz-transition: all 0.8s ease;
   -o-transition: all 0.8s ease;
-  transition: all 0.8s ease;
+  transition: all 0.8s ease; */
 }
 
 .cruises-layout .content-wrapper {
@@ -2047,171 +2047,11 @@
 
   text-transform: capitalize;
 }
-
-.cruises-layout:hover {
-  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
-}
-
-.cruises-layout:hover .image-wrapper .link img {
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  transform: scale(1.2);
-}
-
-.car-rent-layout {
-  display: table;
-
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-
-.car-rent-layout .image-wrapper {
-  position: relative;
-
-  display: table-cell;
-  overflow: hidden;
-
-  width: 370px;
-  height: 270px;
-}
-
-.car-rent-layout .image-wrapper .link {
-  position: relative;
-
-  display: block;
-
-  width: 100%;
-  height: 100%;
-
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-
-.car-rent-layout .image-wrapper .link img {
-  position: absolute;
-  top: 0;
-  left: 0;
-
-  width: auto;
-  max-width: 400px;
-
-  -webkit-transition: all 0.8s ease;
-  -moz-transition: all 0.8s ease;
-  -o-transition: all 0.8s ease;
-  transition: all 0.8s ease;
-}
-
-.car-rent-layout .content-wrapper {
-  position: relative;
-
-  display: table-cell;
-
-  padding: 20px 30px;
-
-  text-align: left;
-  vertical-align: top;
-
-  background-color: #ffffff;
-}
-
-.car-rent-layout .content-wrapper .title {
-  font-size: 20px;
-  font-weight: bold;
-
-  float: left;
-
-  margin-bottom: 5px;
-
-  text-transform: uppercase;
-  word-break: break-word;
-
-  color: #434a54;
-}
-
-.car-rent-layout .content-wrapper .price {
-  font-size: 30px;
-  font-weight: bold;
-
-  float: right;
-
-  text-transform: uppercase;
-}
-
-.car-rent-layout .content-wrapper .price sup {
-  font-size: 18px;
-  font-weight: 400;
-
-  left: -2px;
-}
-
-.car-rent-layout .content-wrapper .price .for-price {
-  font-size: 14px;
-  font-weight: 300;
-
-  position: relative;
-  top: -10px;
-
-  display: inline-block;
-
-  margin-bottom: 0;
-  margin-left: 6px;
-
-  text-transform: initial;
-
-  color: #9ca2a9;
-}
-
-.car-rent-layout .content-wrapper .sub-title {
-  display: inline-block;
-
-  width: 100%;
-
-  text-transform: capitalize;
-}
-
-.car-rent-layout .content-wrapper .text {
-  display: inline-block;
-  overflow: hidden;
-
-  width: 100%;
-  max-height: 96px;
-  margin: 12px 0 0 0;
-}
-
-.car-rent-layout .content-wrapper .btn {
-  width: auto;
-  margin-top: 20px;
-
-  text-transform: capitalize;
-}
-
-.car-rent-layout:hover {
-  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
-}
-
-.car-rent-layout:hover .image-wrapper .link img {
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  transform: scale(1.2);
-}
-
-.car-rent-layout:hover .image-wrapper .link:before {
-  top: -20%;
-}
-
 .special-offer-layout {
-  -webkit-transition: all 0.6s ease;
+  /* -webkit-transition: all 0.6s ease;
   -moz-transition: all 0.6s ease;
   -o-transition: all 0.6s ease;
-  transition: all 0.6s ease;
+  transition: all 0.6s ease; */
 }
 
 .special-offer-layout .image-wrapper {
@@ -5136,12 +4976,12 @@
   width: 120px;
   height: 120px;
   margin: 0 auto 10px;
-
+  /* 
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -ms-transition: all 0.3s;
   -o-transition: all 0.3s;
-  transition: all 0.3s;
+  transition: all 0.3s; */
 
   border: 1px solid #f2f2f2;
   border-radius: 50%;
@@ -5150,11 +4990,11 @@
 .about-us-wrapper .avatar .image-wrapper .img {
   width: 100%;
 
-  -webkit-transition: all 0.3s;
+  /* -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -ms-transition: all 0.3s;
   -o-transition: all 0.3s;
-  transition: all 0.3s;
+  transition: all 0.3s; */
 
   border-radius: 50%;
 }
@@ -5214,10 +5054,10 @@
   height: 80px;
   margin: 0 auto;
 
-  -webkit-transition: all 0.5s ease;
+  /* -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  transition: all 0.5s ease; */
 
   color: #c3c3c3;
   border: 1px solid #c3c3c3;
@@ -5286,164 +5126,6 @@
 
 .special-offer .special-offer-layout:hover .image-wrapper {
   z-index: 3;
-}
-
-/*----------  Hotel View  ----------*/
-
-.timeline-hotel-view:before {
-  left: 50px;
-
-  height: 90%;
-}
-
-.timeline-hotel-view .timeline-block {
-  padding-bottom: 50px;
-}
-
-.timeline-hotel-view .timeline-block:last-child .timeline-point:after {
-  position: absolute;
-  z-index: -1;
-  left: 1px;
-
-  width: 10px;
-  height: 300vh;
-
-  content: "";
-
-  background-color: #ffffff;
-}
-
-.timeline-hotel-view .timeline-title {
-  position: absolute;
-
-  display: inline-block;
-
-  vertical-align: top;
-}
-
-.timeline-hotel-view .timeline-point {
-  top: 214px;
-  left: 41px;
-}
-
-.timeline-hotel-view .timeline-point:before {
-  position: absolute;
-  z-index: -9999;
-  top: 5px;
-  left: 0;
-
-  width: 200px;
-  height: 2px;
-
-  content: "";
-
-  background-color: #d7d7d7;
-}
-
-.timeline-hotel-view .timeline-content {
-  display: inline-block;
-
-  width: 90%;
-  margin: 0 0 0 10%;
-}
-
-.timeline-hotel-view .timeline-content > .row {
-  margin: 0;
-}
-
-.timeline-hotel-view .timeline-custom-col {
-  float: left;
-
-  width: 57%;
-  margin-left: 5%;
-}
-
-.timeline-hotel-view .timeline-custom-col:before {
-  width: 0;
-}
-
-.timeline-hotel-view .timeline-custom-col.image-col:before {
-  top: 223px;
-  left: -90px;
-
-  width: 35%;
-}
-
-.timeline-hotel-view .timeline-custom-col.hotels-layout {
-  width: 33%;
-  padding: 0;
-}
-
-.timeline-hotel-view .timeline-custom-col.full {
-  width: 95%;
-  padding-right: 0;
-}
-
-.timeline-hotel-view .hotels-layout:hover {
-  background-color: #fafafa;
-}
-
-.timeline-hotel-view .hotels-layout .content-wrapper {
-  background-color: #fafafa;
-}
-
-.timeline-hotel-view .hotels-layout .content-wrapper .content {
-  padding: 30px 70px 30px 25px;
-
-  text-align: left;
-}
-
-.timeline-hotel-view .hotels-layout .content-wrapper .content .text {
-  min-height: 96px;
-}
-
-.timeline-hotel-view .hotels-layout .content-wrapper .list-info {
-  border-collapse: initial;
-}
-
-.image-hotel-view-block {
-  overflow: hidden;
-
-  background-color: #ffffff;
-}
-
-.image-hotel-view-block .slider-for {
-  margin-bottom: 5px;
-}
-
-.image-hotel-view-block .slider-for img {
-  width: 100%;
-}
-
-.image-hotel-view-block .slider-nav {
-  margin-left: -2px;
-}
-
-.image-hotel-view-block .slider-nav .slick-slide {
-  padding: 0 2.5px;
-
-  -webkit-transition: all 0.7s ease;
-  -moz-transition: all 0.7s ease;
-  -o-transition: all 0.7s ease;
-  transition: all 0.7s ease;
-
-  opacity: 0.4;
-}
-
-.image-hotel-view-block .slider-nav .slick-slide.slick-current {
-  opacity: 1;
-}
-
-.image-hotel-view-block .slider-nav .slick-dots {
-  bottom: -30px;
-}
-
-.image-hotel-view-block .slider-nav .item img {
-  width: 100%;
-}
-
-.image-hotel-view-block .slider-nav .item:hover {
-  cursor: pointer;
 }
 
 .timeline-book-block {
@@ -5605,130 +5287,6 @@
 
 /*----------  3.2. tour result  ----------*/
 
-.list-continents {
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-
-  width: 100%;
-  margin: 0 0 70px 0;
-
-  text-align: center;
-}
-
-.list-continents .list-continent-wrapper {
-  display: inline-block;
-
-  width: 20%;
-  padding: 0;
-}
-
-.list-continent-wrapper .continent {
-  position: relative;
-  left: 60%;
-
-  display: table-cell;
-
-  width: 100px;
-  height: 100px;
-
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-  text-align: center;
-  vertical-align: middle;
-
-  color: #959595;
-  border: 1px solid #e9e9e9;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  background-color: #ffffff;
-}
-
-.list-continent-wrapper .continent:before {
-  position: absolute;
-  top: 0;
-  left: 0;
-
-  width: 100%;
-  height: 100%;
-
-  content: "";
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-  -webkit-transform: scale(0);
-  -moz-transform: scale(0);
-  -ms-transform: scale(0);
-  -o-transform: scale(0);
-  transform: scale(0);
-
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-}
-
-.list-continent-wrapper .continent:after {
-  position: absolute;
-  z-index: -1;
-  top: 50%;
-  left: 100%;
-
-  width: 180px;
-  height: 1px;
-
-  content: "";
-
-  border-top: 1px dashed #e9e9e9;
-}
-
-.list-continent-wrapper .continent .icons {
-  font-size: 20px;
-
-  position: relative;
-  z-index: 2;
-
-  display: block;
-}
-
-.list-continent-wrapper .continent .text {
-  position: relative;
-  z-index: 2;
-
-  display: block;
-
-  text-transform: capitalize;
-}
-
-.list-continent-wrapper .continent:hover {
-  box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.1);
-}
-
-.list-continent-wrapper .continent:hover:before {
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -ms-transform: scale(1);
-  -o-transform: scale(1);
-  transform: scale(1);
-}
-
-.list-continent-wrapper:last-child .continent:after {
-  display: none;
-}
-
-.mozilla11 .list-continent-wrapper .continent:before,
-.mozilla10 .list-continent-wrapper .continent:before {
-  min-height: 100px;
-}
-
-.mozilla11 .list-continent-wrapper .continent:after,
-.mozilla10 .list-continent-wrapper .continent:after {
-  top: 50px;
-}
-
 .tour-result-main .tours-list .tours-layout {
   margin-bottom: 30px;
 }
@@ -5866,78 +5424,6 @@
   color: #f0f0f0;
 }
 
-/*----------  3.3. hotels result  ----------*/
-
-.hotel-result-main .hotel-list .hotels-layout {
-  margin-bottom: 30px;
-}
-
-.hotel-result-main .hotel-list .hotels-layout .content-wrapper {
-  -webkit-transition: all 0.6s ease;
-  -moz-transition: all 0.6s ease;
-  -o-transition: all 0.6s ease;
-  transition: all 0.6s ease;
-
-  background-color: #fafafa;
-}
-
-.hotel-result-main .hotel-list .hotels-layout:hover .content-wrapper {
-  background-color: #ffffff;
-}
-
-.hotel-result-main .hotel-list .col-sm-12:last-child .hotels-layout {
-  margin-bottom: 0;
-}
-
-/*----------  3.4. cruises result  ----------*/
-
-.cruises-result-main .cruises-list .cruises-layout {
-  margin-bottom: 30px;
-}
-
-.cruises-result-main .cruises-list .cruises-layout .content-wrapper {
-  -webkit-transition: all 0.6s ease;
-  -moz-transition: all 0.6s ease;
-  -o-transition: all 0.6s ease;
-  transition: all 0.6s ease;
-
-  background-color: #fafafa;
-}
-
-.cruises-result-main .cruises-list .cruises-layout:hover .content-wrapper {
-  background-color: #ffffff;
-}
-
-.cruises-result-main
-  .cruises-list
-  .col-sm-6:nth-last-child(-n + 2)
-  .cruises-layout {
-  margin-bottom: 0;
-}
-
-/*----------  3.4. car rent result  ----------*/
-
-.car-rent-result-main .car-rent-list .car-rent-layout {
-  margin-bottom: 30px;
-}
-
-.car-rent-result-main .car-rent-list .car-rent-layout .content-wrapper {
-  -webkit-transition: all 0.6s ease;
-  -moz-transition: all 0.6s ease;
-  -o-transition: all 0.6s ease;
-  transition: all 0.6s ease;
-
-  background-color: #fafafa;
-}
-
-.car-rent-result-main .car-rent-list .car-rent-layout:hover .content-wrapper {
-  background-color: #ffffff;
-}
-
-.car-rent-result-main .car-rent-list .col-sm-12:last-child .car-rent-layout {
-  margin-bottom: 0;
-}
-
 /*----------  About-us Our  ----------*/
 
 .page-our-values {
@@ -6045,11 +5531,6 @@
   left: 0;
 
   content: "";
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
 
   background-color: rgba(0, 0, 0, 0.35);
 }
@@ -6063,12 +5544,6 @@
   width: 100%;
   min-height: 88px;
   padding: 15px 0;
-
-  -webkit-transition: all 0.4s ease;
-  -moz-transition: all 0.4s ease;
-  -ms-transition: all 0.4s ease;
-  -o-transition: all 0.4s ease;
-  transition: all 0.3s ease;
 
   color: #585858;
   border-left: 3px solid #3c3c3c;
@@ -6228,8 +5703,6 @@
   font-size: 10px;
   font-weight: 900;
 
-  transition: all 0.1s;
-
   color: #515151;
 }
 
@@ -6237,12 +5710,6 @@
   font-size: 24px;
 
   margin-bottom: 15px;
-
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
 }
 
 .content-tours .wrapper-thin:hover .icon-thin {
@@ -6330,24 +5797,12 @@
   height: 170px;
   margin: 0 auto 30px;
 
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
-
   border: 1px solid #f2f2f2;
   border-radius: 50%;
 }
 
 .content-organization .wrapper-img .img {
   width: 100%;
-
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
 
   border-radius: 50%;
 }
@@ -6753,10 +6208,6 @@
 .group-tour .image {
   display: block;
   width: 100%;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
   padding-top: 61.185577%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -6924,11 +6375,6 @@
   height: 36px;
   margin: 30px 0;
 
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-
   color: #e5e5e5;
   border: 1px solid #e5e5e5;
   -moz-border-radius: 50%;
@@ -6960,684 +6406,6 @@
 .result-wrapper .slick-next {
   top: 20px;
   right: -65px;
-}
-
-/*----------  3.2. Blog  ----------*/
-
-/* SECTION */
-
-/*----------  3.2.1 Blog Post  ----------*/
-
-.blog-post {
-  margin-bottom: 40px;
-}
-
-.blog-post:last-child {
-  margin-bottom: 0;
-}
-
-.blog-post:hover .blog-content {
-  background-color: #ffffff;
-  box-shadow: 0 7px 24px 0 rgba(0, 0, 0, 0.09);
-}
-
-.blog-post:hover .blog-image .link img {
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  transform: scale(1.2);
-}
-
-.blog-post:hover .blog-video .video-bg img {
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  transform: scale(1.2);
-}
-
-.blog-post .blog-image {
-  overflow: hidden;
-}
-
-.blog-post .blog-image .link {
-  display: block;
-}
-
-.blog-post .blog-image img {
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-
-.blog-post .blog-video .video-thumbnail {
-  height: auto;
-}
-
-.blog-post .blog-video .video-bg {
-  position: relative;
-
-  overflow: hidden;
-}
-
-.blog-post .blog-video .video-bg img {
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-
-.blog-post .blog-video .show-video {
-  visibility: visible !important;
-
-  opacity: 1 !important;
-}
-
-.blog-post .blog-content {
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-
-  background-color: #fafafa;
-}
-
-.blog-post .blog-content .content-wrapper {
-  padding-left: 0;
-}
-
-.blog-post .blog-content:before {
-  display: table;
-
-  content: " ";
-}
-
-.blog-post .blog-content .date {
-  text-align: center;
-
-  color: #3c3c3c;
-}
-
-.blog-post .blog-content .date .day {
-  font-size: 2.86rem;
-  font-weight: 500;
-  line-height: 2.86rem;
-
-  margin: 0;
-}
-
-.blog-post .blog-content .date .month {
-  font-size: 1.43rem;
-  line-height: 2rem;
-
-  text-transform: uppercase;
-}
-
-.blog-post .blog-content .date .year {
-  font-size: 1.14rem;
-}
-
-.blog-post .blog-content .heading {
-  font-size: 1.43rem;
-  line-height: 2rem;
-
-  display: block;
-
-  margin-top: 0;
-  margin-bottom: 15px;
-
-  color: #3c3c3c;
-}
-
-.blog-post .blog-content .meta-info {
-  font-weight: normal;
-
-  margin-top: 0;
-  margin-bottom: 30px;
-}
-
-.blog-post .blog-content .preview {
-  margin-bottom: 30px;
-
-  color: #737a83;
-}
-
-.blog-post .blog-content .quote-wrapper {
-  position: relative;
-
-  padding: 0 0 0 60px;
-
-  border-left: none;
-}
-
-.blog-post .blog-content .quote-wrapper:before {
-  font-size: 2.14rem;
-
-  position: absolute;
-  left: 0;
-
-  content: "\f10d";
-
-  color: #dadada;
-}
-
-.blog-post .blog-content .quote-wrapper .quote {
-  font-size: 1.43rem;
-  line-height: 2rem;
-
-  display: block;
-
-  margin-bottom: 10px;
-
-  color: #3c3c3c;
-}
-
-.blog-post .blog-content .quote-wrapper footer:before {
-  content: none;
-}
-
-.blog-post .blog-content .quote-wrapper .author {
-  font-weight: bold;
-
-  margin-right: 10px;
-
-  color: #3c3c3c;
-}
-
-.blog-post .blog-content .quote-wrapper .company {
-  font-size: 0.86rem;
-
-  color: #81878f;
-}
-
-.blog-post .blog-content:after {
-  display: table;
-  clear: both;
-
-  content: " ";
-}
-
-/*----------  car-detail  ----------*/
-
-.content-result {
-  margin-bottom: 50px;
-}
-
-.wrapper-car-result {
-  overflow: hidden;
-
-  margin-top: 20px;
-}
-
-.wrapper-car-result:hover .car-img {
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  transform: scale(1.2);
-}
-
-.wrapper-car-result .wrapper-car-img .car-img {
-  float: left;
-
-  width: 100%;
-  height: 335px;
-
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
-}
-
-.wrapper-car-result .wrapper-img-caption {
-  position: relative;
-
-  display: block;
-  float: left;
-
-  width: 100%;
-}
-
-.wrapper-car-result .img-caption-title {
-  line-height: 22px;
-
-  margin-bottom: 20px;
-}
-
-.wrapper-car-result .img-caption-title .text {
-  font-size: 20px;
-  font-weight: bold;
-
-  text-transform: uppercase;
-
-  color: #555e69;
-}
-
-.wrapper-car-result .img-caption-title .text-icon {
-  margin: 0 10px 0 15px;
-}
-
-.wrapper-car-result .img-caption-title .text-1 {
-  font-size: 16px;
-
-  color: #595d63;
-}
-
-.wrapper-car-result .car-wigdet {
-  margin-left: 0;
-}
-
-.wrapper-car-result .car-wigdet:last-child {
-  margin-bottom: 0;
-}
-
-.wrapper-car-result .car-wigdet .wrapper-car-item {
-  width: 33.33%;
-}
-
-.wrapper-car-result .car-wigdet .car-item {
-  color: #595d63;
-}
-
-.wrapper-car-result .car-wigdet .car-icon {
-  padding-right: 5px;
-}
-
-.car-price-wrapper {
-  float: left;
-
-  width: 100%;
-  padding: 50px 30px 60px 30px;
-}
-
-.car-price-wrapper .car-content-price {
-  float: left;
-
-  width: 100%;
-  margin-bottom: 30px;
-
-  border-bottom: 1px solid #bda50b;
-}
-
-.car-price-wrapper .main-price {
-  float: left;
-
-  width: 100%;
-  margin-bottom: 15px;
-
-  color: #4e545c;
-}
-
-.car-price-wrapper .main-price p {
-  margin: 0;
-}
-
-.car-price-wrapper .price-title {
-  font-size: 20px;
-  font-weight: bold;
-
-  margin-bottom: 30px;
-
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.car-price-wrapper .price-title .title-detail {
-  color: #3c3c3c;
-}
-
-.car-price-wrapper .title-left {
-  font-size: 16px;
-
-  float: left;
-}
-
-.car-price-wrapper .title-right {
-  float: right;
-}
-
-.car-price-wrapper .title-right .text {
-  display: inline-block;
-
-  margin-right: 5px;
-}
-
-.car-price-wrapper .title-right .text-price {
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.car-price-wrapper .title-right .text-price-total {
-  font-size: 30px;
-  font-weight: bold;
-}
-
-.car-price-wrapper .base-title .title-left,
-.car-price-wrapper .texes-title .title-left,
-.car-price-wrapper .total-title .title-left,
-.car-price-wrapper .total-discount .title-left,
-.car-price-wrapper .final-title .title-left,
-.car-price-wrapper .old-price-title .title-left {
-  font-weight: 500;
-}
-
-.car-price-wrapper .final-title .title-left {
-  font-size: 18px;
-}
-
-.car-price-wrapper .card-title .card-text {
-  line-height: 15px;
-
-  display: inline-block;
-
-  border-bottom: 2px solid #a6982e;
-}
-
-.wrapper-car-detail .car-rent-layout {
-  margin-bottom: 30px;
-}
-
-.wrapper-car-detail .car-rent-layout .content-wrapper {
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
-
-  background-color: #fafafa;
-}
-
-.wrapper-car-detail .car-rent-layout .content-wrapper:hover {
-  background-color: transparent;
-}
-
-.wrapper-car-detail .contact-submit {
-  text-align: center;
-}
-
-.wrapper-car-detail .text-bottom {
-  margin-bottom: 50px;
-}
-
-.wrapper-car-detail .text-bottom .text {
-  margin-bottom: 0;
-
-  text-align: center;
-}
-
-.wrapper-car-detail .single-flight-result {
-  height: 244px;
-}
-
-.content-dr-dt {
-  margin-bottom: 30px;
-}
-
-.content-dr-dt .wrapper-review {
-  margin-bottom: 0;
-}
-
-.content-dr-dt .wrapper-review .text-underline {
-  border-bottom: 1px solid #92989f;
-}
-
-.content-dr-dt .wrapper-review .text-traveler {
-  margin-bottom: 30px;
-}
-
-.wrapper-driver-detail {
-  margin-bottom: 50px;
-}
-
-.wrapper-driver-detail .driver-title {
-  font-size: 16px;
-
-  padding: 15px 30px;
-
-  color: #3c3c3c;
-}
-
-.wrapper-driver-detail .driver-title .title {
-  font-weight: bold;
-
-  text-transform: uppercase;
-}
-
-.wrapper-driver-detail .content-driver-caption {
-  padding: 30px;
-
-  background-color: #f4f4f4;
-}
-
-.wrapper-driver-detail .content-driver-caption .driver-text-card .text-card {
-  font-weight: 500;
-
-  margin-bottom: 0;
-}
-
-.wrapper-driver-detail .select-wrapper {
-  background-color: #ffffff;
-}
-
-.wrapper-driver-detail .sbSelector:link,
-.wrapper-driver-detail .sbSelector:visited,
-.wrapper-driver-detail .sbSelector:hover {
-  color: #969696;
-}
-
-.wrapper-driver-detail .input-group .tb-input {
-  line-height: 35px;
-
-  position: relative;
-
-  width: 100%;
-  height: 35px;
-  padding: 0 10px;
-
-  text-align: left;
-
-  color: #969696;
-  border: 0;
-  border-radius: 0;
-}
-
-.wrapper-driver-detail .tb-icon {
-  line-height: 35px;
-
-  position: absolute;
-  top: 0;
-  right: 14px;
-
-  width: 14px;
-  height: 35px;
-  padding: 0;
-
-  color: #bebebe;
-  border: none;
-  background-color: transparent;
-}
-
-.wrapper-driver-detail .driver-caption-title {
-  font-size: 16px;
-
-  margin-bottom: 30px;
-
-  color: #4e545c;
-}
-
-.wrapper-driver-detail .driver-caption-title .title {
-  font-weight: 500;
-}
-
-.wrapper-driver-detail .driver-caption-title .title-small {
-  border-bottom: 1px solid #777c82;
-}
-
-.wrapper-driver-detail .wrapper-form-driver {
-  float: left;
-
-  width: 100%;
-  margin-bottom: 30px;
-}
-
-.wrapper-driver-detail .main-form-title .form-icon {
-  font-size: 8px;
-
-  position: relative;
-  top: -5px;
-
-  color: #d50f2b;
-}
-
-.wrapper-driver-detail .main-form-title .main-lb {
-  font-weight: 400;
-}
-
-.wrapper-driver-detail .sbHolder {
-  height: 36px;
-
-  border: none;
-}
-
-.wrapper-driver-detail .sbSelector,
-.wrapper-driver-detail .sbToggle {
-  line-height: 35px;
-
-  height: 35px;
-}
-
-.wrapper-driver-detail .wrapper-check {
-  margin-bottom: 20px;
-}
-
-.wrapper-driver-detail .wrapper-check li {
-  margin-bottom: 10px;
-}
-
-.wrapper-driver-detail .check-icon {
-  padding-right: 5px;
-}
-
-.wrapper-driver-detail .text {
-  margin-bottom: 5px;
-}
-
-.wrapper-driver-detail .check-text {
-  font-weight: 500;
-
-  margin-bottom: 20px;
-}
-
-.wrapper-driver-detail .wrapper-payment {
-  margin-bottom: 20px;
-}
-
-.wrapper-driver-detail .wrapper-payment .main-lb {
-  margin-bottom: 0;
-  padding-top: 5px;
-}
-
-.wrapper-driver-detail .wrapper-payment .text {
-  padding-top: 5px;
-}
-
-.wrapper-driver-detail .content-payment {
-  margin-bottom: 10px;
-}
-
-.wrapper-driver-detail .content-payment:last-child {
-  margin-bottom: 0;
-}
-
-.wrapper-driver-detail .payment-widget {
-  line-height: 10px;
-
-  margin-bottom: 0;
-}
-
-.wrapper-driver-detail .payment-policy .lock {
-  display: inline-block;
-}
-
-.wrapper-driver-detail .payment-policy .text {
-  margin-right: 30px;
-}
-
-.wrapper-driver-detail .payment-policy .lock-icon {
-  padding-right: 5px;
-}
-
-.wrapper-driver-detail .payment .driver-text-card {
-  margin-bottom: 20px;
-}
-
-.wrapper-driver-detail .billing-contact .text-title {
-  font-size: 16px;
-  font-weight: 500;
-
-  margin-bottom: 20px;
-}
-
-.wrapper-driver-detail .content-driver-detail {
-  padding: 30px;
-
-  background-color: #f4f4f4;
-}
-
-.wrapper-driver-detail .content-driver-detail .content-driver-caption {
-  padding: 0;
-}
-
-.wrapper-driver-detail .content-driver-detail .main-form-driver {
-  display: table;
-
-  width: 100%;
-}
-
-.wrapper-driver-detail .content-driver-detail .number {
-  font-size: 16px;
-  font-weight: 500;
-
-  position: relative;
-  bottom: 6px;
-
-  display: table-cell;
-
-  vertical-align: bottom;
-}
-
-.wrapper-driver-detail .form-check .check-radio {
-  margin-bottom: 10px;
-}
-
-.wrapper-driver-detail .form-check .input-check {
-  display: none;
-}
-
-.wrapper-driver-detail .form-check .input-check ~ .lb-radio:before {
-  font-family: FontAwesome;
-  ]overflow: visible;
-
-  margin-right: 5px;
-
-  content: "\f10c";
-}
-
-.wrapper-driver-detail .form-check .input-check:checked ~ .lb-radio:before {
-  font-family: FontAwesome;
-  content: "\f192";
-}
-
-.wrapper-driver-detail .form-check .lb-radio {
-  font-weight: normal;
-
-  position: relative;
-  z-index: 1;
-
-  margin-bottom: 0;
 }
 
 .form-check-img .check-radio {

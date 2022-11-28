@@ -58,7 +58,7 @@ export default function Includes() {
         ]
     }
     return <Slider {...settings}>
-        {router.pathname === 'western-mongolia/altai-mountain-tour/' && (<div className="item feature-item">
+        {router.pathname === '/tour/western-mongolia/altai-mountain-tour' && (<div className="item feature-item">
             <img src="https://res.cloudinary.com/dmyps1mg3/image/upload/f_auto/v1669359924/travels/airplane_twdl0x.png" alt="two way domestic flights" />
             <p className="text">2 way domestic flight</p>
         </div>)}

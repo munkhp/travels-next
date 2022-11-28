@@ -259,8 +259,6 @@ body.pg-loaded > .inner {
   visibility: hidden;
   overflow: hidden;
 
-  transition-delay: 1s;
-
   opacity: 0;
 }
 
@@ -492,11 +490,6 @@ a:hover {
 }
 
 .bg-white {
-  -webkit-transition: all 0.6s ease;
-  -moz-transition: all 0.6s ease;
-  -o-transition: all 0.6s ease;
-  transition: all 0.6s ease;
-
   background-color: #ffffff;
 }
 
@@ -673,11 +666,6 @@ section:before {
   display: inline-block;
 
   margin-bottom: 0;
-
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
 }
 
 .header-03 .header-topbar .btn-menu .text {
@@ -689,11 +677,6 @@ section:before {
 .header-03 .header-topbar .header-logo img {
   width: 100%;
   max-width: 130px;
-
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
 }
 
 .header-03 .header-topbar .login-widget {
@@ -703,11 +686,6 @@ section:before {
 .header-03 .header-main {
   position: absolute;
   top: -150px;
-
-  -webkit-transition: all 0.6s ease;
-  -moz-transition: all 0.6s ease;
-  -o-transition: all 0.6s ease;
-  transition: all 0.6s ease;
 
   border-top: 1px solid #f1f1f1;
   border-bottom: none;
@@ -817,11 +795,6 @@ section:before {
 .header-topbar p,
 .header-topbar span {
   font-size: 12px;
-
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
 }
 
 .header-topbar .topbar-left {
@@ -842,11 +815,6 @@ section:before {
   font-size: 0.9em;
 
   margin-right: 8px;
-
-  -webkit-transition: all 0.2s ease;
-  -moz-transition: all 0.2s ease;
-  -o-transition: all 0.2s ease;
-  transition: all 0.2s ease;
 }
 
 .header-topbar .topbar-left > li .icons-dropdown {
@@ -887,22 +855,12 @@ section:before {
 
   width: 150px;
 
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-
   border: none;
   background-color: #ffffff;
 }
 
 .dropdown-topbar li {
   padding: 0 20px;
-
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
 
   border-bottom: 1px solid #f1f1f1;
 }
@@ -928,11 +886,6 @@ section:before {
   z-index: 100;
 
   width: 100%;
-
-  /* -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease; */
 
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -967,11 +920,6 @@ section:before {
 .header-main .logo .header-logo img {
   width: 62.5px;
   height: 62.5px;
-
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
 }
 
 .header-main.header-fixed {
@@ -1124,8 +1072,6 @@ section:before {
 .navigation .nav-links li.active .main-menu:after,
 .navigation .nav-links li:hover .main-menu:after {
   width: 100%;
-
-  transition-delay: 0.3s;
 }
 
 .navigation .nav-links li.active .main-menu:before,
@@ -1144,8 +1090,6 @@ section:before {
 .navigation .nav-links li.dropdown.active .main-menu:after,
 .navigation .nav-links li.dropdown:hover .main-menu:after {
   width: 80%;
-
-  transition-delay: 0.3s;
 }
 
 .navigation .nav-links li.dropdown.active .main-menu:before,
@@ -1162,11 +1106,6 @@ section:before {
 
   margin: 0 22px;
   padding: 0;
-
-  /* -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease; */
   text-transform: uppercase;
 
   color: #555e69;
@@ -1180,10 +1119,6 @@ section:before {
 }
 
 .navigation .nav-links .main-menu .icons-dropdown i {
-  -webkit-transition: all 0.4s ease;
-  -moz-transition: all 0.4s ease;
-  -o-transition: all 0.4s ease;
-  transition: all 0.4s ease;
 }
 
 .navigation .nav-links .main-menu:after,
@@ -1195,10 +1130,6 @@ section:before {
   height: 1px;
 
   content: "";
-  -webkit-transition: all 0.4s ease;
-  -moz-transition: all 0.4s ease;
-  -o-transition: all 0.4s ease;
-  transition: all 0.4s ease;
 }
 
 .navigation .nav-links .main-menu:after {
@@ -1823,11 +1754,6 @@ section:before {
 .contact-us-widget .info-list ul li .link {
   display: table-cell;
 
-  -webkit-transition: all 0.6s ease;
-  -moz-transition: all 0.6s ease;
-  -o-transition: all 0.6s ease;
-  transition: all 0.6s ease;
-
   color: #8e8e8e;
 }
 
@@ -1892,11 +1818,6 @@ section:before {
 
   padding: 0 0 12px 20px;
 
-  -webkit-transition: all 0.6s ease;
-  -moz-transition: all 0.6s ease;
-  -o-transition: all 0.6s ease;
-  transition: all 0.6s ease;
-
   color: #8e8e8e;
 }
 
@@ -1938,11 +1859,6 @@ section:before {
   display: block;
 
   padding: 0 0 12px;
-
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
 
   color: #8e8e8e;
 }
@@ -2959,11 +2875,6 @@ section:before {
   font-size: 1.79rem;
 
   margin-right: 10px;
-
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
   vertical-align: middle;
 }
 
@@ -3044,386 +2955,6 @@ section:before {
 
 .tab-search-condensed .tab-btn-wrapper .tab-btn i {
   margin-right: 0;
-}
-
-/*----------  2.3. Flight Date Selection  ---------*/
-
-.fds-widget {
-  font-weight: 500;
-
-  position: relative;
-  z-index: 1;
-
-  display: inline-block;
-
-  width: 94px;
-  height: 94px;
-  margin-right: 12px;
-  margin-bottom: 20px;
-  margin-left: 12px;
-  padding: 21px 0;
-
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-
-  color: #4d4d4d;
-  background-color: #f7f7f7;
-}
-
-.fds-widget .depart-date {
-  font-size: 1rem;
-  line-height: 28px;
-
-  display: block;
-
-  height: 28px;
-
-  text-align: center;
-}
-
-.fds-widget .depart-date .date {
-  font-weight: 300;
-}
-
-.fds-widget:hover {
-  color: #4d4d4d;
-  background-color: #ffffff;
-  box-shadow: 0 7px 24px 0 rgba(0, 0, 0, 0.09);
-}
-
-.fds-widget .price-select {
-  font-size: 0.86rem;
-  line-height: 24px;
-
-  display: block;
-
-  width: 70px;
-  height: 24px;
-  margin: auto;
-
-  text-align: center;
-
-  -webkit-border-radius: 1em;
-  -moz-border-radius: 1em;
-  border-radius: 1em;
-}
-
-.fds-widget .price-select.pink {
-  background-color: #ff4676;
-}
-
-.fds-widget .price-select.orange {
-  background-color: #ff7256;
-}
-
-.fds-widget .price-select.blue {
-  background-color: #78eaff;
-}
-
-.fds-widget .price-select.green {
-  background-color: #9afff0;
-}
-
-/*----------  2.7. Single Flight Result  ---------*/
-
-.single-flight-result {
-  height: 255px;
-  margin-bottom: 30px;
-
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-
-  background-color: #fafafa;
-}
-
-.single-flight-result:hover {
-  background-color: #ffffff;
-  box-shadow: 0 7px 24px 0 rgba(0, 0, 0, 0.09);
-}
-
-.single-flight-result:before {
-  display: table;
-
-  content: "";
-}
-
-.single-flight-result:after {
-  display: table;
-  clear: both;
-
-  content: "";
-}
-
-.single-flight-result > * {
-  height: 100%;
-}
-
-.single-flight-result > * > .row {
-  height: inherit;
-}
-
-.single-flight-result > * > .row > * {
-  height: inherit;
-}
-
-.single-flight-result .flight-result-wrapper {
-  display: table;
-
-  width: 100%;
-  height: 100%;
-  padding: 40px;
-}
-
-.single-flight-result .flight-result-wrapper .airlines-logo {
-  display: table-cell;
-
-  width: 28%;
-}
-
-.single-flight-result .flight-result-wrapper .info {
-  display: table-cell;
-
-  width: 72%;
-
-  text-align: center;
-  vertical-align: top;
-}
-
-.single-flight-result .flight-result-wrapper .info .miscellaneous,
-.single-flight-result .flight-result-wrapper .info .schedule {
-  line-height: 0;
-
-  display: block;
-
-  width: 100%;
-
-  text-align: justify;
-}
-
-.single-flight-result .flight-result-wrapper .info .arrive,
-.single-flight-result .flight-result-wrapper .info .depart,
-.single-flight-result .flight-result-wrapper .info .flight-code,
-.single-flight-result .flight-result-wrapper .info .flight-time,
-.single-flight-result .flight-result-wrapper .info .gate,
-.single-flight-result .flight-result-wrapper .info .plane,
-.single-flight-result .flight-result-wrapper .info .terminal {
-  line-height: 24px;
-
-  display: inline-block;
-
-  text-align: center;
-  vertical-align: middle;
-}
-
-.single-flight-result .flight-result-wrapper .info .schedule {
-  padding-bottom: 20px;
-
-  border-bottom: 1px solid #ebebeb;
-}
-
-.single-flight-result .flight-result-wrapper .info .schedule .arrive,
-.single-flight-result .flight-result-wrapper .info .schedule .depart {
-  color: #6e747c;
-}
-
-.single-flight-result .flight-result-wrapper .info .schedule .arrive .city,
-.single-flight-result .flight-result-wrapper .info .schedule .depart .city {
-  line-height: 1rem;
-}
-
-.single-flight-result
-  .flight-result-wrapper
-  .info
-  .schedule
-  .arrive
-  .airport-code,
-.single-flight-result
-  .flight-result-wrapper
-  .info
-  .schedule
-  .depart
-  .airport-code {
-  font-size: 1.71rem;
-  font-weight: 500;
-  line-height: 1.71rem;
-
-  margin: 10px 0;
-
-  text-transform: uppercase;
-
-  color: #4e545c;
-}
-
-.single-flight-result .flight-result-wrapper .info .schedule .arrive .time,
-.single-flight-result .flight-result-wrapper .info .schedule .depart .time {
-  font-size: 2.14rem;
-  font-weight: 300;
-  line-height: 2.14rem;
-}
-
-.single-flight-result .flight-result-wrapper .info .schedule .arrive .time span,
-.single-flight-result
-  .flight-result-wrapper
-  .info
-  .schedule
-  .depart
-  .time
-  span {
-  font-size: 1.14rem;
-  font-weight: normal;
-
-  margin-left: 8px;
-}
-
-.single-flight-result .flight-result-wrapper .info .schedule .flight-time {
-  font-size: 0.93rem;
-  line-height: 1.43rem;
-
-  color: #6e747c;
-}
-
-.single-flight-result .flight-result-wrapper .info .schedule .flight-time i {
-  font-size: 1.43rem;
-
-  color: #d2d2d2;
-}
-
-.single-flight-result .flight-result-wrapper .info .miscellaneous {
-  font-size: 0.93rem;
-
-  padding-top: 20px;
-
-  color: #74787e;
-}
-
-.single-flight-result .flight-result-wrapper .info .miscellaneous .data {
-  font-size: 1.43rem;
-  font-weight: 500;
-
-  color: #4e545c;
-}
-
-.single-flight-result form.flight-class {
-  border-left: 1px solid #e9e9e9;
-}
-
-.single-flight-result form.flight-class .class-selection-wrapper {
-  height: 33.3%;
-
-  text-align: center;
-
-  border-bottom: 1px solid #e9e9e9;
-}
-
-.single-flight-result form.flight-class .class-selection-wrapper:last-child {
-  border-bottom: none;
-}
-
-.single-flight-result
-  form.flight-class
-  .class-selection-wrapper
-  input.radio-btn {
-  display: none;
-}
-
-.single-flight-result
-  form.flight-class
-  .class-selection-wrapper
-  input.radio-btn
-  ~ label.radio-box:before {
-  font-family: FontAwesome;
-  ]display: table-cell;
-
-  width: 30%;
-
-  content: "\f10c";
-  text-align: right;
-  vertical-align: middle;
-
-  color: #bbbbbb;
-}
-
-.single-flight-result
-  form.flight-class
-  .class-selection-wrapper
-  input.radio-btn:checked
-  ~ .radio-box:before {
-  content: "\f192";
-
-  color: #6e747c;
-}
-
-.single-flight-result
-  form.flight-class
-  .class-selection-wrapper
-  label.radio-box {
-  display: table;
-
-  width: 100%;
-  height: 100%;
-  margin-bottom: 0;
-}
-
-.single-flight-result
-  form.flight-class
-  .class-selection-wrapper
-  label.radio-box
-  span {
-  display: block;
-}
-
-.single-flight-result
-  form.flight-class
-  .class-selection-wrapper
-  label.radio-box
-  span.text-wrapper {
-  display: table-cell;
-
-  vertical-align: middle;
-}
-
-.single-flight-result
-  form.flight-class
-  .class-selection-wrapper
-  label.radio-box
-  span.text-wrapper
-  span.class,
-.single-flight-result
-  form.flight-class
-  .class-selection-wrapper
-  label.radio-box
-  span.text-wrapper
-  span.price {
-  padding-right: 30%;
-}
-
-.single-flight-result
-  form.flight-class
-  .class-selection-wrapper
-  label.radio-box
-  span.text-wrapper
-  span.class {
-  font-weight: normal;
-
-  color: #6e747c;
-}
-
-.single-flight-result
-  form.flight-class
-  .class-selection-wrapper
-  label.radio-box
-  span.text-wrapper
-  span.price {
-  font-size: 1.27rem;
-  font-weight: 500;
-}
-
-.list-single-flight-result .single-flight-result:last-child {
-  margin-bottom: 0;
 }
 
 /*------------  2.8. Trip Info  -----------*/
