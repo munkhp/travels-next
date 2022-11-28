@@ -17,6 +17,7 @@ const Tour = ({ tour }) => {
     const [tabTop, setTabTop] = useState(null);
     const [itineraryTop, setItineraryTop] = useState(null);
     const [bookingTop, setBookingTop] = useState(null);
+    const [offset, setOffset] = useState(0);
     const [fixed, setFixed] = useState(false);
     const [position, setPosition] = useState(POSITION_OVERVIEW);
     useEffect(() => {
@@ -29,7 +30,7 @@ const Tour = ({ tour }) => {
     const scrollHandler = (e) => {
         let top = window.pageYOffset || document.documentElement.scrollTop;
         const relativeTab = document.getElementById('relative-tab-container');
-        const tabHeight = relativeTab.offsetHeight;
+        const tabHeight = relativeTab.clientHeight;
         if (relativeTab) {
             if (top <= tabTop) {
                 setFixed(false);
@@ -52,16 +53,32 @@ const Tour = ({ tour }) => {
     function redirectToSuccess() {
         router.push('/success');
     }
+    function getAbsoluteOffsetTop(el) {
+        let offset = 0;
+        let currentElement = el;
+
+        while (currentElement !== null) {
+            offset += currentElement.offsetTop;
+            offset -= currentElement.scrollTop;
+            currentElement = currentElement.offsetParent;
+        }
+
+        return offset;
+    }
     useEffect(() => {
-        const relativeTab = document.getElementById('relative-tab-container');
-        const itinerary = document.getElementById('itinerary');
-        const booking = document.getElementById('booking');
-        setTabTop(relativeTab.getBoundingClientRect().top);
-        setItineraryTop(itinerary.getBoundingClientRect().top);
-        setBookingTop(booking.getBoundingClientRect().top);
+        setTimeout(function () {
+            const relativeTab = document.getElementById('relative-tab-container');
+            const itinerary = document.getElementById('itinerary');
+            const booking = document.getElementById('booking');
+            setTabTop(getAbsoluteOffsetTop(relativeTab));
+            setItineraryTop(getAbsoluteOffsetTop(itinerary));
+            setBookingTop(getAbsoluteOffsetTop(booking));
+            setOffset(relativeTab.clientHeight - 1);
+        }, 0);
     }, [])
     return (<Fragment>
         <Head>
+            <title>{'Travels in Mongolia - ' + tour.name}</title>
             <MetaTags title={'Travels in Mongolia - ' + tour.name} description={tour.summary} url={'https://travelsinmongolia.com/tour/' + tour.path} image={tour.mediaUrl} />
         </Head>
         <Banner customClass="tour-view" bgImg={modifyImgUrl(tour.mediaUrl)}>
@@ -88,8 +105,8 @@ const Tour = ({ tour }) => {
                 </div>
             </div>
         </Banner>
-        <StickyNavBar fixed={false} position={position} />
-        {fixed && <StickyNavBar fixed={true} position={position} />}
+        <StickyNavBar fixed={false} position={position} offset={offset} />
+        {fixed && <StickyNavBar fixed={true} position={position} offset={offset} />}
         <section>
             <div className="tour-view-main padding-top padding-bottom">
                 <div className="container">

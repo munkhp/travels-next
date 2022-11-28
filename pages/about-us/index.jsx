@@ -1,3 +1,4 @@
+import { Fragment } from "react"
 import Slider from "react-slick"
 import ContactForm from "../../components/ContactForm"
 import Banner from "../../components/Partials/Banner"
@@ -39,7 +40,7 @@ const AboutUs = () => {
             }
         ]
     }
-    return <Layout>
+    return <Fragment>
         <Banner customClass="about-us-page">
             <div className="page-title-wrapper">
                 <div className="page-title-content">
@@ -281,6 +282,6 @@ const AboutUs = () => {
                 </div>
             </div>
         </section>
-    </Layout >
+    </Fragment>
 }
 export default AboutUs;

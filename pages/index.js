@@ -18,10 +18,6 @@ const Home = ({ tours, events }) => {
           name="description"
           content="Travels in Mongolia - Safe and satisfaction guaranteed tours and travels in Mongolia"
         />
-        <meta
-          name="robots"
-          content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
-        />
         <link rel="canonical" href="https://travelsinmongolia.com" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />

@@ -115,6 +115,7 @@ const GroupTours = ({ destinationOptions }) => {
     return (
         <Fragment>
             <Head>
+                <title>Travels in Mongolia - Group Tours</title>
                 <MetaTags title='Travels in Mongolia - Group Tours' description='If would like to join other people and travel as a group, then group tours are for you.' url='https://travelsinmongolia.com/group-tours/' image='https://res.cloudinary.com/dmyps1mg3/image/upload/f_auto/v1669359920/travels/group-tour-view_tt6cdl.jpg' />
             </Head>
             <Banner customClass="group-tour-view">

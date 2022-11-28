@@ -1,9 +1,10 @@
+import { Fragment } from "react";
 import ContactForm from "../../components/ContactForm";
 import Banner from "../../components/Partials/Banner"
 import Layout from "../../components/_App/Layout"
 
 const ContactUs = () => {
-    return <Layout>
+    return <Fragment>
         <Banner customClass="contact-page">
             <div className="page-title-wrapper">
                 <div className="page-title-wrapper">
@@ -124,6 +125,6 @@ const ContactUs = () => {
                 </div>
             </div>
         </section>
-    </Layout >
+    </Fragment >
 }
 export default ContactUs;

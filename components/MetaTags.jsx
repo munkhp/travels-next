@@ -1,8 +1,7 @@
 import { Fragment } from "react";
 
-export default function MetaTags({ type = 'website', url, title, description, image }) {
+export default function MetaTags({ title, type = 'website', url, description, image }) {
     return <Fragment>
-        <title>{title}</title>
         <meta name="description" content={description} />
         <meta name="robots" content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large" />
         <link rel="canonical" href={url} />

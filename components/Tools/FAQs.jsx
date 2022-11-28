@@ -1,4 +1,4 @@
-import Collapsible from 'react-collapsible';
+import Collapsible from '../Tools/Collapsible';
 
 export default function FAQs() {
     return <div className="content">

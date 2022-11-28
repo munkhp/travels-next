@@ -10,6 +10,7 @@ const Event = ({ event, otherEvents }) => {
 
     return (<Fragment>
         <Head>
+            <title>{'Travels in Mongolia - ' + event.name}</title>
             <MetaTags title={'Travels in Mongolia - ' + event.name} description={event.description} url={'https://travelsinmongolia.com/event/' + event.path} image={event.mediaUrl} />
         </Head>
         <Banner customClass="tour-view" bgImg={modifyImgUrl(event.mediaUrl)} >
