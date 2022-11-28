@@ -1,9 +1,12 @@
-const Custom404 = () => {
-  return (
-    <div className="error-area">
-      <p>404 - Page Not Found</p>
-    </div>
-  );
-};
+import { useEffect } from "react";
+import { useRouter } from "next/router";
 
-export default Custom404;
+export default function Custom404() {
+  const router = useRouter();
+
+  useEffect(() => {
+    router.replace("/");
+  });
+
+  return null;
+}

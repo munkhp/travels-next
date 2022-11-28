@@ -14,7 +14,7 @@ const TravelTools = () => {
     return <Fragment>
         <Head>
             <title>Travels in Mongolia - Travel Tools</title>
-            <MetaTags title='Travels in Mongolia - Travel Tools,' description='All the basics you need before traveling to Mongolia' url='https://travelsinmongolia.com/travel-tools' image='https://res.cloudinary.com/dmyps1mg3/image/upload/f_auto/v1669359919/travels/bg-banner-tools_gaz0w1.jpg' />
+            <MetaTags title='Travels in Mongolia - Travel Tools' description='All the basics you need before traveling to Mongolia' url='https://travelsinmongolia.com/travel-tools' image='https://res.cloudinary.com/dmyps1mg3/image/upload/f_auto/v1669359919/travels/bg-banner-tools_gaz0w1.jpg' />
         </Head>
         <Banner customClass="tools-page" id="banner">
             <div className="page-title-wrapper">
