@@ -27,7 +27,7 @@ export default function GroupTourCard({ tour }) {
     const { width } = useWindowDimensions();
 
     function redirectToSuccess() {
-        router.push(`${baseUrl}/success`, { replace: true });
+        router.push('/success');
     }
 
     useEffect(() => {

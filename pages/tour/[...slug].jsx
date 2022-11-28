@@ -49,7 +49,7 @@ const Tour = ({ tour }) => {
         }
     }
     function redirectToSuccess() {
-        router.push(`${baseUrl}/success`, { replace: true });
+        router.push('/success');
     }
     useEffect(() => {
         const relativeTab = document.getElementById('relative-tab-container');
