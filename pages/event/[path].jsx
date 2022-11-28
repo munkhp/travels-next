@@ -5,6 +5,7 @@ import { Gallery } from "../../components/Tour";
 import modifyImgUrl from '../../utils/image';
 import axios from "axios";
 import Head from "next/head";
+import MetaTags from '../../components/MetaTags';
 const Event = ({ event, otherEvents }) => {
 
     return (<Fragment>
