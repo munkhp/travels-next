@@ -8,6 +8,8 @@ import arrayChunk from '../../utils/arrayChunk';
 import ContentLoader from "react-content-loader";
 import { TourCard } from '../../components/Tour';
 import Pagination from '../../components/Pagination';
+import MetaTags from '../../components/MetaTags';
+import Head from 'next/head';
 const Tours = ({ destinationOptions }) => {
     const [tours, setTours] = useState([]);
     const [colSize, setCols] = useState(3);
@@ -110,8 +112,9 @@ const Tours = ({ destinationOptions }) => {
     }
     return (
         <Fragment>
-            {/* <MetaTags title='Travels in Mongolia - Our Tours' description='We offer wide variety of tours covering all regions of Mongolia.' url='https://travelsinmongolia.com/tours/' image='https://res.cloudinary.com/dmyps1mg3/image/upload/f_auto/v1669359920/travels/group-tour-view_tt6cdl.jpg' /> */}
-            <Banner customClass="tour-view">
+            <Head>
+                <MetaTags title='Travels in Mongolia - Our Tours' description='We offer wide variety of tours covering all regions of Mongolia.' url='https://travelsinmongolia.com/tours/' image='https://res.cloudinary.com/dmyps1mg3/image/upload/f_auto/v1669359920/travels/group-tour-view_tt6cdl.jpg' />
+            </Head><Banner customClass="tour-view">
                 <div className="page-title-wrapper">
                     <div className="page-title-content">
                         <ol className="breadcrumb">

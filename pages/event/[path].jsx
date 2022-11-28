@@ -4,9 +4,13 @@ import apiUrl from "../../utils/apiUrl";
 import { Gallery } from "../../components/Tour";
 import modifyImgUrl from '../../utils/image';
 import axios from "axios";
+import Head from "next/head";
 const Event = ({ event, otherEvents }) => {
 
     return (<Fragment>
+        <Head>
+            <MetaTags title={'Travels in Mongolia - ' + event.name} description={event.description} url={'https://travelsinmongolia.com/event/' + event.path} image={event.mediaUrl} />
+        </Head>
         <Banner customClass="tour-view" bgImg={modifyImgUrl(event.mediaUrl)} >
             <div className="page-title-wrapper">
                 <div className="page-title-content">

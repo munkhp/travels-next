@@ -1,7 +1,7 @@
-import { Helmet } from 'react-helmet-async';
+import { Fragment } from "react";
 
 export default function MetaTags({ type = 'website', url, title, description, image }) {
-    return <Helmet>
+    return <Fragment>
         <title>{title}</title>
         <meta name="description" content={description} />
         <meta name="robots" content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large" />
@@ -26,5 +26,5 @@ export default function MetaTags({ type = 'website', url, title, description, im
             content={description} />
         <meta name="twitter:image"
             content={image} />
-    </Helmet>
+    </Fragment>
 }

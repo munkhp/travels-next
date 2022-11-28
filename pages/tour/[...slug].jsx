@@ -6,7 +6,8 @@ import { useRouter } from 'next/router'
 import { Includes, Excludes, Gallery, Booking, StickyNavBar } from "../../components/Tour"
 import modifyImgUrl from '../../utils/image';
 import axios from "axios";
-import baseUrl from "../../utils/baseUrl";
+import MetaTags from '../../components/MetaTags';
+import Head from "next/head";
 
 const Tour = ({ tour }) => {
     const POSITION_OVERVIEW = 0;
@@ -60,7 +61,9 @@ const Tour = ({ tour }) => {
         setBookingTop(booking.getBoundingClientRect().top);
     }, [])
     return (<Fragment>
-        {/* <MetaTags title={'Travels in Mongolia - ' + tour.name} description={tour.summary} url={'https://travelsinmongolia.com/tour/' + tour.path} image={tour.mediaUrl} /> */}
+        <Head>
+            <MetaTags title={'Travels in Mongolia - ' + tour.name} description={tour.summary} url={'https://travelsinmongolia.com/tour/' + tour.path} image={tour.mediaUrl} />
+        </Head>
         <Banner customClass="tour-view" bgImg={modifyImgUrl(tour.mediaUrl)}>
             <div className="page-title-wrapper">
                 <div className="page-title-content">
