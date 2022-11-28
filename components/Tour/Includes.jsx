@@ -58,13 +58,13 @@ export default function Includes() {
         ]
     }
     return <Slider {...settings}>
-        {router.pathname === '/tour/western-mongolia/altai-mountain-tour' && (<div className="item feature-item">
+        {router.asPath === '/tour/western-mongolia/altai-mountain-tour' && (<div className="item feature-item">
             <img src="https://res.cloudinary.com/dmyps1mg3/image/upload/f_auto/v1669359924/travels/airplane_twdl0x.png" alt="two way domestic flights" />
             <p className="text">2 way domestic flight</p>
         </div>)}
         <div className="item feature-item">
             <img src="https://res.cloudinary.com/dmyps1mg3/image/upload/f_auto/v1669359936/travels/conversation_pe5upf.png" alt="total trips" />
-            <p className="text">English speaking guide and driver</p>
+            <p className="text"> English speaking guide and driver</p>
         </div>
         <div className="item feature-item">
             <img src="https://res.cloudinary.com/dmyps1mg3/image/upload/f_auto/v1669359937/travels/jeep_2_f692nb.png" alt="transportation" />
