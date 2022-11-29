@@ -73,7 +73,7 @@ const Event = ({ event, otherEvents }) => {
                                         <ul className="widget-list">
                                             {otherEvents.map((event, index) => (
                                                 <li key={index} className="single-widget-item">
-                                                    <a href={'/event/' + event.path} className="link">
+                                                    <a href={'/event/' + event.path} className="link" aria-label={event.summary}>
                                                         <span className="fa-custom category">{event.name}</span>
                                                     </a>
                                                 </li>

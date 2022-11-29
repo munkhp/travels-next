@@ -4,10 +4,10 @@ export default function TourCard(props) {
     const { tour } = props
     return <div key={tour._id} className="tours-layout">
         <div className="image-wrapper">
-            <a href={'/tour/' + tour.path} className="link" style={{ backgroundImage: `url(${modifyImgUrl(tour.mediaUrl)})` }}>
+            <a href={'/tour/' + tour.path} className="link" aria-label={tour.summary} style={{ backgroundImage: `url(${modifyImgUrl(tour.mediaUrl)})` }}>
             </a>
             <div className="title-wrapper">
-                <a href={'/tour/' + tour.path} className="title">
+                <a href={'/tour/' + tour.path} className="title" aria-label={tour.summary}>
                     {tour.name}
                 </a>
             </div>

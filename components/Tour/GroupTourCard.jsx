@@ -58,7 +58,7 @@ export default function GroupTourCard({ tour }) {
             <p className="text">{tour.destination.title}</p>
         </div>
         <div className="title-wrapper">
-            <a href={'/tour/' + tour.path} className="title">
+            <a href={'/tour/' + tour.path} className="title" aria-label={tour.summary}>
                 {tour.name}
             </a>
         </div>
