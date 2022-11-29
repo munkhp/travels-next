@@ -29,7 +29,7 @@ export default function TourCard(props) {
                     {tour.summary}
                 </p>
                 <div className="group-btn-tours">
-                    <a href={'/tour/' + tour.path} className="btn">Learn more </a>
+                    <a href={'/tour/' + tour.path} className="btn" aria-label={tour.summary}>Learn more </a>
                 </div>
             </div>
         </div>
