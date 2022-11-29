@@ -18,7 +18,7 @@ class MyDocument extends Document {
           <link rel="apple-touch-icon" href={`${baseUrl}/logo192.png`} />
           <link rel="manifest" href={`${baseUrl}/manifest.json`} />
           <Script
-            src="https://www.googletagmanager.com/gtag/js?id=UA-247992572-1"
+            src="https://www.googletagmanager.com/gtag/js?id=G-BNB9NTM2XD"
             strategy="afterInteractive"
           />
           <Script id="google-analytics" strategy="afterInteractive">
@@ -27,7 +27,7 @@ class MyDocument extends Document {
           function gtag(){window.dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', 'UA-247992572-1');
+          gtag('config', 'G-BNB9NTM2XD');
         `}
           </Script>
         </Head>
