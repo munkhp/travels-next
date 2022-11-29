@@ -7,6 +7,9 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <link rel="icon" href={`${baseUrl}/favicon.ico`} />
+          <title>
+            Travels in Mongolia - One of the leading tour operators in Mongolia
+          </title>
           <meta
             name="description"
             content="Travels in Mongolia Tour Operator"

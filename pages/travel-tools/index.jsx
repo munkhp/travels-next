@@ -22,10 +22,10 @@ const TravelTools = () => {
                     <div className="page-title-content">
                         <ol className="breadcrumb">
                             <li>
-                                <a href="#" className="link home">Home</a>
+                                <button className="link home">Home</button>
                             </li>
                             <li className="active">
-                                <a href="#" className="link">travel tools</a>
+                                <button className="link">travel tools</button>
                             </li>
                         </ol>
                         <div className="clearfix"></div>

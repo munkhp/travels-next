@@ -66,7 +66,7 @@ export default function HomeSlider() {
                     </div>
                     <div className="group-btn">
                         <Link to="about-us" spy={true} smooth={true}>
-                            <button data-hover="LET'S GO!" className="btn-click">
+                            <button data-hover="LET'S GO!" className="btn-click" aria-label='Learn more about our Travels in Mongolia tour operator and its tours and services'>
                                 <span className="text">learn more</span>
                                 <span className="icons fa fa-long-arrow-right"></span>
                             </button>
@@ -86,7 +86,7 @@ export default function HomeSlider() {
                         </p>
                     </div>
                     <div className="group-btn">
-                        <a href="/tour/western-mongolia/golden-eagle-festival-tour">
+                        <a href="/tour/western-mongolia/golden-eagle-festival-tour" aria-label='Learn more about Eagle festival tour and western Mongolian celebrations and cultures.'>
                             <button data-hover="LET'S GO!" className="btn-click">
                                 <span className="text">learn more</span>
                                 <span className="icons fa fa-long-arrow-right"></span>

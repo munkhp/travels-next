@@ -38,16 +38,16 @@ export default function Header({ sticky }) {
           <ul className="topbar-left list-unstyled list-inline pull-left">
             <li>
               <a href="tel:+97699277699">
-                <i className="fa fa-phone fa-fw" aria-hidden="true"></i>+976 99277699</a>
+                <i className="fa fa-phone fa-fw"></i>+976 99277699</a>
             </li>
             <li>
               <a href="mailto:info@travelsinmongolia.com">
-                <i className="fa fa-envelope fa-fw" aria-hidden="true"></i>info@travelsinmongolia.com
+                <i className="fa fa-envelope fa-fw"></i>info@travelsinmongolia.com
               </a>
             </li>
             <li>
               <a href="https://www.facebook.com/TravelsinMongolia">
-                <i className="fa fa-facebook-f fa-fw" aria-hidden="true"></i>
+                <i className="fa fa-facebook-f fa-fw"></i>
               </a>
             </li>
           </ul>

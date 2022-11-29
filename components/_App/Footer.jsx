@@ -88,25 +88,25 @@ export default function Footer() {
                                 <div className="content-widget">
                                     <ul className="list-unstyled list-inline natural">
                                         <li>
-                                            <a href="#" className="thumb">
+                                            <button className="thumb">
                                                 <img src="https://res.cloudinary.com/dmyps1mg3/image/upload/v1669359923/travels/gallery-07_cuniov.jpg" alt="" className="img-responsive" />
-                                            </a>
+                                            </button>
                                         </li>
                                         <li>
-                                            <a href="#" className="thumb">
+                                            <button className="thumb">
                                                 <img src="https://res.cloudinary.com/dmyps1mg3/image/upload/v1669359921/travels/gallery-08_jnypdk.jpg" alt="" className="img-responsive" />
-                                            </a>
+                                            </button>
                                         </li>
                                         <li></li>
                                         <li>
-                                            <a href="#" className="thumb">
+                                            <button className="thumb">
                                                 <img src="https://res.cloudinary.com/dmyps1mg3/image/upload/v1669359921/travels/gallery-09_eyekcy.jpg" alt="" className="img-responsive" />
-                                            </a>
+                                            </button>
                                         </li>
                                         <li>
-                                            <a href="#" className="thumb">
+                                            <button className="thumb">
                                                 <img src="https://res.cloudinary.com/dmyps1mg3/image/upload/v1669359923/travels/gallery-10_qotrkv.jpg" alt="" className="img-responsive" />
-                                            </a>
+                                            </button>
                                         </li>
                                     </ul>
                                 </div>

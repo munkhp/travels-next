@@ -349,19 +349,19 @@ a:hover {
   background-color: #ffdd00;
 }
 
-.hotels-layout .image-wrapper .title-wrapper .title:before {
+.events-layout .image-wrapper .title-wrapper .title:before {
   background: #ffdd00;
 }
 
-.hotels-layout .image-wrapper .title-wrapper .title:hover {
+.events-layout .image-wrapper .title-wrapper .title:hover {
   color: #ffdd00;
 }
 
-.hotels-layout .content-wrapper .list-info .link:hover {
+.events-layout .content-wrapper .list-info .link:hover {
   background-color: #ffdd00;
 }
 
-.hotels-layout
+.events-layout
   .content-wrapper
   .list-info
   .share-social-list
@@ -369,11 +369,11 @@ a:hover {
   background-color: #ffdd00;
 }
 
-.hotels-layout .content-wrapper .price {
+.events-layout .content-wrapper .price {
   color: #ffdd00;
 }
 
-.hotels-layout .content-wrapper > .content .group-btn-tours:hover {
+.events-layout .content-wrapper > .content .group-btn-tours:hover {
   background-color: #ffdd00;
 }
 

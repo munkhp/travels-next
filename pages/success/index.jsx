@@ -2,6 +2,9 @@ import React, { Fragment } from 'react';
 
 const Success = () => (
     <Fragment>
+        <Head>
+            <title>Travels in Mongolia - Request successful!</title>
+        </Head>
         <section className="page-success">
             <div className="page-wrapper">
                 <div className="page-content">

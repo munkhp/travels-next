@@ -6,28 +6,29 @@ import {
   Testimonials,
   Events,
 } from "../components/Home";
-import axios from "axios";
-import apiUrl from "../utils/apiUrl";
 import { Fragment } from "react";
 import Head from "next/head";
-const Home = ({ tours, events }) => {
+const Home = () => {
   return (
     <Fragment>
       <Head>
+        <title>
+          Travels in Mongolia - One of the leading tour operators in Mongolia
+        </title>
         <meta
           name="description"
-          content="Travels in Mongolia - Safe and satisfaction guaranteed tours and travels in Mongolia"
+          content="Travels in Mongolia is a local tour operator which specializes in providing unforgettable Mongolian tour experience. We aim to develop the sustainable ecotourism, deliver overall satisfaction to our customers, fulfill their requirements & needs with our professional team and introduce Mongolian culture, history and wild nature to foreigners."
         />
         <link rel="canonical" href="https://travelsinmongolia.com" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Travels in Mongolia - Safe and satisfaction guaranteed tours and travels in Mongolia"
+          content="Travels in Mongolia - One of the leading tour operators in Mongolia"
         />
         <meta
           property="og:description"
-          content="If you are planning to travel to Mongolia, our responsible tour guides and driver may provide high quality guided tours in all regions of Mongolia."
+          content="Travels in Mongolia is a local tour operator which specializes in providing unforgettable Mongolian tour experience. We aim to develop the sustainable ecotourism, deliver overall satisfaction to our customers, fulfill their requirements & needs with our professional team and introduce Mongolian culture, history and wild nature to foreigners. "
         />
         <meta property="og:url" content="https://travelsinmongolia.com" />
         <meta property="og:site_name" content="Travels in Mongolia" />
@@ -45,11 +46,11 @@ const Home = ({ tours, events }) => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Travels in Mongolia - Safe and satisfaction guaranteed tours and travels in Mongolia"
+          content="Travels in Mongolia - One of the leading tour operators in Mongolia"
         />
         <meta
           name="twitter:description"
-          content="If you are planning to travel to Mongolia, our responsible tour guides and driver may provide high quality guided tours in all regions of Mongolia."
+          content="Travels in Mongolia is a local tour operator which specializes in providing unforgettable Mongolian tour experience. We aim to develop the sustainable ecotourism, deliver overall satisfaction to our customers, fulfill their requirements & needs with our professional team and introduce Mongolian culture, history and wild nature to foreigners. "
         />
         <meta
           name="twitter:image"
@@ -58,21 +59,11 @@ const Home = ({ tours, events }) => {
       </Head>
       <HomeSlider />
       <WhoWeAre />
-      <TourSection tours={tours} />
+      <TourSection />
       <Video />
-      <Events events={events} />
+      <Events />
       <Testimonials />
     </Fragment>
   );
 };
-
-export async function getServerSideProps(context) {
-  const url1 = `${apiUrl}/all-tours`;
-  const res1 = await axios.get(url1);
-  const { data: tours } = await res1.data;
-  const url2 = `${apiUrl}/events`;
-  const res2 = await axios.get(url2);
-  const { data: events } = await res2.data;
-  return { props: { tours, events } };
-}
 export default Home;

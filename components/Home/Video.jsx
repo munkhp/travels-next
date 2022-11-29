@@ -35,7 +35,7 @@ export default function Video() {
                                 className="img-responsive"
                             />
                         </div>
-                        <button className="video-button-play" onClick={toggleVideo}>
+                        <button className="video-button-play" aria-label="play youtube video about travels in Mongolia" onClick={toggleVideo}>
                             <i className="icons fa fa-play"></i>
                         </button>
                         <button className={"video-button-close " + blockClass} onClick={toggleVideo}></button>

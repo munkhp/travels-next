@@ -1,19 +1,25 @@
+import Head from "next/head";
 import { Fragment } from "react";
 import ContactForm from "../../components/ContactForm";
+import MetaTags from "../../components/MetaTags";
 import Banner from "../../components/Partials/Banner"
 
 const ContactUs = () => {
     return <Fragment>
+        <Head>
+            <title>Travels in Mongolia - Contact us</title>
+            <MetaTags title='Travels in Mongolia - Contact us' description='If you are planning to travel to Mongolia and have lots of questions, feel free to contact one of our tour experts!' url='https://travelsinmongolia.com/contact-us' image='https://res.cloudinary.com/dmyps1mg3/image/upload/f_auto/v1669359936/travels/bg-banner-contact-form_lpwmf0.jpg' />
+        </Head>
         <Banner customClass="contact-page">
             <div className="page-title-wrapper">
                 <div className="page-title-wrapper">
                     <div className="page-title-content">
                         <ol className="breadcrumb">
                             <li>
-                                <a href="#" className="link home">Home</a>
+                                <button className="link home">Home</button>
                             </li>
                             <li className="active">
-                                <a href="#" className="link">contact us</a>
+                                <button className="link">contact us</button>
                             </li>
                         </ol>
                         <div className="clearfix"></div>
@@ -34,7 +40,7 @@ const ContactUs = () => {
                                 </div> */}
                                 <div className="main-organization">
                                     <div className="organization-title">
-                                        <a href="#" className="title">Batjargal Ulziibuyan</a>
+                                        <button className="title">Batjargal Ulziibuyan</button>
                                         <p className="text">Sales Manager</p>
                                     </div>
                                 </div>
@@ -43,11 +49,11 @@ const ContactUs = () => {
                                         <ul className="list-unstyled">
                                             <li className="main-list">
                                                 <i className="icons fa fa-phone"></i>
-                                                <a href="#" className="link">+976-99277699</a>
+                                                <button className="link">+976-99277699</button>
                                             </li>
                                             <li className="main-list">
                                                 <i className="icons fa fa-envelope-o"></i>
-                                                <a href="#" className="link">info@travelsinmongolia.com</a>
+                                                <button className="link">info@travelsinmongolia.com</button>
                                             </li>
                                         </ul>
                                     </div>
@@ -61,7 +67,7 @@ const ContactUs = () => {
                                 </div> */}
                                 <div className="main-organization">
                                     <div className="organization-title">
-                                        <a href="#" className="title">Doljmaa Songorov</a>
+                                        <button className="title">Doljmaa Songorov</button>
                                         <p className="text">Founder & CEO</p>
                                     </div>
                                 </div>
@@ -70,11 +76,11 @@ const ContactUs = () => {
                                         <ul className="list-unstyled">
                                             <li className="main-list">
                                                 <i className="icons fa fa-phone"></i>
-                                                <a href="#" className="link">+976-99277699</a>
+                                                <button className="link">+976-99277699</button>
                                             </li>
                                             <li className="main-list">
                                                 <i className="icons fa fa-envelope-o"></i>
-                                                <a href="#" className="link">info@travelsinmongolia.com</a>
+                                                <button className="link">info@travelsinmongolia.com</button>
                                             </li>
                                         </ul>
                                     </div>
@@ -88,7 +94,7 @@ const ContactUs = () => {
                                 </div>
                                 <div className="main-organization">
                                     <div className="organization-title">
-                                        <a href="#" className="title">Jason Williams</a>
+                                        <button className="title">Jason Williams</button>
                                         <p className="text">Tour Manager</p>
                                     </div>
                                 </div>
@@ -97,11 +103,11 @@ const ContactUs = () => {
                                         <ul className="list-unstyled">
                                             <li className="main-list">
                                                 <i className="icons fa fa-phone"></i>
-                                                <a href="#" className="link">+976-99277699</a>
+                                                <button className="link">+976-99277699</button>
                                             </li>
                                             <li className="main-list">
                                                 <i className="icons fa fa-envelope-o"></i>
-                                                <a href="#" className="link">info@travelsinmongolia.com</a>
+                                                <button className="link">info@travelsinmongolia.com</button>
                                             </li>
                                         </ul>
                                     </div>

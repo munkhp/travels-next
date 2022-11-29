@@ -18,10 +18,10 @@ const Event = ({ event, otherEvents }) => {
                 <div className="page-title-content">
                     <ol className="breadcrumb">
                         <li>
-                            <a href="#" className="link home">Home</a>
+                            <button className="link home">Home</button>
                         </li>
                         <li>
-                            <a href="#" className="link home">Events</a>
+                            <button className="link home">Events</button>
                         </li>
                     </ol>
                     <div className="clearfix"></div>

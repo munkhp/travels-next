@@ -1,7 +1,7 @@
 import modifyImgUrl from '../../utils/image';
 
 export default function EventCard({ event }) {
-    return <div className="hotels-layout">
+    return <div className="events-layout">
         <div className="image-wrapper">
             <a href={'/event/' + event.path} className="link" style={{ backgroundImage: `url(${modifyImgUrl(event.mediaUrl)})` }}>
             </a>
@@ -22,7 +22,7 @@ export default function EventCard({ event }) {
                     </li>
                 </ul>
                 <p className="text">{event.summary}</p>
-                <a href={'/event/' + event.path} className="btn">Learn more </a>
+                <a href={'/event/' + event.path} className="btn" aria-label={event.summary}>Learn more </a>
             </div>
         </div>
     </div>

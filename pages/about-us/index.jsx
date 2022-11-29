@@ -1,6 +1,8 @@
+import Head from "next/head"
 import { Fragment } from "react"
 import Slider from "react-slick"
 import ContactForm from "../../components/ContactForm"
+import MetaTags from "../../components/MetaTags"
 import Banner from "../../components/Partials/Banner"
 import Layout from "../../components/_App/Layout"
 
@@ -41,15 +43,19 @@ const AboutUs = () => {
         ]
     }
     return <Fragment>
+        <Head>
+            <title>Travels in Mongolia - About us</title>
+            <MetaTags title='Travels in Mongolia - About us' description='Travels in Mongolia is a Mongolian tour operator with an 11 years of experience delivering safe and satifactory tours with the help of their responsible and well trained tour guides and drivers.' url='https://travelsinmongolia.com/about-us' image='https://res.cloudinary.com/dmyps1mg3/image/upload/f_auto/v1669359928/travels/about-us-4_iaptzl.jpg' />
+        </Head>
         <Banner customClass="about-us-page">
             <div className="page-title-wrapper">
                 <div className="page-title-content">
                     <ol className="breadcrumb">
                         <li>
-                            <a href="#" className="link home">Home</a>
+                            <button className="link home">Home</button>
                         </li>
                         <li className="active">
-                            <a href="#" className="link">about us</a>
+                            <button className="link">about us</button>
                         </li>
                     </ol>
                     <div className="clearfix"></div>
@@ -172,38 +178,38 @@ const AboutUs = () => {
                 <h3 className="title-style-2">our guides</h3>
                 <Slider {...settings}>
                     <div className="item content-expert">
-                        <a href="#" className="img-expert">
+                        <button className="img-expert">
                             <img src="https://res.cloudinary.com/dmyps1mg3/image/upload/f_auto/v1669359927/travels/about-5_ljgyku.jpg" alt="" className="img-responsive img" />
-                        </a>
+                        </button>
                         <div className="caption-expert">
-                            <a href="#" className="title">Anarbayar</a>
+                            <button className="title">Anarbayar</button>
                             <p className="text">Tour Guide</p>
                         </div>
                     </div>
                     <div className="item content-expert">
-                        <a href="#" className="img-expert">
+                        <button className="img-expert">
                             <img src="https://res.cloudinary.com/dmyps1mg3/image/upload/f_auto/v1669359929/travels/about-6_rxxsvm.jpg" alt="" className="img-responsive img" />
-                        </a>
+                        </button>
                         <div className="caption-expert">
-                            <a href="#" className="title">Enkhmandakh</a>
+                            <button className="title">Enkhmandakh</button>
                             <p className="text">Tour Guide</p>
                         </div>
                     </div>
                     <div className="item content-expert">
-                        <a href="#" className="img-expert">
+                        <button className="img-expert">
                             <img src="https://res.cloudinary.com/dmyps1mg3/image/upload/f_auto/v1669359927/travels/about-8_jwuqhx.jpg" alt="" className="img-responsive img" />
-                        </a>
+                        </button>
                         <div className="caption-expert">
-                            <a href="#" className="title">Amarzaya</a>
+                            <button className="title">Amarzaya</button>
                             <p className="text">Tour Guide</p>
                         </div>
                     </div>
                     <div className="item content-expert">
-                        <a href="#" className="img-expert">
+                        <button className="img-expert">
                             <img src="https://res.cloudinary.com/dmyps1mg3/image/upload/f_auto/v1669359928/travels/about-7_hchntp.jpg" alt="" className="img-responsive img" />
-                        </a>
+                        </button>
                         <div className="caption-expert">
-                            <a href="#" className="title">Zolzaya</a>
+                            <button className="title">Zolzaya</button>
                             <p className="text">Tour Guide</p>
                         </div>
                     </div>

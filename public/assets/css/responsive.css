@@ -333,13 +333,13 @@
     margin-right: auto;
     margin-left: auto;
   }
-  .hotels-wrapper .hotels-list .col-sm-6 .hotels-layout {
+  .hotels-wrapper .hotels-list .col-sm-6 .events-layout {
     margin-bottom: 30px;
   }
-  .hotels-wrapper .hotels-list .col-sm-6:nth-last-child(-n + 2) .hotels-layout {
+  .hotels-wrapper .hotels-list .col-sm-6:nth-last-child(-n + 2) .events-layout {
     margin-bottom: 30px;
   }
-  .hotels-wrapper .hotels-list .col-sm-6:last-child .hotels-layout {
+  .hotels-wrapper .hotels-list .col-sm-6:last-child .events-layout {
     margin-bottom: 0;
   }
   .travelers .traveler-list .slick-prev,
@@ -656,7 +656,7 @@
     padding-bottom: 30px;
   }
   .timeline-hotel-view .timeline-custom-col,
-  .timeline-hotel-view .timeline-custom-col.hotels-layout {
+  .timeline-hotel-view .timeline-custom-col.events-layout {
     float: none;
 
     width: 92%;
@@ -943,14 +943,14 @@
   .car-rent-layout .image-wrapper .link img {
     left: 0;
   }
-  .hotels-layout .content-wrapper .list-info .share-social-list {
+  .events-layout .content-wrapper .list-info .share-social-list {
     left: -90%;
 
     padding: 0;
 
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
   }
-  .hotels-layout
+  .events-layout
     .content-wrapper
     .list-info
     li:hover
@@ -1933,7 +1933,7 @@
     margin: 0;
   }
   .timeline-hotel-view .timeline-custom-col,
-  .timeline-hotel-view .timeline-custom-col.hotels-layout {
+  .timeline-hotel-view .timeline-custom-col.events-layout {
     width: 100%;
     margin-left: 0;
     padding: 0;
@@ -2240,22 +2240,22 @@
   .videos.layout-1 .video-thumbnail {
     height: 290px;
   }
-  .hotels-layout .image-wrapper,
-  .hotels-layout .content-wrapper {
+  .events-layout .image-wrapper,
+  .events-layout .content-wrapper {
     display: block;
 
     width: 100%;
   }
-  .hotels-layout .image-wrapper .link img {
+  .events-layout .image-wrapper .link img {
     position: relative;
 
     width: 100%;
     max-width: none;
   }
-  .hotels-layout .content-wrapper > .content {
+  .events-layout .content-wrapper > .content {
     padding: 30px 75px 30px 30px;
   }
-  .hotels-layout .content-wrapper .for-price {
+  .events-layout .content-wrapper .for-price {
     max-width: none;
     padding-bottom: 0;
   }
@@ -3153,8 +3153,8 @@
   .tours-layout .content-wrapper > .content {
     padding: 20px;
   }
-  .hotels-layout .content-wrapper > .content,
-  .timeline-hotel-view .hotels-layout .content-wrapper .content {
+  .events-layout .content-wrapper > .content,
+  .timeline-hotel-view .events-layout .content-wrapper .content {
     padding: 20px 70px 20px 20px;
   }
   .traveler .wrapper-content {

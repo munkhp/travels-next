@@ -86,13 +86,13 @@ const Tour = ({ tour }) => {
                 <div className="page-title-content">
                     <ol className="breadcrumb">
                         <li>
-                            <a href="#" className="link home">Home</a>
+                            <button className="link home">Home</button>
                         </li>
                         <li>
-                            <a href="#" className="link">tour</a>
+                            <button className="link">tour</button>
                         </li>
                         <li className="active">
-                            <a href="#" className="link">{tour.name}</a>
+                            <button className="link">{tour.name}</button>
                         </li>
                     </ol>
                     <div className="clearfix"></div>
