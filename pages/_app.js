@@ -12,6 +12,7 @@ import "../public/assets/css/color.css";
 import "../public/assets/css/datepicker.css";
 import App from "next/app";
 import Layout from "../components/_App/Layout";
+import Script from "next/script";
 
 class MyApp extends App {
   static async getStaticProps({ Component, ctx }) {

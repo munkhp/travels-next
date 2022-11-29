@@ -1,7 +1,6 @@
 import { Fragment } from "react";
 import ContactForm from "../../components/ContactForm";
 import Banner from "../../components/Partials/Banner"
-import Layout from "../../components/_App/Layout"
 
 const ContactUs = () => {
     return <Fragment>
