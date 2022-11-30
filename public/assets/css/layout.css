@@ -1894,7 +1894,8 @@ section:before {
 .gallery-widget ul .thumb,
 .recent-post-list .thumb {
   position: relative;
-
+  border: none;
+  background-color: transparent;
   display: inline-block;
 
   width: 100%;

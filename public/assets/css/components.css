@@ -5552,6 +5552,9 @@
   text-transform: uppercase;
 
   color: #585858;
+
+  background-color: transparent;
+  border: none;
 }
 
 .content-expert .caption-expert .title:hover {
