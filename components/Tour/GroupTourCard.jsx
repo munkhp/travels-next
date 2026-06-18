@@ -5,7 +5,7 @@ import ReactCardFlip from 'react-card-flip';
 import useWindowDimensions from '../../utils/windowDimensions';
 import arrayChunk from '../../utils/arrayChunk';
 import modifyImgUrl from '../../utils/image';
-import { useRouter } from 'next/router';
+import { useRouter } from 'next/navigation';
 import baseUrl from '../../utils/baseUrl';
 const customStyles = {
     content: {
@@ -18,7 +18,9 @@ const customStyles = {
     },
 };
 
-Modal.setAppElement('#__next');
+if (typeof document !== "undefined") {
+    Modal.setAppElement('body');
+}
 
 export default function GroupTourCard({ tour }) {
     const router = useRouter()

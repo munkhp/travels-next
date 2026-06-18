@@ -337,7 +337,7 @@
 
 .page-title-wrapper .breadcrumb li + li:before {
   font-family: FontAwesome;
-  ]padding: 0 10px;
+  padding: 0 10px;
 
   content: "\f178";
 
@@ -674,7 +674,7 @@
 
 .tag:before {
   font-family: FontAwesome;
-  ]font-size: 7px;
+  font-size: 7px;
 
   position: absolute;
   left: 10px;
@@ -706,7 +706,7 @@
 
 .stars:after {
   font-family: FontAwesome;
-  ]position: absolute;
+  position: absolute;
   top: 0;
   left: 35px;
 
@@ -752,7 +752,7 @@
 
 .star-rating:before {
   font-family: FontAwesome;
-  ]position: absolute;
+  position: absolute;
   top: 0;
   left: 1px;
 
@@ -779,7 +779,7 @@
 
 .star-rating span:before {
   font-family: FontAwesome;
-  ]position: absolute;
+  position: absolute;
   top: 0;
   left: 1px;
 
@@ -1853,7 +1853,7 @@
 
 .new-layout .image-wrapper .description:before {
   font-family: FontAwesome;
-  ]font-style: normal;
+  font-style: normal;
 
   position: absolute;
   left: 0;
@@ -2621,7 +2621,7 @@
 .tours-wrapper .tours-list .slick-prev:before,
 .tours-wrapper .tours-list .slick-next:before {
   font-family: FontAwesome;
-  ]font-size: 24px;
+  font-size: 24px;
   line-height: 36px;
 
   opacity: 1;
@@ -2911,7 +2911,7 @@
 .travelers .traveler-list .slick-prev:before,
 .travelers .traveler-list .slick-next:before {
   font-family: FontAwesome;
-  ]font-size: 24px;
+  font-size: 24px;
   line-height: 46px;
 
   opacity: 1;
@@ -3930,7 +3930,7 @@
 .stars-rating a.star-4:before,
 .stars-rating a.star-5:before {
   font-family: FontAwesome;
-  ]position: absolute;
+  position: absolute;
   top: 0;
   left: 0;
 
@@ -5365,7 +5365,7 @@
 .special-offer-list .slick-prev:before,
 .special-offer-list .slick-next:before {
   font-family: FontAwesome;
-  ]font-size: 20px;
+  font-size: 20px;
   line-height: 36px;
 
   color: #b3b3b3;
@@ -6395,7 +6395,7 @@
 .result-wrapper .slick-prev:before,
 .result-wrapper .slick-next:before {
   font-family: FontAwesome;
-  ]font-size: 16px;
+  font-size: 16px;
   line-height: 36px;
 
   color: #b3b3b3;
@@ -6469,7 +6469,7 @@
 
 .wrapper-accordion .panel.active .panel-title a:before {
   font-family: FontAwesome;
-  ]top: 0;
+  top: 0;
   left: 10px;
 
   padding-right: 10px;
@@ -6500,7 +6500,7 @@
 
 .wrapper-accordion .panel .panel-title a:before {
   font-family: FontAwesome;
-  ]top: 0;
+  top: 0;
   left: 10px;
 
   padding-right: 10px;

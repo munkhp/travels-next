@@ -2230,7 +2230,7 @@ section:before {
   .ffw-radio-btn
   ~ .ffw-radio-label:before {
   font-family: FontAwesome;
-  ]overflow: visible;
+  overflow: visible;
 
   margin-right: 6px;
 
@@ -2774,7 +2774,7 @@ section:before {
 
 .radio-selection .radio-btn-wrapper .radio-label:before {
   font-family: FontAwesome;
-  ]font-size: 1rem;
+  font-size: 1rem;
   font-weight: normal;
   line-height: 16px;
 

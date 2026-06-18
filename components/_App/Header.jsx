@@ -1,8 +1,10 @@
-import { useRouter } from 'next/router'
+"use client";
+
+import { usePathname } from 'next/navigation'
 import HamburgerMenu from './HamburgerMenu';
 import { useState, useEffect } from "react";
 export default function Header({ sticky }) {
-  const router = useRouter()
+  const pathname = usePathname()
   const [show, setShow] = useState(true);
   const [fixed, setFixed] = useState(false);
   const [lastScroll, setLastScroll] = useState(50);
@@ -68,28 +70,28 @@ export default function Header({ sticky }) {
             </div>
             <nav className="navigation">
               <ul className="nav-links nav navbar-nav">
-                <li className={router.pathname === '/' ? "active" : null}>
+                <li className={pathname === '/' ? "active" : null}>
                   <a href="/" className="main-menu">
                     <span className="text">home</span>
                   </a>
                 </li>
-                <li className={router.pathname === '/about-us' ? "active" : null}>
+                <li className={pathname === '/about-us' ? "active" : null}>
                   <a href="/about-us" className="main-menu">
                     <span className="text">about us</span>
                   </a>
                 </li>
-                <li className={router.pathname === '/tours' ? "active" : null}>
+                <li className={pathname === '/tours' ? "active" : null}>
                   <a href="/tours" className="main-menu">
                     <span className="text">tours</span>
                   </a>
                 </li>
-                <li className={router.pathname === '/group-tours' ? "active" : null}>
+                <li className={pathname === '/group-tours' ? "active" : null}>
                   <a href="/group-tours" className="main-menu">
                     <span className="text">group tours</span>
                   </a>
                 </li>
                 {/* <DropdownNavItem /> */}
-                <li className={router.pathname === '/travel-tools' ? "active" : null}>
+                <li className={pathname === '/travel-tools' ? "active" : null}>
                   <a href="/travel-tools" className="main-menu">
                     <span className="text">travel tools</span>
                   </a>
@@ -99,7 +101,7 @@ export default function Header({ sticky }) {
                     <span className="text">online payment</span>
                   </a>
                 </li>
-                <li className={router.pathname === '/contact-us' ? "active" : null}>
+                <li className={pathname === '/contact-us' ? "active" : null}>
                   <a href="/contact-us" className="main-menu">
                     <span className="text">contact us</span>
                   </a>
