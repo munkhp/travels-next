@@ -28,7 +28,8 @@ async function getOtherEvents(path) {
 }
 
 export async function generateMetadata({ params }) {
-  const event = await getEvent(params.path);
+  const { path } = await params;
+  const event = await getEvent(path);
 
   return {
     title: `Travels in Mongolia - ${event.name}`,
@@ -43,9 +44,10 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function Page({ params }) {
+  const { path } = await params;
   const [event, otherEvents] = await Promise.all([
-    getEvent(params.path),
-    getOtherEvents(params.path),
+    getEvent(path),
+    getOtherEvents(path),
   ]);
 
   return <EventPage event={event} otherEvents={otherEvents} />;

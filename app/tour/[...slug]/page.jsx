@@ -16,7 +16,8 @@ async function getTour(slug) {
 }
 
 export async function generateMetadata({ params }) {
-  const tour = await getTour(params.slug);
+  const { slug } = await params;
+  const tour = await getTour(slug);
 
   return {
     title: `Travels in Mongolia - ${tour.name}`,
@@ -31,6 +32,7 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function Page({ params }) {
-  const tour = await getTour(params.slug);
+  const { slug } = await params;
+  const tour = await getTour(slug);
   return <TourPage tour={tour} />;
 }
