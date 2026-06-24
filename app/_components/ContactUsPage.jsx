@@ -49,7 +49,7 @@ const ContactUs = () => {
                                             </li>
                                             <li className="main-list">
                                                 <i className="icons fa fa-envelope-o"></i>
-                                                <button className="link">info@travelsinmongolia.com</button>
+                                                <button className="link">info@sunpath-mongolia.com</button>
                                             </li>
                                         </ul>
                                     </div>
@@ -76,7 +76,7 @@ const ContactUs = () => {
                                             </li>
                                             <li className="main-list">
                                                 <i className="icons fa fa-envelope-o"></i>
-                                                <button className="link">info@travelsinmongolia.com</button>
+                                                <button className="link">info@sunpath-mongolia.com</button>
                                             </li>
                                         </ul>
                                     </div>
@@ -103,7 +103,7 @@ const ContactUs = () => {
                                             </li>
                                             <li className="main-list">
                                                 <i className="icons fa fa-envelope-o"></i>
-                                                <button className="link">info@travelsinmongolia.com</button>
+                                                <button className="link">info@sunpath-mongolia.com</button>
                                             </li>
                                         </ul>
                                     </div>

@@ -56,7 +56,7 @@ export default function WhoWeAre() {
                   Explore tours
                 </button>
               </Link>
-              <a href="mailto:info@travelsinmongolia.com" className="btn">
+              <a href="mailto:info@sunpath-mongolia.com" className="btn">
                 Contact us
               </a>
             </div>

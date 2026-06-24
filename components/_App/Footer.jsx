@@ -20,7 +20,7 @@ export default function Footer() {
                                             </li>
                                             <li>
                                                 <i className="icons fa fa-envelope-o"></i>
-                                                <a href="mailto:info@travelsinmongolia.com" className="link">info@travelsinmongolia.com</a>
+                                                <a href="mailto:info@sunpath-mongolia.com" className="link">info@sunpath-mongolia.com</a>
                                             </li>
                                         </ul>
                                     </div>

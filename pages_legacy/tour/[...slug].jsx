@@ -238,13 +238,13 @@ const Tour = ({ tour }) => {
                                         <div className="col-sm-4 col-xs-4 col-contact">
                                             <div className="media contact-list-media">
                                                 <div className="media-left">
-                                                    <a href="mailto:info@travelsinmongolia.com" className="icons">
+                                                    <a href="mailto:info@sunpath-mongolia.com" className="icons">
                                                         <i className="fa fa-envelope-o"></i>
                                                     </a>
                                                 </div>
                                                 <div className="media-right">
-                                                    <a href="mailto:info@travelsinmongolia.com" className="title">Email</a>
-                                                    <p className="text">info@travelsinmongolia.com</p>
+                                                    <a href="mailto:info@sunpath-mongolia.com" className="title">Email</a>
+                                                    <p className="text">info@sunpath-mongolia.com</p>
                                                 </div>
                                             </div>
                                         </div>

@@ -110,7 +110,7 @@ export default function GroupTourCard({ tour }) {
         >
             <Booking name={tour.name} isSingleTourPage={false} close={hideBooking} success={redirectToSuccess} />
         </Modal >}
-        {isSmall && <ReactCardFlip isFlipped={bookingShown} flipDirection="vertical">
+        {isSmall && <ReactCardFlip isFlipped={bookingShown} flipDirection="vertical" cardStyles={{ front: {}, back: {} }}>
             <div>{elements}</div>
             <Booking name={tour.name} isSingleTourPage={false} close={hideBooking} success={redirectToSuccess} />
         </ReactCardFlip>}

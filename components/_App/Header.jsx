@@ -43,8 +43,8 @@ export default function Header({ sticky }) {
                 <i className="fa fa-phone fa-fw"></i>+976 99277699</a>
             </li>
             <li>
-              <a href="mailto:info@travelsinmongolia.com">
-                <i className="fa fa-envelope fa-fw"></i>info@travelsinmongolia.com
+              <a href="mailto:info@sunpath-mongolia.com">
+                <i className="fa fa-envelope fa-fw"></i>info@sunpath-mongolia.com
               </a>
             </li>
             <li>
@@ -96,11 +96,11 @@ export default function Header({ sticky }) {
                     <span className="text">travel tools</span>
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="https://payments.travelsinmongolia.com" className="main-menu">
                     <span className="text">online payment</span>
                   </a>
-                </li>
+                </li> */}
                 <li className={pathname === '/contact-us' ? "active" : null}>
                   <a href="/contact-us" className="main-menu">
                     <span className="text">contact us</span>

@@ -26,12 +26,12 @@ export default function DropdownNavItem() {
                 <i className="fa fa-angle-down"></i>
             </span>
         </button>
-        <ul className="dropdown-menu dropdown-menu-1">
+        {/* <ul className="dropdown-menu dropdown-menu-1">
             <li>
                 <a href="https://payments.travelsinmongolia.com" className="link-page">
                     online payment
                 </a>
             </li>
-        </ul>
+        </ul> */}
     </li>
 }

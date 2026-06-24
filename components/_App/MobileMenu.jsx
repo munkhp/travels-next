@@ -37,11 +37,11 @@ export default function MobileMenu() {
                             <span className="text">travel tools</span>
                         </a>
                     </li>
-                    <li>
+                    {/* <li>
                         <a href="https://payments.travelsinmongolia.com" className="main-menu">
                             <span className="text">online payment</span>
                         </a>
-                    </li>
+                    </li> */}
                     <li className={pathname === '/contact-us' ? "active" : null}>
                         <a href="/contact-us" className="main-menu">
                             <span className="text">contact us</span>
