@@ -1,0 +1,894 @@
+[
+ {
+  "_id": "6277b1dc7611e91c088dfca5",
+  "mediaUrls": [
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652011480/travels/ltxmcysp8rbjwzrmd5kr.jpg",
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652011480/travels/y6rxk5du2efgqlcbtgwb.jpg",
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652011481/travels/xnjlrndfumt8edevg7pc.jpg",
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652011482/travels/abzlw8mflltgdqburxfp.jpg",
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652011482/travels/zbn1y0amzc1bpdyzeifv.jpg",
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652011483/travels/oyimb8t6a0w65hw5xbpm.jpg",
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652285996/travels/g62glfajndslhlvngtai.jpg"
+  ],
+  "reasons": [
+   "Explore the crystal water lake",
+   "Ride Bactrian camels",
+   "Relax in the hot spa",
+   "Ride horses",
+   "Explore the first Buddhist center in Mongolia",
+   "Watch the starts at night",
+   "Experience the nomadic way of life",
+   "Discover UNESCO world heritage Orkhon valley"
+  ],
+  "itineraries": [
+   {
+    "_id": "62bdd21c73cc9f1b209207f0",
+    "label": "Day 01",
+    "itinerary": "627794e37611e91c088dfc60"
+   },
+   {
+    "_id": "62bdd21c73cc9f1b209207f1",
+    "label": "Day 02",
+    "itinerary": "627795657611e91c088dfc64"
+   },
+   {
+    "_id": "62bdd21c73cc9f1b209207f2",
+    "label": "Day 03",
+    "itinerary": "62779acf7611e91c088dfc78"
+   },
+   {
+    "_id": "62bdd21c73cc9f1b209207f3",
+    "label": "Day 04",
+    "itinerary": "62779e377611e91c088dfc83"
+   },
+   {
+    "_id": "62bdd21c73cc9f1b209207f4",
+    "label": "Day 05",
+    "itinerary": "62779f647611e91c088dfc8c"
+   },
+   {
+    "_id": "62bdd21c73cc9f1b209207f5",
+    "label": "Day 06",
+    "itinerary": "62779fd07611e91c088dfc90"
+   },
+   {
+    "_id": "62bdd21c73cc9f1b209207f6",
+    "label": "Day 07",
+    "itinerary": "6277a0407611e91c088dfc96"
+   }
+  ],
+  "name": "Classic Central Tour",
+  "summary": "Central Mongolian tour offers you breathtaking scenery and historical destinations. In addition to seeing forested mountains and mountainous meadows, you will visit Ulaantsutgalan waterfall and Terkh lakes, which are formed due to volcanic eruptions. You will ride horses in the vast grassland and feel the spirit of Mongolian nomadic living. ",
+  "mediaUrl": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652011479/travels/xl2l4fsbhrgciowglth0.jpg",
+  "destination": "6277a2b47611e91c088dfc9c",
+  "duration": 7,
+  "prices": [
+   {
+    "_id": "6277b1dc7611e91c088dfca6",
+    "label": "1pax",
+    "amount": 2220
+   },
+   {
+    "_id": "6277b1dc7611e91c088dfca7",
+    "label": "2pax",
+    "amount": 1335
+   },
+   {
+    "_id": "6277c2d21d5c7c729fa6bfe4",
+    "label": "3-4pax",
+    "amount": 1035
+   }
+  ],
+  "schedules": [
+   {
+    "_id": "628cced10a0cff2159a8c62d",
+    "start": "June 20th",
+    "end": "June 26th"
+   },
+   {
+    "_id": "628cced10a0cff2159a8c62e",
+    "start": "July 5th",
+    "end": "July 11th"
+   },
+   {
+    "_id": "628cced10a0cff2159a8c62f",
+    "start": "Aug 8th",
+    "end": "Aug 14th"
+   },
+   {
+    "_id": "628cced10a0cff2159a8c630",
+    "start": "Sep 9th ",
+    "end": "Sep 15th"
+   }
+  ],
+  "supplement": 140,
+  "group": true,
+  "groupPrice": 950,
+  "path": "central-mongolia/classic-central-mongolia-tour/",
+  "slug": "classic-central-mongolia-tour"
+ },
+ {
+  "_id": "6278850ca388b9142576fb6d",
+  "mediaUrls": [
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652065540/travels/khzhs44ydvlurwichwhv.jpg",
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652065541/travels/bc9ydcln01najkpkdnx3.jpg",
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652065542/travels/wth7yemqbhl25kazv9as.jpg",
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652065543/travels/wbgk5a2kumjge5jc9wkj.jpg",
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652065544/travels/r0bikjczqivun7tbmhkv.jpg",
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652065545/travels/fmihx3sjwuaxgy8cmv2s.jpg",
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652065546/travels/cc8ikzj2ba522zvxf9x3.jpg",
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652065547/travels/x8729vtomnbpdskoefdx.jpg"
+  ],
+  "groupAvailable": false,
+  "reasons": [
+   "Explore Kharkhorum",
+   "Have adventurous horse riding",
+   "Experience the nomadic way of life",
+   "Discover the crystal blue water lakes",
+   "Relax in the hot spa",
+   "Hike to inactive volcanoes",
+   "Visit ancient temples"
+  ],
+  "name": "Khuvsgul Lake Tour",
+  "summary": " We offer you a truly relaxing and adventurous trip to the shores of Lake Khuvsgul, one of the 17 oldest lakes on the planet. On top of that, discover the Khorgo volcanic crater and Terkh White lake which was formed by the volcanic eruption. You will also visit Kharkhorum, ancient capital city of Mongolian Empire. ",
+  "mediaUrl": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652065538/travels/juvkefc5cu6mduwssiqd.jpg",
+  "itineraries": [
+   {
+    "_id": "62bdd41a73cc9f1b20920842",
+    "label": "Day 01",
+    "itinerary": "6277ce2f7611e91c088dfcae"
+   },
+   {
+    "_id": "62bdd41a73cc9f1b20920843",
+    "label": "Day 2-3",
+    "itinerary": "62786e11c704290b211cf9e8"
+   },
+   {
+    "_id": "62bdd41a73cc9f1b20920844",
+    "label": "Day 04",
+    "itinerary": "62779e377611e91c088dfc83"
+   },
+   {
+    "_id": "62bdd41a73cc9f1b20920845",
+    "label": "Day 05",
+    "itinerary": "62779f647611e91c088dfc8c"
+   },
+   {
+    "_id": "62bdd41a73cc9f1b20920846",
+    "label": "Day 06",
+    "itinerary": "62779acf7611e91c088dfc78"
+   },
+   {
+    "_id": "62bdd41a73cc9f1b20920847",
+    "label": "Day 07",
+    "itinerary": "62779fd07611e91c088dfc90"
+   },
+   {
+    "_id": "62bdd41a73cc9f1b20920848",
+    "label": "Day 07",
+    "itinerary": "627794e37611e91c088dfc60"
+   },
+   {
+    "_id": "62bdd41a73cc9f1b20920849",
+    "label": "Day 08",
+    "itinerary": "62788117a388b9142576fb65"
+   }
+  ],
+  "destination": "627872f8c704290b211cf9f0",
+  "duration": 8,
+  "prices": [
+   {
+    "_id": "6278850ca388b9142576fb76",
+    "label": "1pax",
+    "amount": 2545
+   },
+   {
+    "_id": "6278850ca388b9142576fb77",
+    "label": "2pax",
+    "amount": 1520
+   },
+   {
+    "_id": "6278850ca388b9142576fb78",
+    "label": "3-4pax",
+    "amount": 1200
+   }
+  ],
+  "schedules": [
+   {
+    "_id": "6278850ca388b9142576fb79",
+    "start": "June 13th",
+    "end": "June 20th"
+   },
+   {
+    "_id": "628cce3e0a0cff2159a8c617",
+    "start": "July 18th",
+    "end": "July 25th"
+   },
+   {
+    "_id": "628cce3e0a0cff2159a8c618",
+    "start": "Aug 15th",
+    "end": "Aug 22nd"
+   },
+   {
+    "_id": "628cce3e0a0cff2159a8c619",
+    "start": "Sep 5th",
+    "end": "Sep 12th"
+   }
+  ],
+  "supplement": 160,
+  "group": true,
+  "groupPrice": 1120,
+  "path": "northern-mongolia/khuvsgul-lake-tour/",
+  "slug": "khuvsgul-lake-tour"
+ },
+ {
+  "_id": "6278a5eaa388b9142576fba0",
+  "mediaUrls": [
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652073955/travels/ejvwsgyrdhpezz2kemlc.jpg",
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652073956/travels/glgyua02abig2lsasuq5.jpg",
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652073957/travels/mgw4bgqplgcgneqojrc6.jpg",
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652073958/travels/lcwpwqpkbhjz6o4xnszc.jpg",
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652073958/travels/zzuerfmu5zrr9jpvxwph.jpg",
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652073959/travels/awy49y38qrs4jbgmsx3d.jpg",
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652073961/travels/mpwxyqhudbpdvfnhsl1o.jpg",
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652073961/travels/fnlmpabe9v4km1hicjcw.jpg",
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652073962/travels/wpwn9sqr9qej0qxgatut.jpg"
+  ],
+  "groupAvailable": false,
+  "reasons": [
+   "Explore Kharkhorum",
+   "Have adventurous horse riding",
+   "Experience the nomadic way of life",
+   "Discover the crystal blue water lakes",
+   "Relax in the hot spa",
+   "Hike to inactive volcanos",
+   "Visit ancient temples"
+  ],
+  "name": "Central & Khuvsgul Lake",
+  "summary": "Explore the Central Mongolian picturesque lakes, forested mountains as well as volcanic craters and Khuvsgul lake known as Blue Pearl. You will visit Amarbayasgalant and Erdene Zuu monasteries which have historical significances. Enjoy the spectacular views of endless grassland, and forested mountains and relax at Tsenkher hot spring. ",
+  "mediaUrl": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652073954/travels/tzuli2zklxeiii2roq6n.jpg",
+  "itineraries": [
+   {
+    "_id": "62bdd7c873cc9f1b20920891",
+    "label": "Day 01",
+    "itinerary": "62789b13a388b9142576fb86"
+   },
+   {
+    "_id": "62bdd7c873cc9f1b20920892",
+    "label": "Day 02",
+    "itinerary": "6277ce2f7611e91c088dfcae"
+   },
+   {
+    "_id": "62bdd7c873cc9f1b20920893",
+    "label": "Day 03",
+    "itinerary": "62786e11c704290b211cf9e8"
+   },
+   {
+    "_id": "62bdd7c873cc9f1b20920894",
+    "label": "Day 04",
+    "itinerary": "627794e37611e91c088dfc60"
+   },
+   {
+    "_id": "62bdd7c873cc9f1b20920895",
+    "label": "Day 05",
+    "itinerary": "6277d0d57611e91c088dfcb5"
+   },
+   {
+    "_id": "62bdd7c873cc9f1b20920896",
+    "label": "Day 06",
+    "itinerary": "62779e377611e91c088dfc83"
+   },
+   {
+    "_id": "62bdd7c873cc9f1b20920897",
+    "label": "Day 07",
+    "itinerary": "62779f647611e91c088dfc8c"
+   },
+   {
+    "_id": "62bdd7c873cc9f1b20920898",
+    "label": "Day 08",
+    "itinerary": "62779acf7611e91c088dfc78"
+   },
+   {
+    "_id": "62bdd7c873cc9f1b20920899",
+    "label": "Day 09",
+    "itinerary": "62779fd07611e91c088dfc90"
+   },
+   {
+    "_id": "62bdd7c873cc9f1b2092089a",
+    "label": "Day 10",
+    "itinerary": "627794e37611e91c088dfc60"
+   },
+   {
+    "_id": "62bdd7c873cc9f1b2092089b",
+    "label": "Day 11",
+    "itinerary": "62789dcda388b9142576fb99"
+   },
+   {
+    "_id": "62bdd7c873cc9f1b2092089c",
+    "label": "Day 12",
+    "itinerary": "62788117a388b9142576fb65"
+   }
+  ],
+  "destination": "62789a15a388b9142576fb7f",
+  "duration": 12,
+  "prices": [
+   {
+    "_id": "6278a5eba388b9142576fbad",
+    "label": "2pax",
+    "amount": 2270
+   },
+   {
+    "_id": "628cd0bd0a0cff2159a8c697",
+    "label": "3pax",
+    "amount": 1920
+   },
+   {
+    "_id": "628cd0bd0a0cff2159a8c698",
+    "label": "4pax",
+    "amount": 1740
+   }
+  ],
+  "schedules": [
+   {
+    "_id": "6278a5eba388b9142576fbae",
+    "start": "June 6th",
+    "end": "June 17th"
+   },
+   {
+    "_id": "628ccdde0a0cff2159a8c5fe",
+    "start": "July 13th",
+    "end": "July 24th"
+   },
+   {
+    "_id": "628ccdde0a0cff2159a8c5ff",
+    "start": "Aug 3rd",
+    "end": "Aug 14th"
+   },
+   {
+    "_id": "628ccdde0a0cff2159a8c600",
+    "start": "Sep 4th",
+    "end": "Sep 25th"
+   }
+  ],
+  "supplement": 240,
+  "group": true,
+  "groupPrice": 1620,
+  "path": "central-northern-mongolia/central-khuvsgul-lake-tour/",
+  "slug": "central-khuvsgul-lake-tour"
+ },
+ {
+  "_id": "6278cb9c9d4568284419c81a",
+  "mediaUrls": [
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652083608/travels/ekd4g7srfyqmjyz1ys48.jpg",
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652083608/travels/jva9087adthynfyqle4s.jpg",
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652083609/travels/pztbovhkn7ewqk038kv8.jpg",
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652083610/travels/o0gqjt4u740fgznhb9ls.jpg",
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652083611/travels/klv4kslja0eqa4xztynj.jpg",
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652083612/travels/gpm4ptfrfbsjb1nrpgtz.jpg"
+  ],
+  "group": true,
+  "reasons": [
+   "Explore the ancient capital city",
+   "Ride Bactrian camels",
+   "Feel relaxing the beautiful field",
+   "Ride Mongolian horses",
+   "Explore the first Buddhist center in Mongolia",
+   "Watch the stars at night",
+   "Experience the nomadic way of life",
+   "Discover the last wild horses in the world"
+  ],
+  "name": "Terelj & Hustai Tour",
+  "summary": "This short tour of 4 days gives you a snapshot of Mongolia. You will trek in the scenic Terelj National Park to a meditation temple and see a 40 meters tall statue of Chingis Khan. And of course a bit of a history lesson at Mongolian ancient capital city, Kharkhorin and see the last wild horses in the world. ",
+  "mediaUrl": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652083607/travels/xms4lvaowmbxapbzqsqs.jpg",
+  "itineraries": [
+   {
+    "_id": "62bdd94473cc9f1b209208e9",
+    "label": "Day 01",
+    "itinerary": "627794e37611e91c088dfc60"
+   },
+   {
+    "_id": "62bdd94473cc9f1b209208ea",
+    "label": "Day 02",
+    "itinerary": "62779fd07611e91c088dfc90"
+   },
+   {
+    "_id": "62bdd94473cc9f1b209208eb",
+    "label": "Day 03",
+    "itinerary": "6278c49b9d4568284419c7f3"
+   },
+   {
+    "_id": "62bdd94473cc9f1b209208ec",
+    "label": "Day 04",
+    "itinerary": "6278c9f99d4568284419c80c"
+   }
+  ],
+  "destination": "6278c70b9d4568284419c803",
+  "duration": 4,
+  "prices": [
+   {
+    "_id": "6278cb9c9d4568284419c81f",
+    "label": "2pax",
+    "amount": 760
+   },
+   {
+    "_id": "6278cb9c9d4568284419c820",
+    "label": "3-4pax",
+    "amount": 580
+   },
+   {
+    "_id": "6278cb9c9d4568284419c821",
+    "label": "5pax",
+    "amount": 510
+   }
+  ],
+  "schedules": [
+   {
+    "_id": "6278cb9c9d4568284419c822",
+    "start": "June 1st",
+    "end": "June 4th"
+   },
+   {
+    "_id": "628ccd3b0a0cff2159a8c5e3",
+    "start": "July 6th",
+    "end": "July 9th"
+   },
+   {
+    "_id": "628ccd3b0a0cff2159a8c5e4",
+    "start": "Aug 5th",
+    "end": "Aug 8th"
+   },
+   {
+    "_id": "628ccd3b0a0cff2159a8c5e5",
+    "start": "Sep 9th",
+    "end": " Sep 12th"
+   }
+  ],
+  "supplement": 80,
+  "groupPrice": 470,
+  "path": "around-ulaanbaatar/terelj-hustai-tour/",
+  "slug": "terelj-hustai-tour"
+ },
+ {
+  "_id": "6278f2339d4568284419c89c",
+  "mediaUrls": [
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652093488/travels/ipmp6sczbeb3nyyf8ieu.jpg",
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652093488/travels/nqftmvrhdxerjzcrjimm.jpg",
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652093489/travels/iyvahahxk2yigeodwnyz.jpg",
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652093490/travels/aimemu1imbvw0sjegnvb.jpg",
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652093490/travels/k27utvqcxovxutk68mjo.jpg"
+  ],
+  "group": true,
+  "reasons": [
+   "The coldest desert in the world",
+   "Home of Bactrian camels",
+   "Birth place of dinosaurs",
+   "Combination of different beautiful landscapes",
+   "The largest desert in Asia",
+   "Only 5% of the total area are sand dunes",
+   "Rich in natural resources"
+  ],
+  "name": "Gobi and Kharkhorin Tour",
+  "summary": "Mongolian Gobi is famous for its unique landscape and of course Dinosaurs! As you drive through the vast steppes of the Gobi, you see a change of scenery every day. One day you are walking through a gorge full of ice, and the next day you are on a 200 meters sand dune. Over and above that, you will visit museums and Buddhist temples which aids you to understand the richness of Mongolian history and culture.  ",
+  "mediaUrl": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652093486/travels/iibpknxy2tsucbekxyor.jpg",
+  "itineraries": [
+   {
+    "_id": "62bddbe673cc9f1b2092091f",
+    "label": "Day 01",
+    "itinerary": "6278cee69d4568284419c82d"
+   },
+   {
+    "_id": "62bddbe673cc9f1b20920920",
+    "label": "Day 02",
+    "itinerary": "6278cf3f9d4568284419c82f"
+   },
+   {
+    "_id": "62bddbe673cc9f1b20920921",
+    "label": "Day 03",
+    "itinerary": "6278cfb19d4568284419c833"
+   },
+   {
+    "_id": "62bddbe673cc9f1b20920922",
+    "label": "Day 04",
+    "itinerary": "6278d0fc9d4568284419c83c"
+   },
+   {
+    "_id": "62bddbe673cc9f1b20920923",
+    "label": "Day 05",
+    "itinerary": "6278d22c9d4568284419c840"
+   },
+   {
+    "_id": "62bddbe673cc9f1b20920924",
+    "label": "Day 06",
+    "itinerary": "62779fd07611e91c088dfc90"
+   },
+   {
+    "_id": "62bddbe673cc9f1b20920925",
+    "label": "Day 07",
+    "itinerary": "627794e37611e91c088dfc60"
+   },
+   {
+    "_id": "62bddbe673cc9f1b20920926",
+    "label": "Day 08",
+    "itinerary": "62788117a388b9142576fb65"
+   }
+  ],
+  "destination": "625903500b5e4d09b3261adb",
+  "duration": 8,
+  "prices": [
+   {
+    "_id": "6278f2339d4568284419c8a5",
+    "label": "Pax 1",
+    "amount": 1500
+   }
+  ],
+  "schedules": [
+   {
+    "_id": "6278f2339d4568284419c8a6",
+    "start": "June 15th",
+    "end": "June 22th"
+   },
+   {
+    "_id": "628ccc4c0a0cff2159a8c5cb",
+    "start": "July 13th",
+    "end": "July 20th"
+   },
+   {
+    "_id": "628ccc4c0a0cff2159a8c5cc",
+    "start": "Aug 10th",
+    "end": "Aug 17th"
+   },
+   {
+    "_id": "628ccc4c0a0cff2159a8c5cd",
+    "start": "Sep 14th",
+    "end": "Sep 21th"
+   }
+  ],
+  "supplement": 160,
+  "groupPrice": 1120,
+  "path": "gobi-central-mongolia/gobi-kharkhorin-tour/",
+  "slug": "gobi-kharkhorin-tour"
+ },
+ {
+  "_id": "6278fcdd9d4568284419c8ab",
+  "mediaUrls": [
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652096216/travels/pkviyv1rxaxvbih2vap5.jpg",
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652096217/travels/s597jcdwn2nty8lbk72i.jpg",
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652096218/travels/ksauynjckzfowjfzjfcv.jpg",
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652096219/travels/gmykwoq0uexuhrpmtnnf.jpg",
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652096220/travels/s554uytu8hfedzfljkhl.jpg",
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652096220/travels/xy4kg3vdjlmaxicedivb.jpg"
+  ],
+  "group": true,
+  "reasons": [
+   "Visit to the coldest desert in the world",
+   "Ride Bactrian camels",
+   "Explore Orkhon Valley UNESCO world heritage",
+   "Experience nomadic way of life",
+   "Discover the crystal blue water lakes",
+   "Relaxing in the hot spa",
+   "Hike to inactive volcano",
+   "Visit ancient temples"
+  ],
+  "name": "Gobi & Central Tour",
+  "summary": "This tour gives you a complete image of Mongolia. In addition to exploring the unique Gobi desert, you will visit Orkhon Valley which is recognized as UNESCO World Cultural Heritage. Enjoy the spectacular views of endless plain, sand dunes, grassland, and forested mountains and relax at Tsenkher hot spring. ",
+  "mediaUrl": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652096216/travels/n2imakb5k5cpfyyc1g1p.jpg",
+  "itineraries": [
+   {
+    "_id": "62bdddcd73cc9f1b20920956",
+    "label": "Day 01",
+    "itinerary": "6278cee69d4568284419c82d"
+   },
+   {
+    "_id": "62bdddcd73cc9f1b20920957",
+    "label": "Day 02",
+    "itinerary": "6278cf3f9d4568284419c82f"
+   },
+   {
+    "_id": "62bdddcd73cc9f1b20920958",
+    "label": "Day 03",
+    "itinerary": "6278cfb19d4568284419c833"
+   },
+   {
+    "_id": "62bdddcd73cc9f1b20920959",
+    "label": "Day 04",
+    "itinerary": "6278d0fc9d4568284419c83c"
+   },
+   {
+    "_id": "62bdddcd73cc9f1b2092095a",
+    "label": "Day 05",
+    "itinerary": "6278d22c9d4568284419c840"
+   },
+   {
+    "_id": "62bdddcd73cc9f1b2092095b",
+    "label": "Day 6-7",
+    "itinerary": "627795657611e91c088dfc64"
+   },
+   {
+    "_id": "62bdddcd73cc9f1b2092095c",
+    "label": "Day 8",
+    "itinerary": "62779acf7611e91c088dfc78"
+   },
+   {
+    "_id": "62bdddcd73cc9f1b2092095d",
+    "label": "Day 9",
+    "itinerary": "62779fd07611e91c088dfc90"
+   },
+   {
+    "_id": "62bdddcd73cc9f1b2092095e",
+    "label": "Day 10",
+    "itinerary": "627794e37611e91c088dfc60"
+   },
+   {
+    "_id": "62bdddcd73cc9f1b2092095f",
+    "label": "Day 11",
+    "itinerary": "62788117a388b9142576fb65"
+   }
+  ],
+  "destination": "625903500b5e4d09b3261adb",
+  "duration": 11,
+  "prices": [
+   {
+    "_id": "628ccad20a0cff2159a8c59a",
+    "label": "2 pax",
+    "amount": 1895
+   },
+   {
+    "_id": "628ccad20a0cff2159a8c59b",
+    "label": "3 pax",
+    "amount": 1520
+   },
+   {
+    "_id": "628ccad20a0cff2159a8c59c",
+    "label": "4 pax",
+    "amount": 1400
+   }
+  ],
+  "schedules": [
+   {
+    "_id": "6278fcdd9d4568284419c8b6",
+    "start": "May 10th",
+    "end": "October 5th"
+   }
+  ],
+  "supplement": 220,
+  "groupPrice": 1280,
+  "path": "gobi-central-mongolia/gobi-central-tour/",
+  "slug": "gobi-central-tour"
+ },
+ {
+  "_id": "627908239d4568284419c8bb",
+  "mediaUrls": [
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652099103/travels/lju9z0usig5nthl5yyem.jpg",
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652099104/travels/hpuf5gwn0ipq8nu2i1a8.jpg",
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652099104/travels/bb5ytcfltoa5tlq3qlby.jpg",
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652099105/travels/zpqhjtc8djde9obl8zww.jpg",
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652099106/travels/ysuznttz90fvdyr0qmgl.jpg",
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652099108/travels/ydm0yjr3nuh7qv8te49e.jpg"
+  ],
+  "group": true,
+  "reasons": [
+   "The coldest desert in the world",
+   "Home of Bactrian camels",
+   "Birth place of dinosaurs",
+   "Combination of different beautiful landscapes",
+   "The largest desert in Asia",
+   "Only 5% of the total area are sand dunes",
+   "Terelj is one of the great places for hiking",
+   "Ride horses",
+   "Visit the Kharkhorum"
+  ],
+  "name": "Gobi & Terelj Tour",
+  "summary": "Drive through the vast steppes of Gobi, visit ice gorge in Gobi 3 beauties, the stunning Khongor sand dunes, once a home to dinosaurs - Flaming cliffs. End your tour with scenic walk to Aryapala meditation temple and giant Chingis statue at Terelj National Park. ",
+  "mediaUrl": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1653403798/travels/r1ek6fcbi1txy3ghx6zn.jpg",
+  "itineraries": [
+   {
+    "_id": "62bdddeb73cc9f1b2092096f",
+    "label": "Day 01",
+    "itinerary": "6278cf3f9d4568284419c82f"
+   },
+   {
+    "_id": "62bdddeb73cc9f1b20920970",
+    "label": "Day 02",
+    "itinerary": "6278cfb19d4568284419c833"
+   },
+   {
+    "_id": "62bdddeb73cc9f1b20920971",
+    "label": "Day 03",
+    "itinerary": "6278d0fc9d4568284419c83c"
+   },
+   {
+    "_id": "62bdddeb73cc9f1b20920972",
+    "label": "Day 03",
+    "itinerary": "6278d22c9d4568284419c840"
+   },
+   {
+    "_id": "62bdddeb73cc9f1b20920973",
+    "label": "Day 04",
+    "itinerary": "627794e37611e91c088dfc60"
+   },
+   {
+    "_id": "62bdddeb73cc9f1b20920974",
+    "label": "Day 05",
+    "itinerary": "6278e0219d4568284419c84a"
+   },
+   {
+    "_id": "62bdddeb73cc9f1b20920975",
+    "label": "Day 06",
+    "itinerary": "6278c9f99d4568284419c80c"
+   }
+  ],
+  "destination": "625903500b5e4d09b3261adb",
+  "duration": 6,
+  "prices": [
+   {
+    "_id": "627908239d4568284419c8c3",
+    "label": "2pax",
+    "amount": 1360
+   },
+   {
+    "_id": "627908239d4568284419c8c4",
+    "label": "3pax",
+    "amount": 1160
+   },
+   {
+    "_id": "627908239d4568284419c8c5",
+    "label": "4pax",
+    "amount": 1120
+   }
+  ],
+  "schedules": [
+   {
+    "_id": "627908239d4568284419c8c6",
+    "start": "June 20th",
+    "end": "June 25th"
+   },
+   {
+    "_id": "628ccbbc0a0cff2159a8c5b5",
+    "start": "July 18th",
+    "end": "July 23th"
+   },
+   {
+    "_id": "628ccbbc0a0cff2159a8c5b6",
+    "start": "Aug 10th",
+    "end": "Aug 15th"
+   },
+   {
+    "_id": "628ccbbc0a0cff2159a8c5b7",
+    "start": "Sep 12th",
+    "end": "Sep 17th"
+   }
+  ],
+  "supplement": 120,
+  "groupPrice": 840,
+  "path": "gobi-around-ulaanbaatar/gobi-terelj-tour/",
+  "slug": "gobi-terelj-tour"
+ },
+ {
+  "_id": "628cdcfc0a0cff2159a8c747",
+  "mediaUrls": [
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1653398779/travels/cxzpai6yyrc4uknnra23.jpg"
+  ],
+  "group": false,
+  "reasons": [
+   "Opening Ceremony with Parade",
+   "Eagle competition- Fly the eagle from on top of the hill to catch the bait for the whole day, depending on the number of Eagle masters.",
+   "Mongolian archery",
+   "Camel race Award giving ceremony",
+   "Picking up a coin mid-gallop"
+  ],
+  "name": "Golden Eagle Festival Tour",
+  "summary": "Attend the Golden Eagle Festival that has been organized since 1999 to meet the eagle hunters and experience the Kazakh Culture on this tour. You will visit Tsambagarav Mountain National Park and meet Eagle hunter family.",
+  "mediaUrl": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1653398777/travels/swckxyvgemd32nd5gztr.jpg",
+  "itineraries": [
+   {
+    "_id": "62be747eb5389910b37e986d",
+    "label": "Day 01",
+    "itinerary": "628cd4760a0cff2159a8c6dd"
+   },
+   {
+    "_id": "62be747eb5389910b37e986e",
+    "label": "Day 2-3",
+    "itinerary": "628cd6050a0cff2159a8c6f8"
+   },
+   {
+    "_id": "62be747eb5389910b37e986f",
+    "label": "Day 04",
+    "itinerary": "628cd7fa0a0cff2159a8c722"
+   },
+   {
+    "_id": "62be747eb5389910b37e9870",
+    "label": "Day 05",
+    "itinerary": "62be7465b5389910b37e9863"
+   }
+  ],
+  "destination": "628ce7cc0a0cff2159a8c78d",
+  "duration": 5,
+  "prices": [
+   {
+    "_id": "628cdcfc0a0cff2159a8c74b",
+    "label": "2pax",
+    "amount": 2200
+   }
+  ],
+  "schedules": [],
+  "supplement": 0,
+  "groupPrice": null,
+  "path": "western-mongolia/golden-eagle-festival-tour/",
+  "slug": "golden-eagle-festival-tour"
+ },
+ {
+  "_id": "62be80f6b5389910b37e988b",
+  "mediaUrls": [
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1656652021/travels/i2mssw5he5qvj0nt9wnv.jpg",
+   "https://res.cloudinary.com/dmyps1mg3/image/upload/v1656652022/travels/zej0ymasqyrspnw3yh75.jpg"
+  ],
+  "group": true,
+  "reasons": [
+   "Longest and highest mountain range in Mongolia",
+   "Secret life of Eagle hunters",
+   "Explore Altai National Park",
+   "Visit Kazakh family",
+   "Golden Eagle festival",
+   "Highest peak in Mongolia"
+  ],
+  "name": "Altai Mountain Tour",
+  "summary": "Altai is the longest and highest mountain range in Mongolia. Average height is 2600-2800 meters above the sea level. The highest peak is Khuiten which is 4374 meters above the sea level. There are 5 high peaks Nairamdal, Burged, Khuiten,Malchin and Naran. All peaks are more than 4000 meters high. In the Altai Mountain there are three glaciers. Russians discovered all those. This tour offers you to enjoy beautiful western Mongolia.",
+  "mediaUrl": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1656652021/travels/gcfynyyatjof2bq5krpo.jpg",
+  "itineraries": [
+   {
+    "_id": "634787d03f6ab3156b40c628",
+    "label": "Day 01",
+    "itinerary": "628cd4760a0cff2159a8c6dd"
+   },
+   {
+    "_id": "634787d03f6ab3156b40c629",
+    "label": "Day 02",
+    "itinerary": "628ce5ba0a0cff2159a8c771"
+   },
+   {
+    "_id": "634787d03f6ab3156b40c62a",
+    "label": "Day 3-4",
+    "itinerary": "628cd6050a0cff2159a8c6f8"
+   },
+   {
+    "_id": "634787d03f6ab3156b40c62b",
+    "label": "Day 5-7",
+    "itinerary": "628ce61b0a0cff2159a8c77a"
+   },
+   {
+    "_id": "634787d03f6ab3156b40c62c",
+    "label": "Day 08",
+    "itinerary": "628cd7fa0a0cff2159a8c722"
+   },
+   {
+    "_id": "634787d03f6ab3156b40c62d",
+    "label": "Day 09",
+    "itinerary": "62be7b58b5389910b37e9884"
+   },
+   {
+    "_id": "634787d03f6ab3156b40c62e",
+    "label": "Day 10",
+    "itinerary": "62be7465b5389910b37e9863"
+   }
+  ],
+  "destination": "628ce7cc0a0cff2159a8c78d",
+  "duration": 10,
+  "prices": [
+   {
+    "_id": "634198d16da3bdd328434a7c",
+    "label": "2pax",
+    "amount": 2930
+   },
+   {
+    "_id": "634198d16da3bdd328434a7d",
+    "label": "3-4pax",
+    "amount": 2830
+   }
+  ],
+  "schedules": [],
+  "supplement": 70,
+  "groupPrice": 2597,
+  "path": "western-mongolia/altai-mountain-tour/",
+  "slug": "altai-mountain-tour"
+ }
+]

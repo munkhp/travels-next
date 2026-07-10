@@ -1,0 +1,122 @@
+[
+ {
+  "_id": "627791d17611e91c088dfc4d",
+  "title": "Sightseeing",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652003280/travels/uxyol8g35yvyvebivj1i.png"
+ },
+ {
+  "_id": "6277925d7611e91c088dfc4f",
+  "title": "Walking",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652003420/travels/saiednoz0fpmbtzhsnwc.png"
+ },
+ {
+  "_id": "627792f07611e91c088dfc51",
+  "title": "Visiting Nomads",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652003568/travels/a8wz5w3nmnlqgjvnuoxl.png"
+ },
+ {
+  "_id": "627793227611e91c088dfc53",
+  "title": "Camel Riding",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652003617/travels/ebdbg5nzmyblw5johphn.png"
+ },
+ {
+  "_id": "6277934c7611e91c088dfc55",
+  "title": "Horse Riding",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652003660/travels/i0tt7xgcno6bc5pddzkb.png"
+ },
+ {
+  "_id": "627793687611e91c088dfc57",
+  "title": "Hiking",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652003688/travels/z1dkngyiljp9jmhpqtho.png"
+ },
+ {
+  "_id": "627793a97611e91c088dfc5b",
+  "title": "Photographing",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652003753/travels/ckx8iuoj3rtalsrodaam.png"
+ },
+ {
+  "_id": "627798847611e91c088dfc6d",
+  "title": "Swimming",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652004995/travels/wxabtusliznbsbbtstza.png"
+ },
+ {
+  "_id": "627799277611e91c088dfc6f",
+  "title": "Wet Sauna",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652005158/travels/ze5kdnkcj5iyhrhvpbrq.png"
+ },
+ {
+  "_id": "62779a637611e91c088dfc74",
+  "title": "Relaxing in the spa",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652005479/travels/ftt1jrp50i95p8qym2nc.png"
+ },
+ {
+  "_id": "62779cfe7611e91c088dfc7d",
+  "title": "Watching the Sunset",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652006141/travels/xmhg09sdeqm9zbonumdb.png"
+ },
+ {
+  "_id": "62779ee47611e91c088dfc86",
+  "title": "Picnic",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652006627/travels/w391v0ylx059gis6bav6.png"
+ },
+ {
+  "_id": "6277cf3b7611e91c088dfcb1",
+  "title": "Explore deer stone",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652019002/travels/ztyrishz2u9znjhrstib.png"
+ },
+ {
+  "_id": "62786bf0c704290b211cf9d7",
+  "title": "Reindeer riding",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652059119/travels/idyrrioztctiwv8vxexa.png"
+ },
+ {
+  "_id": "62786cd1c704290b211cf9e2",
+  "title": "Bicycling",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652059345/travels/oi8qzgipjsowjbu7zoez.png"
+ },
+ {
+  "_id": "62786d1dc704290b211cf9e4",
+  "title": "Boating",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652059420/travels/q2rmn2kpvkdqfu0bwj0f.png"
+ },
+ {
+  "_id": "62787998a388b9142576fb59",
+  "title": "Exploring temples",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652062615/travels/y5eydgvwzlaemqloxf2d.png"
+ },
+ {
+  "_id": "62789d05a388b9142576fb95",
+  "title": "Exploring wild horses",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652071684/travels/khtojywegncsjohb2et0.png"
+ },
+ {
+  "_id": "6278c5289d4568284419c7f8",
+  "title": "Meditation temple",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652081959/travels/jhb3j24s0jhel5qjhzrz.png"
+ },
+ {
+  "_id": "6278c5e29d4568284419c7fa",
+  "title": "Chinggis Khan statue",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652082145/travels/cdac7lran6oycrva1ku2.png"
+ },
+ {
+  "_id": "6278d0819d4568284419c836",
+  "title": "Ancient petroglyphs",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652084864/travels/s8kcducdizoyzejwxssv.png"
+ },
+ {
+  "_id": "627b351e6d411e8a032d1477",
+  "title": "Visiting Kazakh family",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1653396851/travels/bfy0fsj4t2wsrxgdaftg.png"
+ },
+ {
+  "_id": "628cd7000a0cff2159a8c70c",
+  "title": "Enjoying Eagle Festival",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1653397248/travels/yilyyec77468qlwfd58e.png"
+ },
+ {
+  "_id": "628cd88c0a0cff2159a8c727",
+  "title": "Explore Eagle Hunter Life",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1653397644/travels/rivmebc6cebxcwnnpmes.png"
+ }
+]

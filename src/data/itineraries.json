@@ -1,0 +1,447 @@
+[
+ {
+  "_id": "627794e37611e91c088dfc60",
+  "activities": [
+   "627791d17611e91c088dfc4d",
+   "6277925d7611e91c088dfc4f",
+   "627792f07611e91c088dfc51",
+   "627793227611e91c088dfc53"
+  ],
+  "meals": [
+   1,
+   2
+  ],
+  "title": "Khugnu Tarna natural reserve",
+  "description": "After breakfast, we head to Khugnu Khan natural reserve which is the border of Gobi desert and Central Mongolia. The park is a splendid mountain with extraordinary sand dunes about 80 kilometers. The scenery is spectacular combination of desert, picturesque mountain, river and green grassland.",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652004066/travels/ijwomsg8fwghwzq1ml55.jpg"
+ },
+ {
+  "_id": "627795657611e91c088dfc64",
+  "activities": [
+   "627791d17611e91c088dfc4d",
+   "6277925d7611e91c088dfc4f"
+  ],
+  "meals": [
+   2,
+   1,
+   0
+  ],
+  "title": "Orkhon Valley Ulaantsutgalan waterfall",
+  "description": "After breakfast, we drive to Orkhon Valley which is one of the most visited tourist attractions in Central Mongolia. It is formed by the unique combination of volcanic eruption and earthquake. We will pass by Uurt cliff on our way to the waterfall.  We take a walk to the Ulaantsutgalan waterfall.",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652004197/travels/gqkcbg1z27ydusiowzel.jpg"
+ },
+ {
+  "_id": "62779acf7611e91c088dfc78",
+  "activities": [
+   "627791d17611e91c088dfc4d",
+   "627798847611e91c088dfc6d",
+   "627799277611e91c088dfc6f",
+   "62779a637611e91c088dfc74"
+  ],
+  "meals": [
+   1,
+   2,
+   0
+  ],
+  "title": "Tsenkher hot spring",
+  "description": "After breakfast, we drive to the Tsenkher hot spring which is located in a beautiful forested mountain valley. The 86 degrees Celsius hot spring water has curing properties for arthritic joints and other ailments. Hot spring has high pressure for flowing 10 liters per second. We will relax at the hot spring in the afternoon.",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652005587/travels/afdvn6ithsbxmlcagp5c.jpg"
+ },
+ {
+  "_id": "62779e377611e91c088dfc83",
+  "activities": [
+   "627791d17611e91c088dfc4d",
+   "6277925d7611e91c088dfc4f",
+   "627798847611e91c088dfc6d",
+   "62779cfe7611e91c088dfc7d"
+  ],
+  "meals": [
+   2,
+   1,
+   0
+  ],
+  "title": "Terkh White Lake",
+  "description": "After breakfast, we drive to the Terkh White lake. This scenic freshwater lake is around 16km long, east to west, and around 4km to 6km wide, north to south. On average, it is about 20 meters deep, and 61 square kilometers in this area. The Lake is extremely beautiful with rich species of fish and birds. It is one of the nicest places for bird watching.",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652006454/travels/jznss7iun9bao0adx9zj.jpg"
+ },
+ {
+  "_id": "62779f647611e91c088dfc8c",
+  "activities": [
+   "627791d17611e91c088dfc4d",
+   "627793687611e91c088dfc57",
+   "6277925d7611e91c088dfc4f",
+   "62779ee47611e91c088dfc86"
+  ],
+  "meals": [
+   2,
+   1,
+   0
+  ],
+  "title": "Khorgo volcanic crater",
+  "description": "After breakfast, we start to hike volcanic crater. It is situated at an altitude of 2210 m, 200 m wide and 100 m deep. Near the crater there are dozens of small caverns with stalactites hanging from their ceiling and walls. Because of volcanic eruption, the nature has very unique formation.",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652006755/travels/yhpx5ox58jl7olzfi0xl.jpg"
+ },
+ {
+  "_id": "62779fd07611e91c088dfc90",
+  "activities": [
+   "627791d17611e91c088dfc4d",
+   "627793687611e91c088dfc57",
+   "6277925d7611e91c088dfc4f",
+   "62787998a388b9142576fb59"
+  ],
+  "meals": [
+   2,
+   1,
+   0
+  ],
+  "title": "Kharkhorum",
+  "description": "After breakfast, we drive to Karakorum which was one of the most important cities in the history of the Silk Road. Although founded by Genghis Khan in 1220, Karakorum\u2019s development as capital of the Mongol Empire occurred in the 1230s under his son Ugudei. We explore Erdene Zuu monastery which was built on the ruins of Karakorum in 1586. ",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652006864/travels/d1vfd4uids2upwushtmb.jpg"
+ },
+ {
+  "_id": "6277a0407611e91c088dfc96",
+  "activities": [
+   "627791d17611e91c088dfc4d",
+   "6277925d7611e91c088dfc4f",
+   "6277934c7611e91c088dfc55"
+  ],
+  "meals": [
+   0,
+   1
+  ],
+  "title": "Horse riding & Back to Ulaanbaatar",
+  "description": "On our last day of tour, we will ride the horses and visit Erdene Hamba monastery, which is situated in the Khugnu Khan mountain, then head back to Ulaanbaatar.",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652006976/travels/fqtdq84ntw0n4uypj1ds.jpg"
+ },
+ {
+  "_id": "6277ce2f7611e91c088dfcae",
+  "activities": [
+   "627791d17611e91c088dfc4d",
+   "6277925d7611e91c088dfc4f",
+   "627793687611e91c088dfc57"
+  ],
+  "meals": [
+   1,
+   2
+  ],
+  "title": "Uran togoo crater",
+  "description": "After breakfast, we drive to Uran togoo crater which was active around 20 thousand years ago. The crater is now transformed into beautiful forest and a small lake at the bottom. We will take a beautiful hike to the crater through the woods. ",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652018734/travels/dyn9s88ahgl4lzz96jdx.jpg"
+ },
+ {
+  "_id": "6277d0d57611e91c088dfcb5",
+  "activities": [
+   "627791d17611e91c088dfc4d",
+   "6277925d7611e91c088dfc4f",
+   "6277cf3b7611e91c088dfcb1"
+  ],
+  "meals": [
+   1,
+   2,
+   0,
+   1,
+   2
+  ],
+  "title": "Uushgiin uvur deer stone monuments",
+  "description": "After breakfast, we drive to the Uushgiin Uvur, which is located in southeastern sunny side of rock Uushig mountain 17km west from Murun, Huvsgul Aimag and about 3km from northern bank of Delger River in Burentogtokh Soum. You can find tombs, rectangular burials and 14 deer stones in a single area at the same time. This memorial contains the most clearly depicted deer stone in Mongolia.",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652019412/travels/gsdxdkwwm4cb5qnqxhxm.jpg"
+ },
+ {
+  "_id": "6277d14c7611e91c088dfcb9",
+  "activities": [
+   "627791d17611e91c088dfc4d",
+   "6277925d7611e91c088dfc4f",
+   "627793687611e91c088dfc57"
+  ],
+  "meals": [
+   1,
+   2,
+   0
+  ],
+  "title": "Darkhad depression",
+  "description": "We will have breakfast at 9am, then we drive to the Darkhad depression. Darkhad is one of the ethnic groups in Mongolia. In Darkhad depression we will meet our horse instructor and experience Darkhad people\u2019s culture and lifestyle. It is quite different from the majority of ethnic groups in Mongolia. Interact with the local family; try their food and traditional costumes.",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652019531/travels/oizpygltm1opyz5nzcfm.jpg"
+ },
+ {
+  "_id": "62786c8cc704290b211cf9dd",
+  "activities": [
+   "627791d17611e91c088dfc4d",
+   "6277934c7611e91c088dfc55",
+   "6277925d7611e91c088dfc4f",
+   "627793687611e91c088dfc57",
+   "62786bf0c704290b211cf9d7"
+  ],
+  "title": "Explore Reindeer Herders",
+  "description": "We will have breakfast at 8:30am. Then we start to ride horses. Saddle up the horses for an unforgettable horseback riding adventure! The main objectives on horse pack trips: riding horse and having fun. We altogether will aim to experience the true life of Tsaatan family and their culture and hospitality.",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652059275/travels/y3cddihhxeklp0faqeov.jpg"
+ },
+ {
+  "_id": "62786e11c704290b211cf9e8",
+  "activities": [
+   "627791d17611e91c088dfc4d",
+   "627793687611e91c088dfc57",
+   "6277925d7611e91c088dfc4f",
+   "62786cd1c704290b211cf9e2",
+   "62786d1dc704290b211cf9e4"
+  ],
+  "title": "Khuvsgul Lake",
+  "description": "After breakfast, we head to the Khuvsgul lake which is the second largest lake in Mongolia as well as the deepest. It is well- known as the Blue pearl of Mongolia, because of its crystal-clear water. Possible activities include motor-boat ride to Wish Rock and hiking. ",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652059664/travels/jjewoip9lvyd7zul8v7q.jpg"
+ },
+ {
+  "_id": "62788117a388b9142576fb65",
+  "activities": [
+   "627791d17611e91c088dfc4d",
+   "6277925d7611e91c088dfc4f"
+  ],
+  "title": "Back to Ulaanbaatar",
+  "description": "We will have breakfast at 9am then we head to Ulaanbaatar.",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1656652170/travels/wpodtdbkygm5qhc4unqd.jpg"
+ },
+ {
+  "_id": "62789b13a388b9142576fb86",
+  "activities": [
+   "627791d17611e91c088dfc4d",
+   "6277925d7611e91c088dfc4f",
+   "627792f07611e91c088dfc51",
+   "62787998a388b9142576fb59"
+  ],
+  "title": "Amarbayasgalant Monastery",
+  "description": "We will pick you up from your hotel at 8am. Then we head to Amarbayasgalant monastery. It is one of the three largest Buddhist centers in Mongolia, is located near the Selenge River in the Iven Valley at the foot of Buren Khan Mountain. It was built from 1727 to 1736, without the use of any nails. Amarbayasgalant was one of the very few monasteries to have partly escaped destruction during the Stalinist purge of 1937, after which only the buildings of the central section remained.",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652071186/travels/mhpivadakcojvwbshylg.jpg"
+ },
+ {
+  "_id": "62789dcda388b9142576fb99",
+  "activities": [
+   "627791d17611e91c088dfc4d",
+   "6277925d7611e91c088dfc4f",
+   "627793687611e91c088dfc57",
+   "62789d05a388b9142576fb95"
+  ],
+  "title": "Hustai national park",
+  "description": "After breakfast, we drive to Hustai National Park which is one of the well known and prestigious special protected areas in Mongolia. Hustai NP s home to the rare and endangered Przewalski\u2019s horses--the only species of wild horses in the world--as well as many other internationally-important plants and animals. Mongolia is the only place in the world where Przewalski\u2019s horses exist within their historic range; HNP is home to the world\u2019s largest number of Przewalski\u2019s horses in the wild.",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652071884/travels/tc5bs9knq2fqjjkxhlhs.jpg"
+ },
+ {
+  "_id": "6278c49b9d4568284419c7f3",
+  "activities": [
+   "627791d17611e91c088dfc4d",
+   "6277925d7611e91c088dfc4f"
+  ],
+  "title": "Hustai & Terelj National Parks",
+  "description": "After breakfast, we drive to Hustai National Park which is one of the well known and prestigious special protected areas in Mongolia. Hustai NP s home to the rare and endangered Przewalski\u2019s horses - the only species of wild horses in the world--as well as many other internationally-important plants and animals. Mongolia is the only place in the world where Przewalski\u2019s horses exist within their historic range; Hustai is home to the world\u2019s largest number of Przewalski\u2019s horses in the wild. After visiting the Hustai NP, we will continue driving to the Terelj National Park.  ",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652081818/travels/pyh87o7z7iwdahc7bizu.jpg"
+ },
+ {
+  "_id": "6278c9f99d4568284419c80c",
+  "activities": [
+   "627791d17611e91c088dfc4d",
+   "6277925d7611e91c088dfc4f",
+   "6278c5289d4568284419c7f8",
+   "6278c5e29d4568284419c7fa"
+  ],
+  "title": "Chinggis Khan statue complex",
+  "description": "After breakfast, we will see the famous Turtle Rock and take a walk to a beautiful meditational temple, Aryapala. Then we finish the tour with a visit to The Chinggis Khan Statue which is a 40-metre (130 ft) tall statue of Chinggis Khan on horseback, on the bank of the Tuul river at Tsonjin Boldog. The statue is symbolically pointed east towards his birthplace. ",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652083193/travels/c3a92ddm3atypnu4gtlt.jpg"
+ },
+ {
+  "_id": "6278cee69d4568284419c82d",
+  "activities": [
+   "627791d17611e91c088dfc4d",
+   "627793687611e91c088dfc57",
+   "6277925d7611e91c088dfc4f",
+   "627792f07611e91c088dfc51"
+  ],
+  "title": "Tsagaan Suvarga (White Stupa)",
+  "description": "We will pick you up from your hotel at 8am and then we head to White Stupa which is natural cliffs eroded over thousands of years with wind and rain. Even though white stupa is of beautiful pink and orange colors, it was named because of the glow appearance from distance. The cliff is 50 meters high and 400 meters wide. ",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652084453/travels/c3axhrbawr7qfuzpnp30.jpg"
+ },
+ {
+  "_id": "6278cf3f9d4568284419c82f",
+  "activities": [
+   "627791d17611e91c088dfc4d",
+   "627793687611e91c088dfc57",
+   "6277925d7611e91c088dfc4f",
+   "627792f07611e91c088dfc51"
+  ],
+  "title": "Yol Valley",
+  "description": "After breakfast, we head to Dalanzadgad city where we will see newly built historical museum. Afterwards, we drive further to Yol Valley that has been main attraction of tourists for many decades. Very wide at the entrance, it narrows gradually into a remarkable gorge. Also you will see the \u201cMukhar shivert\u201d canyon where you will see the frozen waterfall.",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652084542/travels/e9avpzstgylu9rhsfrmw.jpg"
+ },
+ {
+  "_id": "6278cfb19d4568284419c833",
+  "activities": [
+   "627791d17611e91c088dfc4d",
+   "627793687611e91c088dfc57",
+   "6277925d7611e91c088dfc4f",
+   "627792f07611e91c088dfc51",
+   "627793227611e91c088dfc53"
+  ],
+  "title": "Khongor Sand Dunes",
+  "description": "After breakfast, we head to Khongor Sand Dunes which are the largest and most spectacular sand dunes. Also known as the \"singing dunes\", they are up to 300 m high, 20 km wide and about 180 km long. The spectacular dunes are bordered by lush green vegetation supported by a small river Khongor, which is fed by underground sources from surrounding mountains.",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652084657/travels/totfsjyxouppw8kle9gb.jpg"
+ },
+ {
+  "_id": "6278d0fc9d4568284419c83c",
+  "activities": [
+   "627791d17611e91c088dfc4d",
+   "627793687611e91c088dfc57",
+   "6277925d7611e91c088dfc4f",
+   "627792f07611e91c088dfc51",
+   "6278d0819d4568284419c836"
+  ],
+  "title": "Flaming Cliffs",
+  "description": "After breakfast, we drive to Flaming cliffs which has once been home to dinosaurs. Mongolian name of Flaming cliffs is Bayanzag meaning \"rich in saxaul\". Significant paleontological discoveries, namely first dinosaur egg, have been made there, especially by American paleontologist Roy Chapman Andrews in 1920. On the way to Flaming Cliffs, we will hike to Khavtsgait and explore the ancient petroglyphs which date back to Bronze Age. ",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652084987/travels/rz2228hkelqtmmwpfowd.jpg"
+ },
+ {
+  "_id": "6278d22c9d4568284419c840",
+  "activities": [
+   "627791d17611e91c088dfc4d",
+   "627793687611e91c088dfc57",
+   "6277925d7611e91c088dfc4f",
+   "627792f07611e91c088dfc51",
+   "62779ee47611e91c088dfc86"
+  ],
+  "title": "Ruins of Ongi Monastery",
+  "description": "After breakfast, we drive to Ongi monastery which is the ruin of a big monastery on the bank of the Ongiin River. Ongi monastery is beautifully located in mountains and was a Buddhist center of Gobi. At its peak, the monastery had 34 temples and housed about 1000 monks. The monastery was destroyed during the Stalinist purge between 1937 to 1939. ",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1656646560/travels/o0qcztmji3app1hjoxgo.jpg"
+ },
+ {
+  "_id": "6278ded69d4568284419c844",
+  "activities": [
+   "627791d17611e91c088dfc4d",
+   "6277925d7611e91c088dfc4f"
+  ],
+  "title": "Orkhon Valley",
+  "description": "We will have breakfast at 8.30am, then we drive to Orkhon Valley which is one of the most visited tourist attractions in Central Mongolia. It is formed by the unique combination of volcanic eruption and earthquake.",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652088533/travels/r4jod94nifnk8sqiqktg.jpg"
+ },
+ {
+  "_id": "6278df5d9d4568284419c846",
+  "activities": [
+   "627791d17611e91c088dfc4d",
+   "6277925d7611e91c088dfc4f",
+   "6277934c7611e91c088dfc55"
+  ],
+  "title": "Ulaantsutgalan waterfall",
+  "description": "We will have breakfast at 9am, then we will ride horses. The height of waterfall is 22m. The waterfall is located in beautiful Orkhon river valley with volcanic rocks which listed in the UNESCO WORLD HERITAGE SITES for its historical value related to Great Mongolian Empire . There is opportunity to experience nomadic way of life, their culture and traditions. Next day we will ride horses around Orkhon Valley",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652088668/travels/i1xvcyf3xy6qx3hlwgtl.jpg"
+ },
+ {
+  "_id": "6278dfba9d4568284419c848",
+  "activities": [
+   "627791d17611e91c088dfc4d",
+   "6277925d7611e91c088dfc4f",
+   "627792f07611e91c088dfc51"
+  ],
+  "title": "Kharkhorum & Khugnu Tarna National Park",
+  "description": "We will have breakfast at 8am, then we drive to Karakorum which was one of the most important cities in the history of the Silk Road. Although founded by Genghis Khan in 1220, Karakorum\u2019s development as capital of the Mongol Empire occurred in the 1230s under his son Ugudei. The Mongols had a profound impact on the history of trade across Central Asia, as their vast empire connected east and west, and trade and exchange were facilitated by the PAX MONGOLIA , enforcing, as far as possible, peace and degree of stability across the vast territories under Mongol rule.",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652088761/travels/lsfd1tx8vxndlcgxidoj.jpg"
+ },
+ {
+  "_id": "6278e0219d4568284419c84a",
+  "activities": [
+   "627791d17611e91c088dfc4d",
+   "627793687611e91c088dfc57",
+   "6277925d7611e91c088dfc4f"
+  ],
+  "title": "Terelj National park",
+  "description": "We will have breakfast at 8am, then we drive to Terelj national park which is one of the most touristic attractions around Ulaanbaatar city. It has been the strictly protected area since 1965. It\u2019s connected with Ulaanbaatar by a paved road. The park wildlife includes brown bears, grey wolves, foxes and over two hundred species of birds.",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652088864/travels/hvtrj5ljzz1djs1g2hsl.jpg"
+ },
+ {
+  "_id": "6278e89a9d4568284419c87f",
+  "activities": [
+   "627791d17611e91c088dfc4d",
+   "6277925d7611e91c088dfc4f",
+   "6277934c7611e91c088dfc55"
+  ],
+  "title": "Horseback riding in the spectacular valleys",
+  "description": "We will have breakfast at 9am, then we will ride horses and explore the UNESCO world heritage Orkhon valley",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652091034/travels/zknx8opezixbwggb4pdn.jpg"
+ },
+ {
+  "_id": "6278e96e9d4568284419c883",
+  "activities": [
+   "627791d17611e91c088dfc4d",
+   "6277925d7611e91c088dfc4f",
+   "627793687611e91c088dfc57",
+   "62787998a388b9142576fb59"
+  ],
+  "title": "Tuvkhun Monastery",
+  "description": "We will have breakfast at 8 am and then drive to Tuvkhun monastery that was first established in 1648 by the 14-year-old Zanabazar, the first Javzandamba Khutagt, the spiritual head of Mongolian Buddhism when he determined that the location on the Shireet Ulaan Uul mountain overlooking a hill at 2,600 meters above sea-level was an auspicious location.",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652091245/travels/xtwktvhmkve7nlb0e5se.gif"
+ },
+ {
+  "_id": "628cd4760a0cff2159a8c6dd",
+  "activities": [
+   "627791d17611e91c088dfc4d",
+   "627793687611e91c088dfc57",
+   "6277925d7611e91c088dfc4f",
+   "627b351e6d411e8a032d1477"
+  ],
+  "title": "Fly to Ulgii, trekking at Tsambagarav Mountain",
+  "description": "You will land in Ulgii city in the morning around 9 o\u2019clock. Afterwards, we will drive to Tsambagarav Mountain National Park is situated along the border of Khovd Province. This Park has many snow-capped peaks and glaciers. It is houses of a number of wild animals on the southern slope there are small patches of larch which are coniferous trees. This Park is filled with beautiful valleys and gorges making it a very spectacular destination. After the trekking we will head to Eagle huntress\u2019s family.",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1653396597/travels/ggw9utswjeey00szqf7a.jpg"
+ },
+ {
+  "_id": "628cd6050a0cff2159a8c6f8",
+  "activities": [
+   "627791d17611e91c088dfc4d",
+   "628cd7000a0cff2159a8c70c"
+  ],
+  "title": "Golden Eagle Festival",
+  "description": "Golden Eagle Festival is a must-see event in Asia, particularly in Mongolia. It is a festival to demonstrate the culture of the Kazakhs to the world and promotes their heritage to their next generations. Golden Eagles (Aquila Chrysacty) have incredible speed, great eyesight, and powerful feet with sharp talons. In the eagle festival, Kazakh eagle hunters (Burkitshi) celebrate their heritage and compete to catch small animals such as foxes and hares with specially trained golden eagles, showing off the skills both of the birds and their trainers. Prizes are awarded for speed, agility and accuracy, as well as for the best traditional Kazakh dress, and more. The hunting is done on a horseback. ",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1653396997/travels/uxeo0ulgcdqmyx3y1ch8.jpg"
+ },
+ {
+  "_id": "628cd7fa0a0cff2159a8c722",
+  "activities": [
+   "627791d17611e91c088dfc4d",
+   "627793687611e91c088dfc57",
+   "6277925d7611e91c088dfc4f",
+   "628cd88c0a0cff2159a8c727"
+  ],
+  "title": "Visit Kazakh Family",
+  "description": "We will explore ancient petroglyphs which are more than 8000 years old. We visit eagle hunter family to learn about their way of living. In the evening we will stay with Kazakh family in Ulaankhus and experience their culture and tradition. Their life is completely different from Khalkha Mongolians. Bayan-Ulgii is a home to the Kazakh ethnic group. The Kazakhs have rich culture, close extended families, and many traditions that are centuries old are still practiced to this day.",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1653397497/travels/a3btdgmfi7h9foz073nn.jpg"
+ },
+ {
+  "_id": "628ce5ba0a0cff2159a8c771",
+  "activities": [
+   "627791d17611e91c088dfc4d",
+   "6277925d7611e91c088dfc4f"
+  ],
+  "title": "Tolbo lake",
+  "description": "Today we will head to Tolbo Lake. Tolbo Lake is a freshwater lake in Mongolia. The lake is located about 50 kilometres south of Bayan-Ulgii. The elevation is 2080 meters high above the sea level. The shoreline is treeless with few mosquitoes and a lot of people and families camp here every summer. Most of the people go there in mid July because the water at that time is the warmest. Also the Tolbo lake has become the place that most people go to camp or just to swim. The lake covers 185 square kilometers of land. From Tolbo Lake we will drive to Tsengel village and stay there.",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1653401018/travels/l9if0iqqeryejghow2wq.jpg"
+ },
+ {
+  "_id": "628ce61b0a0cff2159a8c77a",
+  "activities": [
+   "627791d17611e91c088dfc4d",
+   "627793687611e91c088dfc57"
+  ],
+  "title": "Tavan Bogd Altai Mountain trekking",
+  "description": "Altai Tavan Bogd is near the triple border with China and Russia. Its highest peak, the Khuiten Peak is the highest point of Mongolia at 4374 meters above the sea level. The Tavan Bogd massif is located mostly within the Bayan-Ulgii Province of Mongolia; its northern slopes are in Russia's Altai Republic, and western, in China's Burqin County. There are 3 big glaciers on it. The Altai Tavan Bogd national park covers 6,362 km2. It includes the lakes Khoton, Khurgan, and Dayan. The protected area offers a home for many species of alpine animal, such as the wild sheep, Ibex, deer, beech marten, moose, snow cock, snow leopard and Golden eagle. We will hike to the Glaciers, visit Kazakh families and see all highlights of Altai Mountain.",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1653401115/travels/yxdt7wmyji2v9zq2qpvl.jpg"
+ },
+ {
+  "_id": "62be7465b5389910b37e9863",
+  "activities": [],
+  "title": "Ulaanbaatar, Tumen Ekh Ensemble",
+  "description": "In the afternoon we will take off to Ulaanbaatar. From the airport we will drive to your hotel and you can have some rest. In the evening we are going to enjoy the Tumen Ekh Ensemble Mongolian traditional concert. Featuring folk and traditional music, song, dance and contortion, Tumen Ekh is a must-see for visitors to Mongolia\u2019s capital city Ulaanbaatar and those interested in the colorful art and culture of the land of the blue sky. You will experience the real Mongolian musical culture",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1656652275/travels/iv6t1b57jyei7nros7mn.jpg"
+ },
+ {
+  "_id": "62be7b58b5389910b37e9884",
+  "activities": [
+   "627791d17611e91c088dfc4d",
+   "6277925d7611e91c088dfc4f"
+  ],
+  "title": "Achit lake & Ulgii city",
+  "description": "Achit Lake is a freshwater lake in the Uvs province, Mongolia, in the west of the country. At an elevation of 1,435 m above sea level it covers an area of 290 km2. It is 28 km long, 16 km wide, and 10 m deep. The coast is covered with steppes, mostly hilly but swampy on the northwest and northeast. Several rivers flow into the lake. After visiting, we will head to Ulgii city and stay there",
+  "featuredImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1656650583/travels/emymer6nv346bpeaqizb.jpg"
+ }
+]
