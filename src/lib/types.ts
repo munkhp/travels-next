@@ -77,6 +77,8 @@ export interface OrderInput {
   children: number;
   comment?: string;
   arrivalDate?: string;
+  enquiryType?: "private" | "group";
+  departure?: string;
 }
 
 export interface MessageInput {

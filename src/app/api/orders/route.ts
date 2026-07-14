@@ -28,6 +28,8 @@ export async function POST(req: Request) {
     title: body.title ?? "Mr.",
     comment: body.comment ?? "",
     arrivalDate: body.arrivalDate ?? "",
+    enquiryType: body.enquiryType === "group" ? "group" : "private",
+    departure: body.departure ?? "",
   };
 
   if (!hasDb()) {

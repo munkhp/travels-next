@@ -67,8 +67,11 @@ async function sendPair(
 }
 
 export async function sendOrderEmails(order: OrderInput) {
+  const isGroup = order.enquiryType === "group";
   const rows = [
     ["Tour", order.tourName],
+    ["Booking type", isGroup ? "Group departure" : "Private tour"],
+    ...(isGroup && order.departure ? [["Departure", order.departure]] : []),
     ["Name", `${order.title ?? ""} ${order.name}`.trim()],
     ["Email", order.email],
     ["Country", order.country ?? ""],
@@ -93,8 +96,10 @@ export async function sendOrderEmails(order: OrderInput) {
      Our team will get back to you shortly to confirm the details.</p>
      ${details}
      <p>Best regards,<br/>Travels in Mongolia</p>`,
-    `New tour enquiry: ${order.tourName}`,
-    `<p>A new tour enquiry was submitted.</p>${details}`
+    isGroup
+      ? `New GROUP departure booking: ${order.tourName}${order.departure ? ` — ${order.departure}` : ""}`
+      : `New private tour enquiry: ${order.tourName}`,
+    `<p>A new ${isGroup ? "group departure booking" : "private tour enquiry"} was submitted.</p>${details}`
   );
 }
 

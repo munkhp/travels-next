@@ -17,6 +17,8 @@ const OrderSchema = new Schema(
     title: String,
     comment: String,
     arrivalDate: String,
+    enquiryType: String,
+    departure: String,
   },
   { collection: "orders", timestamps: true }
 );

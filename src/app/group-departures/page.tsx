@@ -58,7 +58,7 @@ export default async function GroupDeparturesPage() {
                   </p>
                 </div>
                 <Link
-                  href={`/tours/${t.slug}#book`}
+                  href={`/tours/${t.slug}?group=1#book`}
                   className="rounded-[3px] bg-amber px-5 py-2.5 text-[13px] font-semibold text-charcoal transition-opacity hover:opacity-90"
                 >
                   Reserve →
@@ -78,6 +78,14 @@ export default async function GroupDeparturesPage() {
                     <div className="mt-1 font-mono text-[11px] uppercase tracking-[0.08em] text-[#4a7c59]">
                       Available
                     </div>
+                    <Link
+                      href={`/tours/${t.slug}?group=1&departure=${encodeURIComponent(
+                        `${s.start.trim()} – ${s.end.trim()}`
+                      )}#book`}
+                      className="mt-2 inline-block text-[12.5px] font-semibold text-rust underline underline-offset-2"
+                    >
+                      Reserve this date →
+                    </Link>
                   </div>
                 ))}
               </div>

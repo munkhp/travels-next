@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
+import { useSearchParams } from "next/navigation";
 
 const inputClass =
   "w-full mt-2 px-3.5 py-[13px] border border-ink/20 bg-white font-sans text-[15px] rounded-[3px] focus:outline-none focus:border-amber";
@@ -11,6 +12,9 @@ export default function BookingForm({ tourName }: { tourName: string }) {
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">(
     "idle"
   );
+  const searchParams = useSearchParams();
+  const isGroup = searchParams.get("group") === "1";
+  const departure = searchParams.get("departure") ?? "";
 
   async function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -19,6 +23,8 @@ export default function BookingForm({ tourName }: { tourName: string }) {
     const fd = new FormData(form);
     const payload = {
       tourName,
+      enquiryType: isGroup ? "group" : "private",
+      departure: isGroup ? departure : "",
       title: String(fd.get("title") ?? "Mr."),
       name: String(fd.get("name") ?? ""),
       email: String(fd.get("email") ?? ""),
@@ -56,6 +62,18 @@ export default function BookingForm({ tourName }: { tourName: string }) {
 
   return (
     <form onSubmit={onSubmit} className="border border-ink/10 bg-white p-7">
+      {isGroup && (
+        <div className="mb-[22px] border border-amber/40 bg-amber/10 px-4 py-3 text-[14px]">
+          Group departure enquiry
+          {departure ? (
+            <>
+              : <strong>{departure}</strong>
+            </>
+          ) : (
+            " — we will confirm the next available date with you"
+          )}
+        </div>
+      )}
       <div className="grid grid-cols-1 gap-[22px] sm:grid-cols-2">
         <div>
           <label className={labelClass} htmlFor="bf-title">

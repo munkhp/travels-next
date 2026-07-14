@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -273,7 +274,9 @@ export default async function TourDetailPage({
             Book this tour
           </h2>
           <div className="mt-6">
-            <BookingForm tourName={tour.name} />
+            <Suspense>
+              <BookingForm tourName={tour.name} />
+            </Suspense>
           </div>
         </div>
 
