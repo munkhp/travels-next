@@ -39,6 +39,7 @@ export interface Tour {
 export interface Destination {
   _id: string;
   title: string;
+  tagline?: string;
   featuredImage: string;
 }
 

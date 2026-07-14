@@ -18,7 +18,13 @@ function isActive(pathname: string, href: string): boolean {
   return pathname === href || pathname.startsWith(`${href}/`);
 }
 
-export default function Header() {
+interface HeaderProps {
+  brandName: string;
+  brandTagline: string;
+  ctaLabel: string;
+}
+
+export default function Header({ brandName, brandTagline, ctaLabel }: HeaderProps) {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
 
@@ -26,9 +32,9 @@ export default function Header() {
     <header className="sticky top-0 z-50 border-b border-ink/10 bg-paper/95 backdrop-blur">
       <div className="mx-auto flex max-w-[1240px] items-center justify-between gap-6 px-6 py-3.5 lg:px-8">
         <Link href="/" className="flex flex-col leading-none" onClick={() => setOpen(false)}>
-          <span className="font-serif text-[22px] text-ink">Travels in Mongolia</span>
+          <span className="font-serif text-[22px] text-ink">{brandName}</span>
           <span className="mt-1 font-mono text-[9px] uppercase tracking-[0.28em] text-rust">
-            Tour operator · Est. 2011
+            {brandTagline}
           </span>
         </Link>
 
@@ -48,7 +54,7 @@ export default function Header() {
             href="/contact"
             className="rounded-[3px] bg-amber px-5 py-[11px] text-[13px] font-semibold tracking-[0.03em] text-charcoal transition-opacity hover:opacity-90"
           >
-            Plan your journey
+            {ctaLabel}
           </Link>
         </nav>
 
@@ -83,7 +89,7 @@ export default function Header() {
             onClick={() => setOpen(false)}
             className="mt-3 inline-block rounded-[3px] bg-amber px-5 py-3 text-[13px] font-semibold text-charcoal"
           >
-            Plan your journey
+            {ctaLabel}
           </Link>
         </nav>
       )}

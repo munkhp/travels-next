@@ -1,45 +1,29 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { getGroupDeparturesContent } from "@/lib/content";
 import { formatPrice, getTours, minPrice } from "@/lib/data";
 
-export const metadata: Metadata = {
-  title: "Group Departures — Travels in Mongolia",
-  description:
-    "Join a small group on a fixed departure — scheduled dates timed around Mongolia's festivals and finest seasons.",
-};
-
-const groupHow = [
-  {
-    n: "01",
-    title: "Guaranteed to run",
-    text: "Once a date is listed it departs — no last-minute cancellations for low numbers.",
-  },
-  {
-    n: "02",
-    title: "Maximum eight guests",
-    text: "Small enough to stay with nomadic families and keep the experience personal.",
-  },
-  {
-    n: "03",
-    title: "Reserved festival access",
-    text: "We hold seats and homestays at Mongolia's most in-demand events.",
-  },
-];
+export async function generateMetadata(): Promise<Metadata> {
+  const content = await getGroupDeparturesContent();
+  return { title: content.metaTitle, description: content.metaDescription };
+}
 
 export default async function GroupDeparturesPage() {
-  const tours = await getTours();
+  const [content, tours] = await Promise.all([
+    getGroupDeparturesContent(),
+    getTours(),
+  ]);
   const groupTours = tours.filter(
     (t) => t.group && (t.schedules?.length ?? 0) > 0
   );
-  const heroImage = tours.find((t) => t.slug === "khuvsgul-lake-tour")?.mediaUrl;
 
   return (
     <>
       <section className="relative overflow-hidden bg-charcoal text-cream">
-        {heroImage && (
+        {content.hero.image && (
           <Image
-            src={heroImage}
+            src={content.hero.image}
             alt="Group tour in Mongolia"
             fill
             className="object-cover"
@@ -49,15 +33,13 @@ export default async function GroupDeparturesPage() {
         <div className="absolute inset-0 bg-gradient-to-r from-[#14120f]/85 to-[#14120f]/55" />
         <div className="relative mx-auto max-w-[1240px] px-6 pb-[72px] pt-[88px] lg:px-8">
           <span className="font-mono text-[11px] uppercase tracking-[0.3em] text-gold">
-            Group departures
+            {content.hero.kicker}
           </span>
           <h1 className="mt-4 max-w-[720px] font-serif text-[42px] font-light leading-tight lg:text-6xl">
-            Join a small group on a fixed departure.
+            {content.hero.heading}
           </h1>
           <p className="mt-5 max-w-[580px] text-base leading-[1.7] text-cream/85">
-            A handful of set dates each year — timed around Mongolia&apos;s
-            festivals and finest seasons. Maximum eight guests, guaranteed to
-            run.
+            {content.hero.text}
           </p>
         </div>
       </section>
@@ -115,9 +97,9 @@ export default async function GroupDeparturesPage() {
 
       <section className="mx-auto max-w-[1040px] px-6 pb-24 pt-5 lg:px-8">
         <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
-          {groupHow.map((g) => (
-            <div key={g.n} className="bg-sand p-7">
-              <div className="font-serif text-[34px] text-amber">{g.n}</div>
+          {content.how.map((g) => (
+            <div key={g.number} className="bg-sand p-7">
+              <div className="font-serif text-[34px] text-amber">{g.number}</div>
               <h3 className="mt-2.5 font-serif text-[21px]">{g.title}</h3>
               <p className="mt-2 text-sm leading-[1.65] text-stone">{g.text}</p>
             </div>

@@ -1,0 +1,271 @@
+{
+  "siteSettings": {
+    "brandName": "Travels in Mongolia",
+    "brandTagline": "Tour operator · Est. 2011",
+    "headerCtaLabel": "Plan your journey",
+    "phone": "+976 – 99277699",
+    "email": "info@sunpath-mongolia.com",
+    "address": "37-56, United Nations Street,\n4th khoroo, Chingeltei District,\nUlaanbaatar, Mongolia",
+    "facebookUrl": "https://www.facebook.com/TravelsinMongolia",
+    "footerBlurb": "A local, Ulaanbaatar-based operator crafting private and small-group journeys across Mongolia.",
+    "footerNote": "Sustainable ecotourism · Member of MTA",
+    "tourIncludedItems": [
+      "Private guide & driver",
+      "All ground transport (4x4)",
+      "Accommodation at tourist ger camps",
+      "Meals as per itinerary",
+      "National park & entrance fees",
+      "Airport transfers & 24/7 support"
+    ],
+    "tourSidebarNote": "Speak directly with our team — replies within 24 hours.",
+    "metaTitle": "Travels in Mongolia — Tour Operator",
+    "metaDescription": "Safe, reliable and adventurous journeys across Mongolia. Private and small-group tours since 2011 — Gobi Desert, Central Mongolia, Khuvsgul Lake, Golden Eagle Festival and more."
+  },
+  "homePage": {
+    "hero": {
+      "kicker": "One of Mongolia's leading tour operators",
+      "heading": "Safe, reliable and\nadventurous journeys\nacross Mongolia.",
+      "text": "Delivering unforgettable, responsibly run tours since 2011 — to every region of Mongolia, with well-trained guides and drivers who know the land.",
+      "primaryCtaLabel": "Explore our tours",
+      "secondaryCtaLabel": "Contact us",
+      "image": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652011479/travels/xl2l4fsbhrgciowglth0.jpg"
+    },
+    "specialOffer": {
+      "kicker": "Special offer",
+      "title": "Golden Eagle Festival",
+      "text": "Explore western Mongolian cultures and customs — limited October places.",
+      "linkLabel": "Learn more →",
+      "tourSlug": "golden-eagle-festival-tour"
+    },
+    "stats": [
+      { "value": "9", "label": "Signature tours" },
+      { "value": "2011", "label": "Operating since" },
+      { "value": "7", "label": "Regions of Mongolia" },
+      { "value": "24/7", "label": "Support on the road" }
+    ],
+    "intro": {
+      "kicker": "Who we are",
+      "heading": "A local operator with an insider's Mongolia.",
+      "paragraphs": [
+        "Travels in Mongolia specializes in unforgettable Mongolian tour experiences. We develop sustainable ecotourism and introduce Mongolia's culture, history and wild nature to travelers from around the world.",
+        "Founded and led by Doljmaa Songorov, a great expert in Mongolian tourism, our professional team keeps groups small, standards high and logistics invisible — so you're free to simply be present."
+      ],
+      "primaryCtaLabel": "Our story",
+      "secondaryCtaLabel": "View all tours →",
+      "image": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652065540/travels/khzhs44ydvlurwichwhv.jpg"
+    },
+    "toursSection": {
+      "kicker": "Our tours",
+      "heading": "Go on an unforgettable adventure."
+    },
+    "destinationsSection": {
+      "kicker": "Seven regions, one country",
+      "heading": "Explore by destination"
+    },
+    "eventsBand": {
+      "kicker": "Only in Mongolia",
+      "heading": "Naadam, the Golden Eagle Festival & living traditions",
+      "text": "Time your journey to Mongolia's great gatherings — we hold places on the most sought-after departures each year.",
+      "ctaLabel": "See scheduled departures",
+      "image": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1653412192/travels/rt7eigbqxkoqxzab0b4j.jpg"
+    },
+    "eventsSection": {
+      "kicker": "Festivals & events",
+      "heading": "A calendar of living culture"
+    },
+    "testimonialsSection": {
+      "kicker": "Hear from our customers",
+      "heading": "Trusted by travelers worldwide"
+    },
+    "testimonials": [
+      {
+        "quote": "We had a great time traveling around the Gobi. The driver was skilled and friendly, the guide knowledgeable and fluent. Every destination was amazing and diverse — strongly recommend Travels in Mongolia to anyone looking for adventure.",
+        "name": "Felix Assouly",
+        "place": "Paris, France"
+      },
+      {
+        "quote": "Very professional throughout our 7-day Central Mongolia tour. Horse riding, camel riding, visiting nomadic families — we will never forget this. We highly recommend them.",
+        "name": "Kim Jon Pak",
+        "place": "Seoul, South Korea"
+      },
+      {
+        "quote": "From the first email to the last goodbye, everything was seamless. The small-group size and the access to local families made it feel personal, not packaged. Exceptional.",
+        "name": "Sofia Marchetti",
+        "place": "Milan, Italy"
+      }
+    ],
+    "cta": {
+      "heading": "Let's design your Mongolia.",
+      "text": "Tell us how you like to travel and we'll craft a private itinerary shaped entirely around you.",
+      "ctaLabel": "Start planning"
+    }
+  },
+  "aboutPage": {
+    "metaTitle": "About Us — Travels in Mongolia",
+    "metaDescription": "One of the most professional tour operators in Mongolia — local, independent and committed to sustainable ecotourism since 2011.",
+    "hero": {
+      "kicker": "About us",
+      "heading": "One of the most professional tour operators in Mongolia."
+    },
+    "story": {
+      "kicker": "Our story",
+      "heading": "Built on local roots and hard-won trust.",
+      "paragraphs": [
+        "Travels in Mongolia is a local tour operator specializing in unforgettable Mongolian tour experiences. Since 2011 we have worked directly with the herding families, camp owners, drivers and guides who make each trip possible — no middlemen, no compromises.",
+        "Our aim is to develop sustainable ecotourism, deliver overall satisfaction to our customers, and introduce Mongolia's culture, history and wild nature to travelers who care as much as we do."
+      ],
+      "image": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652096216/travels/n2imakb5k5cpfyyc1g1p.jpg"
+    },
+    "founder": {
+      "kicker": "Founder & CEO",
+      "name": "Doljmaa Songorov",
+      "text": "A great expert in the Mongolian tourism field, Doljmaa personally organizes the tours and oversees the standards our guests rely on. Her decades in the field — and her network across every region — are the reason journeys with us feel effortless and go deeper than most.",
+      "quote": "We don't sell Mongolia. We introduce you to it, the way we know it.",
+      "image": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1656939529/travels/mhyftgi1jewgvb4kq6io.jpg"
+    },
+    "valuesSection": {
+      "kicker": "What guides us",
+      "heading": "Our values"
+    },
+    "values": [
+      {
+        "title": "Local & independent",
+        "text": "Owned and run in Ulaanbaatar, working directly with the people who host you."
+      },
+      {
+        "title": "Responsible tourism",
+        "text": "We invest in the herding communities and landscapes we travel through."
+      },
+      {
+        "title": "Small by design",
+        "text": "Limited group sizes for deeper access and lighter impact."
+      },
+      {
+        "title": "Ready when you are",
+        "text": "24/7 support and seasoned crews on every route across the country."
+      }
+    ],
+    "stats": [
+      { "value": "9", "label": "Signature tours" },
+      { "value": "2011", "label": "Operating since" },
+      { "value": "7", "label": "Regions of Mongolia" },
+      { "value": "24/7", "label": "Support on the road" }
+    ]
+  },
+  "toursPage": {
+    "metaTitle": "Tours — Travels in Mongolia",
+    "metaDescription": "Private and small-group tours to every corner of Mongolia — Gobi Desert, Central Mongolia, Khuvsgul Lake, the Altai and more.",
+    "hero": {
+      "kicker": "Our tours",
+      "heading": "Tours to every corner of Mongolia.",
+      "text": "Every itinerary is a starting point — we tailor pace, comfort and routing to you. Prices are per person, privately guided."
+    }
+  },
+  "groupDeparturesPage": {
+    "metaTitle": "Group Departures — Travels in Mongolia",
+    "metaDescription": "Join a small group on a fixed departure — scheduled dates timed around Mongolia's festivals and finest seasons.",
+    "hero": {
+      "kicker": "Group departures",
+      "heading": "Join a small group on a fixed departure.",
+      "text": "A handful of set dates each year — timed around Mongolia's festivals and finest seasons. Maximum eight guests, guaranteed to run.",
+      "image": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652065538/travels/juvkefc5cu6mduwssiqd.jpg"
+    },
+    "how": [
+      {
+        "number": "01",
+        "title": "Guaranteed to run",
+        "text": "Once a date is listed it departs — no last-minute cancellations for low numbers."
+      },
+      {
+        "number": "02",
+        "title": "Maximum eight guests",
+        "text": "Small enough to stay with nomadic families and keep the experience personal."
+      },
+      {
+        "number": "03",
+        "title": "Reserved festival access",
+        "text": "We hold seats and homestays at Mongolia's most in-demand events."
+      }
+    ]
+  },
+  "travelToolsPage": {
+    "metaTitle": "Travel Tools — Travels in Mongolia",
+    "metaDescription": "Everything you need to know before you go — visas, timing, packing, health, money and connectivity in Mongolia.",
+    "hero": {
+      "kicker": "Travel tools",
+      "heading": "Everything you need to know before you go.",
+      "image": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1653412192/travels/rt7eigbqxkoqxzab0b4j.jpg"
+    },
+    "essentials": [
+      {
+        "label": "Documents",
+        "title": "Visas & entry",
+        "text": "Many nationalities enter visa-free for up to 30 days; we'll confirm your requirements and provide any invitation letters needed."
+      },
+      {
+        "label": "Timing",
+        "title": "When to travel",
+        "text": "June to September brings green steppe and warm days. October is eagle-festival season. Winter travel is possible for the intrepid."
+      },
+      {
+        "label": "Packing",
+        "title": "What to bring",
+        "text": "Layers for wide temperature swings, sturdy footwear, sun protection and a good camera. We send a full packing list on booking."
+      },
+      {
+        "label": "Health",
+        "title": "Staying well",
+        "text": "No mandatory vaccinations, but routine ones should be current. We carry first-aid kits and satellite communication on remote routes."
+      },
+      {
+        "label": "Money",
+        "title": "Currency & tipping",
+        "text": "The local currency is the tögrög. Carry some cash for remote areas; cards work in Ulaanbaatar. Tipping is appreciated, never expected."
+      },
+      {
+        "label": "Connectivity",
+        "title": "Staying in touch",
+        "text": "Mobile coverage is good near towns and patchy in the wild. We provide satellite contact on all remote departures."
+      }
+    ],
+    "faqsHeading": "Frequently asked",
+    "faqs": [
+      {
+        "question": "How far in advance should I book?",
+        "answer": "For festival departures and peak summer we recommend six to nine months. Tailored private trips can often be arranged with less notice — get in touch and we'll advise honestly."
+      },
+      {
+        "question": "Are your trips private or group?",
+        "answer": "Both. Most journeys are run privately just for you, at your own pace. We also offer a limited number of small-group departures each year on fixed dates."
+      },
+      {
+        "question": "What is the accommodation like?",
+        "answer": "A mix of comfortable hotels in Ulaanbaatar and authentic tourist ger camps in the countryside — real Mongolian felt tents with proper beds, and shared or private facilities depending on the camp."
+      },
+      {
+        "question": "Is Mongolia suitable for families or older travelers?",
+        "answer": "Yes. We tailor pace, driving distances and activity levels to your group. Tell us about your travelers and we'll design accordingly."
+      },
+      {
+        "question": "How do payments and deposits work?",
+        "answer": "A deposit secures your dates, with the balance due before travel. We'll set out clear terms in writing before anything is confirmed."
+      },
+      {
+        "question": "Can you arrange flights within Mongolia?",
+        "answer": "Absolutely — domestic flights to the Gobi, west and north are built into many itineraries and we handle all the booking for you."
+      }
+    ]
+  },
+  "contactPage": {
+    "metaTitle": "Contact — Travels in Mongolia",
+    "metaDescription": "Tell us about the trip you have in mind — a specialist will reply personally within 24 hours.",
+    "hero": {
+      "kicker": "Contact us",
+      "heading": "Let's start planning your journey.",
+      "text": "Tell us a little about the trip you have in mind. A specialist will reply personally within 24 hours."
+    },
+    "sidebarHeading": "Get in touch directly",
+    "hoursText": "24/7 support during travel",
+    "mapImage": "https://res.cloudinary.com/dmyps1mg3/image/upload/v1652082442/travels/fzslrvhwk9hgbdtudxqz.jpg"
+  }
+}

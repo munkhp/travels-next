@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s http://localhost:3457/tours -H \"Cache-Control: no-cache\")"
+    ]
+  }
+}

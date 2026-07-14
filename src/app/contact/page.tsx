@@ -1,32 +1,31 @@
 import Image from "next/image";
 import type { Metadata } from "next";
 import ContactForm from "@/components/ContactForm";
-import { getDestinations } from "@/lib/data";
+import { getContactContent, getSiteSettings } from "@/lib/content";
 
-export const metadata: Metadata = {
-  title: "Contact — Travels in Mongolia",
-  description:
-    "Tell us about the trip you have in mind — a specialist will reply personally within 24 hours.",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const content = await getContactContent();
+  return { title: content.metaTitle, description: content.metaDescription };
+}
 
 export default async function ContactPage() {
-  const destinations = await getDestinations();
-  const mapImage = destinations.find((d) => d.title === "Around Ulaanbaatar")
-    ?.featuredImage;
+  const [content, settings] = await Promise.all([
+    getContactContent(),
+    getSiteSettings(),
+  ]);
 
   return (
     <>
       <section className="bg-charcoal text-cream">
         <div className="mx-auto max-w-[1240px] px-6 pb-[60px] pt-20 lg:px-8">
           <span className="font-mono text-[11px] uppercase tracking-[0.3em] text-gold">
-            Contact us
+            {content.hero.kicker}
           </span>
           <h1 className="mt-4 max-w-[720px] font-serif text-[42px] font-light leading-tight lg:text-6xl">
-            Let&apos;s start planning your journey.
+            {content.hero.heading}
           </h1>
           <p className="mt-[18px] max-w-[540px] text-base leading-[1.7] text-cream/80">
-            Tell us a little about the trip you have in mind. A specialist will
-            reply personally within 24 hours.
+            {content.hero.text}
           </p>
         </div>
       </section>
@@ -36,46 +35,40 @@ export default async function ContactPage() {
 
         <aside>
           <div className="bg-sand p-[30px]">
-            <h3 className="font-serif text-2xl">Get in touch directly</h3>
+            <h3 className="font-serif text-2xl">{content.sidebarHeading}</h3>
             <div className="mt-[22px] flex flex-col gap-[18px]">
               <div>
                 <div className="font-mono text-[10.5px] uppercase tracking-[0.12em] text-mist">
                   Phone
                 </div>
-                <div className="mt-1 text-[15px]">+976 – 99277699</div>
+                <div className="mt-1 text-[15px]">{settings.phone}</div>
               </div>
               <div>
                 <div className="font-mono text-[10.5px] uppercase tracking-[0.12em] text-mist">
                   Email
                 </div>
-                <div className="mt-1 text-[15px]">info@sunpath-mongolia.com</div>
+                <div className="mt-1 text-[15px]">{settings.email}</div>
               </div>
               <div>
                 <div className="font-mono text-[10.5px] uppercase tracking-[0.12em] text-mist">
                   Office
                 </div>
-                <div className="mt-1 text-[15px] leading-[1.55]">
-                  37-56, United Nations Street,
-                  <br />
-                  4th khoroo, Chingeltei District,
-                  <br />
-                  Ulaanbaatar, Mongolia
+                <div className="mt-1 whitespace-pre-line text-[15px] leading-[1.55]">
+                  {settings.address}
                 </div>
               </div>
               <div>
                 <div className="font-mono text-[10.5px] uppercase tracking-[0.12em] text-mist">
                   Hours
                 </div>
-                <div className="mt-1 text-[15px]">
-                  24/7 support during travel
-                </div>
+                <div className="mt-1 text-[15px]">{content.hoursText}</div>
               </div>
             </div>
           </div>
-          {mapImage && (
+          {content.mapImage && (
             <div className="relative mt-4 h-[200px] overflow-hidden rounded">
               <Image
-                src={mapImage}
+                src={content.mapImage}
                 alt="Ulaanbaatar"
                 fill
                 className="object-cover"

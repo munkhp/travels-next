@@ -3,13 +3,21 @@ import destinationsJson from "@/data/destinations.json";
 import itinerariesJson from "@/data/itineraries.json";
 import activitiesJson from "@/data/activities.json";
 import eventsJson from "@/data/events.json";
-import { connectDb, hasDb } from "./db";
+import { fromSanity, sanityFetch } from "@/sanity/client";
+import {
+  activitiesQuery,
+  destinationsQuery,
+  eventsQuery,
+  itinerariesQuery,
+  toursQuery,
+} from "@/sanity/queries";
 import type { Activity, Destination, Itinerary, Tour, TravelEvent } from "./types";
 
 /**
  * Data access layer.
- * Reads from MongoDB when MONGODB_URI is set, otherwise serves the bundled
- * JSON snapshot exported from the same dump (src/data/*.json).
+ * Reads from Sanity when NEXT_PUBLIC_SANITY_PROJECT_ID is set, otherwise
+ * serves the bundled JSON snapshot (src/data/*.json). Run
+ * `npm run sanity:migrate` once to import the snapshot into Sanity.
  */
 
 const localTours = toursJson as unknown as Tour[];
@@ -18,34 +26,9 @@ const localItineraries = itinerariesJson as unknown as Itinerary[];
 const localActivities = activitiesJson as unknown as Activity[];
 const localEvents = eventsJson as unknown as TravelEvent[];
 
-function slugify(tour: { path?: string; name: string }): string {
-  const path = (tour.path ?? "").replace(/\/+$/, "");
-  const seg = path.split("/").pop();
-  if (seg) return seg;
-  return tour.name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
-}
-
-async function fromDb<T>(fn: () => Promise<T>): Promise<T | null> {
-  if (!hasDb()) return null;
-  try {
-    await connectDb();
-    return await fn();
-  } catch (err) {
-    console.error("MongoDB unavailable, falling back to bundled data:", err);
-    return null;
-  }
-}
-
 export async function getTours(): Promise<Tour[]> {
-  const db = await fromDb(async () => {
-    const { TourModel } = await import("./models");
-    const docs = await TourModel.find().lean();
-    return docs.map((d) => ({
-      ...(JSON.parse(JSON.stringify(d)) as Tour),
-      slug: slugify(d as { path?: string; name: string }),
-    }));
-  });
-  return db ?? localTours;
+  const docs = await fromSanity(() => sanityFetch<Tour[]>(toursQuery));
+  return docs ?? localTours;
 }
 
 export async function getTourBySlug(slug: string): Promise<Tour | undefined> {
@@ -54,39 +37,23 @@ export async function getTourBySlug(slug: string): Promise<Tour | undefined> {
 }
 
 export async function getDestinations(): Promise<Destination[]> {
-  const db = await fromDb(async () => {
-    const { DestinationModel } = await import("./models");
-    const docs = await DestinationModel.find().lean();
-    return JSON.parse(JSON.stringify(docs)) as Destination[];
-  });
-  return db ?? localDestinations;
+  const docs = await fromSanity(() => sanityFetch<Destination[]>(destinationsQuery));
+  return docs ?? localDestinations;
 }
 
 export async function getItineraries(): Promise<Itinerary[]> {
-  const db = await fromDb(async () => {
-    const { ItineraryModel } = await import("./models");
-    const docs = await ItineraryModel.find().lean();
-    return JSON.parse(JSON.stringify(docs)) as Itinerary[];
-  });
-  return db ?? localItineraries;
+  const docs = await fromSanity(() => sanityFetch<Itinerary[]>(itinerariesQuery));
+  return docs ?? localItineraries;
 }
 
 export async function getActivities(): Promise<Activity[]> {
-  const db = await fromDb(async () => {
-    const { ActivityModel } = await import("./models");
-    const docs = await ActivityModel.find().lean();
-    return JSON.parse(JSON.stringify(docs)) as Activity[];
-  });
-  return db ?? localActivities;
+  const docs = await fromSanity(() => sanityFetch<Activity[]>(activitiesQuery));
+  return docs ?? localActivities;
 }
 
 export async function getEvents(): Promise<TravelEvent[]> {
-  const db = await fromDb(async () => {
-    const { EventModel } = await import("./models");
-    const docs = await EventModel.find().lean();
-    return JSON.parse(JSON.stringify(docs)) as TravelEvent[];
-  });
-  return db ?? localEvents;
+  const docs = await fromSanity(() => sanityFetch<TravelEvent[]>(eventsQuery));
+  return docs ?? localEvents;
 }
 
 /* ---------- helpers ---------- */

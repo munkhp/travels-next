@@ -1,16 +1,17 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { getToursPageContent } from "@/lib/content";
 import { formatPrice, getDestinationMap, getTours, minPrice } from "@/lib/data";
 
-export const metadata: Metadata = {
-  title: "Tours — Travels in Mongolia",
-  description:
-    "Private and small-group tours to every corner of Mongolia — Gobi Desert, Central Mongolia, Khuvsgul Lake, the Altai and more.",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const content = await getToursPageContent();
+  return { title: content.metaTitle, description: content.metaDescription };
+}
 
 export default async function ToursPage() {
-  const [tours, destinationMap] = await Promise.all([
+  const [content, tours, destinationMap] = await Promise.all([
+    getToursPageContent(),
     getTours(),
     getDestinationMap(),
   ]);
@@ -20,14 +21,13 @@ export default async function ToursPage() {
       <section className="bg-charcoal text-cream">
         <div className="mx-auto max-w-[1240px] px-6 pb-16 pt-20 lg:px-8">
           <span className="font-mono text-[11px] uppercase tracking-[0.3em] text-gold">
-            Our tours
+            {content.hero.kicker}
           </span>
           <h1 className="mt-4 max-w-[720px] font-serif text-[42px] font-light leading-tight lg:text-6xl">
-            Tours to every corner of Mongolia.
+            {content.hero.heading}
           </h1>
           <p className="mt-5 max-w-[560px] text-base leading-[1.7] text-cream/80">
-            Every itinerary is a starting point — we tailor pace, comfort and
-            routing to you. Prices are per person, privately guided.
+            {content.hero.text}
           </p>
         </div>
       </section>
@@ -41,13 +41,15 @@ export default async function ToursPage() {
               className="group grid grid-cols-1 border border-ink/10 bg-white transition-shadow hover:shadow-lg md:grid-cols-[400px_1fr]"
             >
               <div className="relative min-h-[240px] md:min-h-[280px]">
-                <Image
-                  src={t.mediaUrl}
-                  alt={t.name}
-                  fill
-                  className="object-cover"
-                  sizes="(min-width: 768px) 400px, 100vw"
-                />
+                {t.mediaUrl && (
+                  <Image
+                    src={t.mediaUrl}
+                    alt={t.name}
+                    fill
+                    className="object-cover"
+                    sizes="(min-width: 768px) 400px, 100vw"
+                  />
+                )}
                 <span className="absolute left-4 top-4 bg-[#211f1c]/85 px-[11px] py-1.5 font-mono text-[10px] uppercase tracking-[0.2em] text-gold">
                   {destinationMap[t.destination] ?? "Mongolia"}
                 </span>

@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Archivo, Newsreader, Space_Mono } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import SiteChrome from "@/components/SiteChrome";
+import { getSiteSettings } from "@/lib/content";
 import "./globals.css";
 
 const archivo = Archivo({
@@ -25,23 +27,34 @@ const spaceMono = Space_Mono({
   display: "swap",
 });
 
-export const metadata: Metadata = {
-  title: "Travels in Mongolia — Tour Operator",
-  description:
-    "Safe, reliable and adventurous journeys across Mongolia. Private and small-group tours since 2011 — Gobi Desert, Central Mongolia, Khuvsgul Lake, Golden Eagle Festival and more.",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const settings = await getSiteSettings();
+  return {
+    title: settings.metaTitle,
+    description: settings.metaDescription,
+  };
+}
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
+  const settings = await getSiteSettings();
   return (
     <html lang="en">
       <body
         className={`${archivo.variable} ${newsreader.variable} ${spaceMono.variable} font-sans`}
       >
-        <Header />
+        <SiteChrome>
+          <Header
+            brandName={settings.brandName}
+            brandTagline={settings.brandTagline}
+            ctaLabel={settings.headerCtaLabel}
+          />
+        </SiteChrome>
         <main>{children}</main>
-        <Footer />
+        <SiteChrome>
+          <Footer />
+        </SiteChrome>
       </body>
     </html>
   );

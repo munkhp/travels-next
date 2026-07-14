@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { connectDb, hasDb } from "@/lib/db";
+import { sendOrderEmails } from "@/lib/email";
 import type { OrderInput } from "@/lib/types";
 
 export async function POST(req: Request) {
@@ -17,26 +18,30 @@ export async function POST(req: Request) {
     );
   }
 
+  const order: OrderInput = {
+    tourName: body.tourName,
+    name: body.name,
+    country: body.country ?? "",
+    adults: body.adults ?? 1,
+    children: body.children ?? 0,
+    email: body.email,
+    title: body.title ?? "Mr.",
+    comment: body.comment ?? "",
+    arrivalDate: body.arrivalDate ?? "",
+  };
+
   if (!hasDb()) {
-    console.log("[orders] MONGODB_URI not set — enquiry received:", body);
+    console.log("[orders] MONGODB_URI not set — enquiry received:", order);
+    await sendOrderEmails(order);
     return NextResponse.json({ ok: true, stored: false });
   }
 
   try {
     await connectDb();
     const { OrderModel } = await import("@/lib/models");
-    const order = await OrderModel.create({
-      tourName: body.tourName,
-      name: body.name,
-      country: body.country ?? "",
-      adults: body.adults ?? 1,
-      children: body.children ?? 0,
-      email: body.email,
-      title: body.title ?? "Mr.",
-      comment: body.comment ?? "",
-      arrivalDate: body.arrivalDate ?? "",
-    });
-    return NextResponse.json({ ok: true, stored: true, id: order._id });
+    const stored = await OrderModel.create(order);
+    await sendOrderEmails(order);
+    return NextResponse.json({ ok: true, stored: true, id: stored._id });
   } catch (err) {
     console.error("[orders] failed to store order:", err);
     return NextResponse.json(

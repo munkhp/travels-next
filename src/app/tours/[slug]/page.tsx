@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import BookingForm from "@/components/BookingForm";
+import { getSiteSettings } from "@/lib/content";
 import {
   MEAL_LABELS,
   formatPrice,
@@ -12,15 +13,6 @@ import {
   getTours,
   minPrice,
 } from "@/lib/data";
-
-const included = [
-  "Private guide & driver",
-  "All ground transport (4x4)",
-  "Accommodation at tourist ger camps",
-  "Meals as per itinerary",
-  "National park & entrance fees",
-  "Airport transfers & 24/7 support",
-];
 
 export async function generateStaticParams() {
   const tours = await getTours();
@@ -48,9 +40,10 @@ export default async function TourDetailPage({
   const tour = await getTourBySlug(params.slug);
   if (!tour) notFound();
 
-  const [days, destinationMap] = await Promise.all([
+  const [days, destinationMap, settings] = await Promise.all([
     getTourDays(tour),
     getDestinationMap(),
+    getSiteSettings(),
   ]);
   const region = destinationMap[tour.destination] ?? "Mongolia";
 
@@ -58,14 +51,16 @@ export default async function TourDetailPage({
     <>
       {/* Hero */}
       <section className="relative flex min-h-[440px] flex-col justify-end bg-charcoal lg:h-[60vh]">
-        <Image
-          src={tour.mediaUrl}
-          alt={tour.name}
-          fill
-          priority
-          className="object-cover"
-          sizes="100vw"
-        />
+        {tour.mediaUrl && (
+          <Image
+            src={tour.mediaUrl}
+            alt={tour.name}
+            fill
+            priority
+            className="object-cover"
+            sizes="100vw"
+          />
+        )}
         <div className="absolute inset-0 bg-gradient-to-b from-[#14120f]/30 to-[#14120f]/80" />
         <div className="relative mx-auto w-full max-w-[1240px] px-6 pb-11 pt-24 lg:px-8">
           <Link
@@ -184,7 +179,7 @@ export default async function TourDetailPage({
           {/* Included */}
           <h2 className="mt-12 font-serif text-[32px]">What&apos;s included</h2>
           <div className="mt-5 grid grid-cols-1 gap-x-8 gap-y-3 sm:grid-cols-2">
-            {included.map((i) => (
+            {settings.tourIncludedItems.map((i) => (
               <div
                 key={i}
                 className="flex items-center gap-2.5 text-[14.5px] text-soil"
@@ -327,9 +322,9 @@ export default async function TourDetailPage({
             Request a tailored version →
           </Link>
           <div className="mt-[22px] border-t border-cream/15 pt-5 text-[12.5px] leading-[1.6] text-cream/70">
-            Speak directly with our team — replies within 24 hours.
+            {settings.tourSidebarNote}
             <br />
-            <span className="text-gold">+976 9927 7699</span>
+            <span className="text-gold">{settings.phone}</span>
           </div>
         </aside>
       </section>
