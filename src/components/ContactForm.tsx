@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
+import Turnstile, { TURNSTILE_SITE_KEY } from "@/components/Turnstile";
 
 const inputClass =
   "w-full mt-2 px-3.5 py-[13px] border border-ink/20 bg-white font-sans text-[15px] rounded-[3px] focus:outline-none focus:border-amber";
@@ -11,6 +12,9 @@ export default function ContactForm() {
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">(
     "idle"
   );
+  const [token, setToken] = useState("");
+  const [resetSignal, setResetSignal] = useState(0);
+  const needsToken = Boolean(TURNSTILE_SITE_KEY);
 
   async function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -30,6 +34,7 @@ export default function ContactForm() {
       ]
         .filter(Boolean)
         .join("\n"),
+      turnstileToken: token,
     };
     try {
       const res = await fetch("/api/messages", {
@@ -42,6 +47,8 @@ export default function ContactForm() {
       form.reset();
     } catch {
       setStatus("error");
+      // A token is single-use — get a fresh one before the next attempt.
+      setResetSignal((n) => n + 1);
     }
   }
 
@@ -97,9 +104,14 @@ export default function ContactForm() {
           className={`${inputClass} resize-y`}
         />
       </div>
+      <Turnstile
+        onVerify={setToken}
+        resetSignal={resetSignal}
+        className="mt-[22px]"
+      />
       <button
         type="submit"
-        disabled={status === "sending"}
+        disabled={status === "sending" || (needsToken && !token)}
         className="mt-[22px] rounded-[3px] bg-amber px-[34px] py-[15px] text-sm font-semibold text-charcoal transition-opacity hover:opacity-90 disabled:opacity-50"
       >
         {status === "sending" ? "Sending…" : "Send enquiry"}

@@ -1,14 +1,24 @@
 import { NextResponse } from "next/server";
 import { connectDb, hasDb } from "@/lib/db";
 import { sendMessageEmails } from "@/lib/email";
+import { clientIp, verifyTurnstile } from "@/lib/turnstile";
 import type { MessageInput } from "@/lib/types";
 
+type Body = Partial<MessageInput> & { turnstileToken?: string };
+
 export async function POST(req: Request) {
-  let body: Partial<MessageInput>;
+  let body: Body;
   try {
-    body = (await req.json()) as Partial<MessageInput>;
+    body = (await req.json()) as Body;
   } catch {
     return NextResponse.json({ error: "Invalid JSON" }, { status: 400 });
+  }
+
+  if (!(await verifyTurnstile(body.turnstileToken, clientIp(req)))) {
+    return NextResponse.json(
+      { error: "Bot check failed — please try again" },
+      { status: 403 }
+    );
   }
 
   if (!body.name || !body.email || !body.comment) {
