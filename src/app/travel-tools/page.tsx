@@ -1,5 +1,6 @@
 import Image from "next/image";
 import type { Metadata } from "next";
+import JsonLd from "@/components/JsonLd";
 import { getTravelToolsContent } from "@/lib/content";
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -11,8 +12,19 @@ export default async function TravelToolsPage() {
   const content = await getTravelToolsContent();
   const { hero, essentials, faqsHeading, faqs } = content;
 
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((f) => ({
+      "@type": "Question",
+      name: f.question,
+      acceptedAnswer: { "@type": "Answer", text: f.answer },
+    })),
+  };
+
   return (
     <>
+      <JsonLd data={faqSchema} />
       <section className="relative overflow-hidden bg-charcoal text-cream">
         {hero.image && (
           <Image

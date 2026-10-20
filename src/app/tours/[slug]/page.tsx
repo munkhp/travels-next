@@ -3,6 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import JsonLd from "@/components/JsonLd";
+import { SITE_NAME, SITE_URL, absoluteUrl } from "@/lib/seo";
 import BookingForm from "@/components/BookingForm";
 import { getSiteSettings } from "@/lib/content";
 import {
@@ -29,7 +31,14 @@ export async function generateMetadata({
   if (!tour) return { title: "Tour not found — Travels in Mongolia" };
   return {
     title: `${tour.name} — Travels in Mongolia`,
-    description: tour.summary,
+    description: tour.summary.trim(),
+    openGraph: {
+      type: "website",
+      title: tour.name,
+      description: tour.summary.trim(),
+      url: absoluteUrl(`/tours/${tour.slug}`),
+      images: tour.mediaUrl ? [{ url: tour.mediaUrl, alt: tour.name }] : undefined,
+    },
   };
 }
 
@@ -48,8 +57,52 @@ export default async function TourDetailPage({
   ]);
   const region = destinationMap[tour.destination] ?? "Mongolia";
 
+  const url = absoluteUrl(`/tours/${tour.slug}`);
+  const offers = (tour.prices ?? []).map((p) => ({
+    "@type": "Offer",
+    name: p.label,
+    price: p.amount,
+    priceCurrency: "USD",
+    availability: "https://schema.org/InStock",
+    url,
+  }));
+  const tourSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": ["TouristTrip", "Product"],
+        "@id": `${url}#trip`,
+        name: tour.name,
+        description: tour.summary.trim(),
+        url,
+        image: tour.mediaUrls?.length ? tour.mediaUrls : tour.mediaUrl,
+        touristType: "Travelers visiting Mongolia",
+        provider: { "@id": `${SITE_URL}/#organization` },
+        brand: { "@type": "Brand", name: SITE_NAME },
+        itinerary: {
+          "@type": "ItemList",
+          itemListElement: days.map((d, i) => ({
+            "@type": "ListItem",
+            position: i + 1,
+            name: d.itinerary ? `${d.label}: ${d.itinerary.title}` : d.label,
+          })),
+        },
+        ...(offers.length ? { offers } : {}),
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: absoluteUrl("/") },
+          { "@type": "ListItem", position: 2, name: "Tours", item: absoluteUrl("/tours") },
+          { "@type": "ListItem", position: 3, name: tour.name, item: url },
+        ],
+      },
+    ],
+  };
+
   return (
     <>
+      <JsonLd data={tourSchema} />
       {/* Hero */}
       <section className="relative flex min-h-[440px] flex-col justify-end bg-charcoal lg:h-[60vh]">
         {tour.mediaUrl && (
