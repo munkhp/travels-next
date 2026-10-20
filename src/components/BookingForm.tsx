@@ -58,10 +58,10 @@ export default function BookingForm({ tourName }: { tourName: string }) {
   if (status === "sent") {
     return (
       <div className="border border-amber/40 bg-amber/10 p-8 text-center">
-        <h3 className="font-serif text-2xl">Thank you!</h3>
+        <h3 className="font-serif text-2xl">Thank you</h3>
         <p className="mt-2 text-[15px] text-soil">
           Your booking enquiry for <strong>{tourName}</strong> has been
-          received. We&apos;ll reply within 24 hours.
+          received. We&apos;ll reply within a day.
         </p>
       </div>
     );

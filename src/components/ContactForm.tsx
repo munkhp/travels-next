@@ -55,10 +55,9 @@ export default function ContactForm() {
   if (status === "sent") {
     return (
       <div className="border border-amber/40 bg-amber/10 p-10 text-center">
-        <h3 className="font-serif text-2xl">Message received!</h3>
+        <h3 className="font-serif text-2xl">Message received</h3>
         <p className="mt-2 text-[15px] text-soil">
-          Thank you for writing — a specialist will reply personally within 24
-          hours.
+          Thanks for writing. One of us will reply personally within a day.
         </p>
       </div>
     );
